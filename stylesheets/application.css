@@ -1,0 +1,1281 @@
+/*
+ *                        ___
+ *                       /\_ \
+ *  _____     ___     ___\//\ \      __
+ * /\ '__`\  / __`\  / __`\ \ \   /'__`\
+ * \ \ \_\ \/\ \_\ \/\ \_\ \_\ \_/\  __/
+ *  \ \ ,__/\ \____/\ \____//\____\ \____\
+ *   \ \ \/  \/___/  \/___/ \/____/\/____/
+ *    \ \_\
+ *     \/_/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/poole.
+ */
+/*
+ * Contents
+ *
+ * Body resets
+ * Custom type
+ * Messages
+ * Container
+ * Masthead
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+/*
+ * Body resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+/* line 39, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 46, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+html,
+body {
+  margin: 0;
+  padding: 0; }
+
+/* line 51, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5; }
+
+@media (min-width: 38rem) {
+  /* line 57, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  html {
+    font-size: 20px; } }
+/* line 62, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+body {
+  color: #515151;
+  background-color: #fff;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%; }
+
+/* No `:visited` state is required by default (browsers will use `a`) */
+/* line 70, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+a {
+  color: #268bd2;
+  text-decoration: none; }
+
+/* `:focus` is linked to `:hover` for basic accessibility */
+/* line 76, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+a:hover,
+a:focus {
+  text-decoration: underline; }
+
+/* Headings */
+/* line 81, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+h1, h2, h3, h4, h5, h6 {
+  margin-bottom: .5rem;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #313131;
+  text-rendering: optimizeLegibility; }
+
+/* line 88, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+h1 {
+  font-size: 2rem; }
+
+/* line 91, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+h2 {
+  margin-top: 1rem;
+  font-size: 1.5rem; }
+
+/* line 95, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+h3 {
+  margin-top: 1.5rem;
+  font-size: 1.25rem; }
+
+/* line 99, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+h4, h5, h6 {
+  margin-top: 1rem;
+  font-size: 1rem; }
+
+/* Body text */
+/* line 105, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+p {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+/* line 110, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+strong {
+  color: #303030; }
+
+/* Lists */
+/* line 116, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+ul, ol, dl {
+  margin-top: 0;
+  margin-bottom: 1rem; }
+
+/* line 121, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+dt {
+  font-weight: bold; }
+
+/* line 124, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+dd {
+  margin-bottom: .5rem; }
+
+/* Misc */
+/* line 129, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+hr {
+  position: relative;
+  margin: 1.5rem 0;
+  border: 0;
+  border-top: 1px solid #eee;
+  border-bottom: 1px solid #fff; }
+
+/* line 137, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+abbr {
+  font-size: 85%;
+  font-weight: bold;
+  color: #555;
+  text-transform: uppercase; }
+
+/* line 143, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+abbr[title] {
+  cursor: help;
+  border-bottom: 1px dotted #e5e5e5; }
+
+/* Code */
+/* line 150, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+code,
+pre {
+  font-family: Menlo, Monaco, "Courier New", monospace; }
+
+/* line 153, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+code {
+  padding: .25em .5em;
+  font-size: 85%;
+  color: #bf616a;
+  background-color: #f9f9f9;
+  border-radius: 3px; }
+
+/* line 160, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+pre {
+  display: block;
+  margin-top: 0;
+  margin-bottom: 1rem;
+  padding: 1rem;
+  font-size: .8rem;
+  line-height: 1.4;
+  white-space: pre;
+  white-space: pre-wrap;
+  word-break: break-all;
+  word-wrap: break-word;
+  background-color: #f9f9f9; }
+
+/* line 173, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+pre code {
+  padding: 0;
+  font-size: 100%;
+  color: inherit;
+  background-color: transparent; }
+
+/* line 179, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.highlight {
+  margin-bottom: 1rem;
+  border-radius: 4px; }
+
+/* line 183, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.highlight pre {
+  margin-bottom: 0; }
+
+/* Quotes */
+/* line 188, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+blockquote {
+  padding: .5rem 1rem;
+  margin: .8rem 0;
+  color: #7a7a7a;
+  border-left: .25rem solid #e5e5e5; }
+
+/* line 194, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+blockquote p:last-child {
+  margin-bottom: 0; }
+
+@media (min-width: 30rem) {
+  /* line 198, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  blockquote {
+    padding-right: 5rem;
+    padding-left: 1.25rem; } }
+/* line 204, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+img {
+  display: block;
+  margin: 0 0 1rem;
+  border-radius: 5px; }
+
+/* Tables */
+/* line 211, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+table {
+  margin-bottom: 1rem;
+  width: 100%;
+  border: 1px solid #e5e5e5;
+  border-collapse: collapse; }
+
+/* line 218, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+td,
+th {
+  padding: .25rem .5rem;
+  border: 1px solid #e5e5e5; }
+
+/* line 223, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+tbody tr:nth-child(odd) td,
+tbody tr:nth-child(odd) th {
+  background-color: #f9f9f9; }
+
+/*
+ * Custom type
+ *
+ * Extend paragraphs with `.lead` for larger introductory text.
+ */
+/* line 234, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.lead {
+  font-size: 1.25rem;
+  font-weight: 300; }
+
+/*
+ * Messages
+ *
+ * Show alert messages to users. You may add it to single elements like a `<p>`,
+ * or to a parent if there are multiple elements to show.
+ */
+/* line 247, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.message {
+  margin-bottom: 1rem;
+  padding: 1rem;
+  color: #717171;
+  background-color: #f9f9f9; }
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+/* line 261, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.container {
+  max-width: 38rem;
+  padding-left: 1rem;
+  padding-right: 1rem;
+  margin-left: auto;
+  margin-right: auto; }
+
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+/* line 276, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.masthead {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem; }
+
+/* line 281, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050; }
+
+/* line 286, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.masthead-title a {
+  color: #505050; }
+
+/* line 289, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0; }
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+/* line 305, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.page,
+.post {
+  margin-bottom: 4em; }
+
+/* Blog post or page title */
+/* line 312, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030; }
+
+/* line 316, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.page-title,
+.post-title {
+  margin-top: 0; }
+
+/* Meta data line below post title */
+/* line 321, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a; }
+
+/* Related posts */
+/* line 329, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee; }
+
+/* line 334, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related-posts {
+  padding-left: 0;
+  list-style: none; }
+
+/* line 338, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related-posts h3 {
+  margin-top: 0; }
+
+/* line 341, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related-posts li small {
+  font-size: 75%;
+  color: #999; }
+
+/* line 345, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none; }
+
+/* line 349, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.related-posts li a:hover small {
+  color: inherit; }
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+/* line 361, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.pagination {
+  overflow: hidden;
+  /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+  color: #ccc;
+  text-align: center; }
+
+/* Pagination items can be `span`s or `a`s */
+/* line 371, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee; }
+
+/* line 376, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+.pagination-item:first-child {
+  margin-bottom: -1px; }
+
+/* Only provide a hover state for linked pagination items */
+/* line 381, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+a.pagination-item:hover {
+  background-color: #f5f5f5; }
+
+@media (min-width: 30rem) {
+  /* line 386, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  .pagination {
+    margin: 3rem 0; }
+
+  /* line 389, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  .pagination-item {
+    float: left;
+    width: 50%; }
+
+  /* line 393, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+
+  /* line 398, /Users/fshowalt/Workspace/movielog/source/stylesheets/poole.css */
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; } }
+/*
+ *  ___
+ * /\_ \
+ * \//\ \      __      ___   __  __    ___     ___
+ *   \ \ \   /'__`\  /' _ `\/\ \/\ \  / __`\ /' _ `\
+ *    \_\ \_/\ \_\.\_/\ \/\ \ \ \_\ \/\ \_\ \/\ \/\ \
+ *    /\____\ \__/.\_\ \_\ \_\/`____ \ \____/\ \_\ \_\
+ *    \/____/\/__/\/_/\/_/\/_/`/___/> \/___/  \/_/\/_/
+ *                               /\___/
+ *                               \/__/
+ *
+ * Designed, built, and released under MIT license by @mdo. Learn more at
+ * https://github.com/poole/lanyon.
+ */
+/*
+ * Contents
+ *
+ * Global resets
+ * Masthead
+ * Sidebar
+ * Slide effect
+ * Posts and pages
+ * Pagination
+ * Reverse layout
+ * Themes
+ */
+/*
+ * Global resets
+ *
+ * Update the foundational and global aspects of the page.
+ */
+/* Prevent scroll on narrow devices */
+/* line 40, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+html,
+body {
+  overflow-x: hidden; }
+
+/* line 44, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+html {
+  /*font-family: "PT Serif", Georgia, "Times New Roman", serif;*/ }
+
+/* line 48, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+h1, h2, h3, h4, h5, h6 {
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+  font-weight: 400;
+  color: #313131;
+  letter-spacing: -.025rem; }
+
+/*
+ * Wrapper
+ *
+ * The wrapper is used to position site content when the sidebar is toggled. We
+ * use an outter wrap to position the sidebar without interferring with the
+ * regular page content.
+ */
+/* line 64, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.wrap {
+  position: relative;
+  width: 100%; }
+
+/*
+ * Container
+ *
+ * Center the page content.
+ */
+/* line 76, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.container {
+  max-width: 28rem; }
+
+@media (min-width: 38rem) {
+  /* line 80, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .container {
+    max-width: 32rem; } }
+@media (min-width: 56rem) {
+  /* line 85, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .container {
+    max-width: 38rem; } }
+/*
+ * Masthead
+ *
+ * Super small header above the content for site name and short description.
+ */
+/* line 97, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.masthead {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  margin-bottom: 3rem;
+  border-bottom: 1px solid #eee; }
+
+/* line 103, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.masthead-title {
+  margin-top: 0;
+  margin-bottom: 0;
+  color: #505050; }
+
+/* line 108, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.masthead-title a {
+  color: #505050; }
+
+/* line 111, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.masthead-title small {
+  font-size: 75%;
+  font-weight: 400;
+  color: #c0c0c0;
+  letter-spacing: 0; }
+
+@media (max-width: 48rem) {
+  /* line 119, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .masthead-title {
+    text-align: center; }
+
+  /* line 122, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .masthead-title small {
+    display: none; } }
+/*
+ * Sidebar
+ *
+ * The sidebar is the drawer, the item we are toggling with our handy hamburger
+ * button in the corner of the page.
+ *
+ * This particular sidebar implementation was inspired by Chris Coyier's
+ * "Offcanvas Menu with CSS Target" article, and the checkbox variation from the
+ * comments by a reader. It modifies both implementations to continue using the
+ * checkbox (no change in URL means no polluted browser history), but this uses
+ * `position` for the menu to avoid some potential content reflow issues.
+ *
+ * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
+ */
+/* Style and "hide" the sidebar */
+/* line 144, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: -14rem;
+  width: 14rem;
+  visibility: hidden;
+  overflow-y: auto;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+  font-size: .875rem;
+  /* 15px */
+  color: rgba(255, 255, 255, 0.6);
+  background-color: #202020;
+  -webkit-transition: all .3s ease-in-out;
+  transition: all .3s ease-in-out; }
+
+@media (min-width: 30rem) {
+  /* line 160, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .sidebar {
+    font-size: .75rem;
+    /* 14px */ } }
+/* Sidebar content */
+/* line 166, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar a {
+  font-weight: normal;
+  color: #fff; }
+
+/* line 170, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-item {
+  padding: 1rem; }
+
+/* line 173, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-item p:last-child {
+  margin-bottom: 0; }
+
+/* Sidebar nav */
+/* line 178, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-nav {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
+
+/* line 181, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-nav-item {
+  display: block;
+  padding: .5rem 1rem;
+  border-top: 1px solid rgba(255, 255, 255, 0.1); }
+
+/* line 188, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-nav-item.active,
+a.sidebar-nav-item:hover,
+a.sidebar-nav-item:focus {
+  text-decoration: none;
+  background-color: rgba(255, 255, 255, 0.1);
+  border-color: transparent; }
+
+@media (min-width: 48rem) {
+  /* line 195, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .sidebar-item {
+    padding: 1.5rem; }
+
+  /* line 198, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .sidebar-nav-item {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem; } }
+/* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
+/* line 205, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-checkbox {
+  display: none; }
+
+/* Style the `label` that we use to target the `.sidebar-checkbox` */
+/* line 210, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-toggle {
+  position: absolute;
+  top: 1rem;
+  left: 1rem;
+  display: block;
+  width: 2.2rem;
+  padding: .5rem .65rem;
+  color: #505050;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer; }
+
+/* line 222, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-toggle:before {
+  display: block;
+  content: "";
+  width: 100%;
+  padding-bottom: .125rem;
+  border-top: .375rem double;
+  border-bottom: .125rem solid;
+  /* Make the border inside the box */
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; }
+
+/* line 237, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.sidebar-toggle:active,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  color: #fff;
+  background-color: #505050; }
+
+@media (min-width: 30.1rem) {
+  /* line 243, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .sidebar-toggle {
+    position: fixed;
+    width: 2.25rem; }
+
+  /* line 247, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .sidebar-toggle:before {
+    padding-bottom: .15rem;
+    border-top-width: .45rem;
+    border-bottom-width: .15rem; } }
+/* Slide effect
+ *
+ * Handle the sliding effects of the sidebar and content in one spot, seperate
+ * from the default styles.
+ *
+ * As an a heads up, we don't use `transform: translate3d()` here because when
+ * mixed with `position: fixed;` for the sidebar toggle, it creates a new
+ * containing block. Put simply, the fixed sidebar toggle behaves like
+ * `position: absolute;` when transformed.
+ *
+ * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
+ */
+/* line 271, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.wrap,
+.masthead,
+.sidebar,
+.sidebar-toggle {
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* line 278, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.wrap,
+.masthead,
+.sidebar-toggle {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out; }
+
+/* line 283, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+#sidebar-checkbox:checked + .sidebar {
+  visibility: visible; }
+
+/* line 288, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+#sidebar-checkbox:checked ~ .sidebar,
+#sidebar-checkbox:checked ~ .wrap,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(14rem);
+  -ms-transform: translateX(14rem);
+  transform: translateX(14rem); }
+
+/*
+ * Posts and pages
+ *
+ * Each post is wrapped in `.post` and is used on default and post layouts. Each
+ * page is wrapped in `.page` and is only used on the page layout.
+ */
+/* line 303, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.page,
+.post {
+  margin-bottom: 4em; }
+
+/* Blog post or page title */
+/* line 310, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.page-title,
+.post-title,
+.post-title a {
+  color: #303030; }
+
+/* line 314, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.page-title,
+.post-title {
+  margin-top: 0; }
+
+/* Meta data line below post title */
+/* line 319, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.post-date {
+  display: block;
+  margin-top: -.5rem;
+  margin-bottom: 1rem;
+  color: #9a9a9a; }
+
+/* Related posts */
+/* line 327, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related {
+  padding-top: 2rem;
+  padding-bottom: 2rem;
+  border-top: 1px solid #eee; }
+
+/* line 332, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related-posts {
+  padding-left: 0;
+  list-style: none; }
+
+/* line 336, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related-posts h3 {
+  margin-top: 0; }
+
+/* line 339, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related-posts li small {
+  font-size: 75%;
+  color: #999; }
+
+/* line 343, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related-posts li a:hover {
+  color: #268bd2;
+  text-decoration: none; }
+
+/* line 347, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.related-posts li a:hover small {
+  color: inherit; }
+
+/*
+ * Pagination
+ *
+ * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
+ * there are no more previous or next posts to show.
+ */
+/* line 359, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.pagination {
+  overflow: hidden;
+  /* clearfix */
+  margin-left: -1rem;
+  margin-right: -1rem;
+  /*font-family: "PT Sans", Helvetica, Arial, sans-serif;*/
+  color: #ccc;
+  text-align: center; }
+
+/* Pagination items can be `span`s or `a`s */
+/* line 369, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.pagination-item {
+  display: block;
+  padding: 1rem;
+  border: 1px solid #eee; }
+
+/* line 374, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.pagination-item:first-child {
+  margin-bottom: -1px; }
+
+/* Only provide a hover state for linked pagination items */
+/* line 379, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+a.pagination-item:hover {
+  background-color: #f5f5f5; }
+
+@media (min-width: 30rem) {
+  /* line 384, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .pagination {
+    margin: 3rem 0; }
+
+  /* line 387, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .pagination-item {
+    float: left;
+    width: 50%; }
+
+  /* line 391, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .pagination-item:first-child {
+    margin-bottom: 0;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px; }
+
+  /* line 396, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+  .pagination-item:last-child {
+    margin-left: -1px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px; } }
+/*
+ * Reverse layout
+ *
+ * Flip the orientation of the page by placing the `.sidebar` and sidebar toggle
+ * on the right side.
+ */
+/* line 411, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.layout-reverse .sidebar {
+  left: auto;
+  right: -14rem; }
+
+/* line 415, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.layout-reverse .sidebar-toggle {
+  left: auto;
+  right: 1rem; }
+
+/* line 422, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.layout-reverse #sidebar-checkbox:checked ~ .masthead,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-14rem);
+  -ms-transform: translateX(-14rem);
+  transform: translateX(-14rem); }
+
+/*
+ * Themes
+ *
+ * Apply custom color schemes by adding the appropriate class to the `body`.
+ * Based on colors from Base16: http://chriskempson.github.io/base16/#default.
+ */
+/* Red */
+/* line 439, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-08 .sidebar,
+.theme-base-08 .sidebar-toggle:active,
+.theme-base-08 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #ac4142; }
+
+/* line 444, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-08 .container a,
+.theme-base-08 .sidebar-toggle,
+.theme-base-08 .related-posts li a:hover {
+  color: #ac4142; }
+
+/* Orange */
+/* line 451, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-09 .sidebar,
+.theme-base-09 .sidebar-toggle:active,
+.theme-base-09 #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #d28445; }
+
+/* line 456, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-09 .container a,
+.theme-base-09 .sidebar-toggle,
+.theme-base-09 .related-posts li a:hover {
+  color: #d28445; }
+
+/* Yellow */
+/* line 463, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0a .sidebar,
+.theme-base-0a .sidebar-toggle:active,
+.theme-base-0a #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #f4bf75; }
+
+/* line 468, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0a .container a,
+.theme-base-0a .sidebar-toggle,
+.theme-base-0a .related-posts li a:hover {
+  color: #f4bf75; }
+
+/* Green */
+/* line 475, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0b .sidebar,
+.theme-base-0b .sidebar-toggle:active,
+.theme-base-0b #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #90a959; }
+
+/* line 480, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0b .container a,
+.theme-base-0b .sidebar-toggle,
+.theme-base-0b .related-posts li a:hover {
+  color: #90a959; }
+
+/* Cyan */
+/* line 487, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0c .sidebar,
+.theme-base-0c .sidebar-toggle:active,
+.theme-base-0c #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #75b5aa; }
+
+/* line 492, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0c .container a,
+.theme-base-0c .sidebar-toggle,
+.theme-base-0c .related-posts li a:hover {
+  color: #75b5aa; }
+
+/* Blue */
+/* line 499, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0d .sidebar,
+.theme-base-0d .sidebar-toggle:active,
+.theme-base-0d #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #6a9fb5; }
+
+/* line 504, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0d .container a,
+.theme-base-0d .sidebar-toggle,
+.theme-base-0d .related-posts li a:hover {
+  color: #6a9fb5; }
+
+/* Magenta */
+/* line 511, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0e .sidebar,
+.theme-base-0e .sidebar-toggle:active,
+.theme-base-0e #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #aa759f; }
+
+/* line 516, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0e .container a,
+.theme-base-0e .sidebar-toggle,
+.theme-base-0e .related-posts li a:hover {
+  color: #aa759f; }
+
+/* Brown */
+/* line 523, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0f .sidebar,
+.theme-base-0f .sidebar-toggle:active,
+.theme-base-0f #sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #8f5536; }
+
+/* line 528, /Users/fshowalt/Workspace/movielog/source/stylesheets/lanyon.css */
+.theme-base-0f .container a,
+.theme-base-0f .sidebar-toggle,
+.theme-base-0f .related-posts li a:hover {
+  color: #8f5536; }
+
+/* line 6, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+a, .post-title a {
+  color: #579; }
+
+/* line 10, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar {
+  background-color: #3d444c; }
+
+/* line 15, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-toggle:active,
+#sidebar-checkbox:checked ~ .sidebar-toggle {
+  background-color: #579; }
+
+/* line 19, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar {
+  color: #D7DADD;
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-weight: 100; }
+
+/* line 26, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.site-footer {
+  background-color: #3D444C;
+  color: #D7DADD;
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-size: .75rem;
+  font-weight: 300;
+  border-bottom: .5rem solid #579;
+  text-align: center;
+  padding-top: 1rem;
+  padding-bottom: 1rem; }
+
+/* line 38, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.icon {
+  width: 1rem;
+  height: 1rem;
+  vertical-align: bottom; }
+
+/* line 44, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.movie-list {
+  margin-left: 0;
+  padding-left: 0; }
+
+/* line 49, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.twitter path {
+  fill: #0054ab; }
+
+/* line 53, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.feed path {
+  fill: #f4a546; }
+
+/* line 57, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.site-footer a {
+  color: white; }
+
+/* line 61, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-nav-item {
+  border-top-color: #656b74; }
+
+/* line 65, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-nav-item.active, a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
+  background-color: #89a; }
+
+/* line 69, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-nav {
+  border-bottom-color: #656b74; }
+
+/* line 73, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.posts {
+  padding-right: 5px; }
+
+/* line 77, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.aka {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-size: .8rem; }
+
+/* line 82, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.aka-heading {
+  font-weight: 100;
+  color: #9a9a9a; }
+
+/* line 87, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.aka-title {
+  margin: 0;
+  color: #9a9a9a;
+  font-weight: normal; }
+
+/* line 93, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.viewing {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  color: #9a9a9a; }
+
+/* line 99, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+html {
+  font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
+  -webkit-font-smoothing: antialiased;
+  font-size: 20px;
+  line-height: 1.4;
+  text-rendering: optimizeLegibility; }
+
+/* line 107, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+body {
+  color: rgba(0, 0, 0, 0.8); }
+
+/* line 111, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+h1, h2, h3, h4, h5, h6 {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-weight: 700; }
+
+/* line 116, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+p {
+  letter-spacing: 0.01rem;
+  margin-bottom: 1.5rem; }
+
+/* line 121, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+li {
+  list-style-type: none; }
+
+/* line 125, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.viewings-list {
+  padding-left: 1.2rem; }
+
+/* line 129, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.viewings-list li {
+  list-style-type: decimal; }
+
+/* line 133, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.post-date {
+  font-size: .75rem;
+  margin-top: 0; }
+
+/* line 146, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.masthead {
+  background-color: #579;
+  width: 100%;
+  top: 0;
+  z-index: 100;
+  padding-top: 0;
+  padding-bottom: 0; }
+  /* line 155, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .masthead small {
+    font-size: .75rem; }
+
+/* line 160, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-toggle {
+  z-index: 200;
+  background-color: #579;
+  color: white;
+  top: 0;
+  padding-top: 7px;
+  padding-bottom: 4px; }
+
+/* line 169, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.layout-reverse .sidebar-toggle {
+  right: .5rem; }
+
+/* line 173, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.sidebar-toggle:before {
+  display: none; }
+
+/* line 177, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.nav-menu {
+  height: 12px; }
+  /* line 180, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .nav-menu g {
+    fill: white; }
+
+/* line 185, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.masthead {
+  margin-bottom: 2rem; }
+
+/* line 189, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.container {
+  padding-right: 1.25rem; }
+
+/* line 193, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.masthead-title a {
+  color: white;
+  line-height: 2rem;
+  font-size: 1rem; }
+
+/* line 200, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.post-date {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif; }
+
+/* line 204, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.post-title {
+  font-size: 1.3rem; }
+
+/* line 208, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.viewings-header, .credits-header, .missed-header {
+  border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
+  padding-bottom: 3px; }
+
+/* line 213, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.missed-header {
+  font-size: 1.2rem; }
+
+/* line 217, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item-title {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+  overflow: hidden; }
+
+/* line 224, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination-item {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  border-bottom: none; }
+
+/* line 229, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.rating {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  position: relative;
+  width: 5rem;
+  height: 1rem;
+  display: block; }
+
+/* line 239, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.clearfix:before,
+.clearfix:after {
+  content: " ";
+  /* 1 */
+  display: table;
+  /* 2 */ }
+
+/* line 244, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.clearfix:after {
+  clear: both; }
+
+/* line 248, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.star, .empty-star {
+  height: 1rem;
+  width: 1rem; }
+
+/* line 253, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.star {
+  fill: #EDA829; }
+
+/* line 257, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.empty-star {
+  fill: #ddd; }
+
+/* line 262, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item .rating {
+  margin: 0 .2rem 0 0;
+  height: .8rem;
+  width: 4rem;
+  display: inline-block;
+  margin-bottom: -2px; }
+  /* line 270, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .list-item .rating .star, .list-item .rating .half-star, .list-item .rating .empty-star {
+    width: .8rem;
+    height: .8rem; }
+
+/* line 277, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination {
+  margin-right: -1.25rem;
+  background-color: #fcfcfc; }
+
+/* line 282, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination .icon {
+  vertical-align: middle;
+  width: 1.4rem;
+  height: 1.4rem;
+  padding-bottom: 3px; }
+
+/* line 289, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination .icon path {
+  fill: #579; }
+
+/* line 293, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination-item.newer {
+  text-align: left; }
+
+/* line 297, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.pagination-item.older {
+  text-align: right; }
+
+/* line 301, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item {
+  border-bottom: 1px solid #eee;
+  margin-top: 1rem; }
+
+/* line 306, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item:last-child {
+  border-bottom: none;
+  margin-bottom: 0; }
+
+/* line 312, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.credits {
+  font-family: "petala-pro", Helvetica, Arial, sans-serif;
+  font-size: .8rem;
+  font-weight: normal;
+  color: #9a9a9a;
+  list-style-type: none;
+  padding-left: 0; }
+
+@media (max-width: 48rem) {
+  /* line 322, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .masthead-title {
+    text-align: left; } }
+@media (min-width: 56rem) {
+  /* line 332, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  html {
+    font-size: 22px;
+    line-height: 1.5; }
+
+  /* line 337, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .post-date {
+    font-size: .80rem; }
+
+  /* line 341, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .container {
+    max-width: 34rem; } }
+/* line 347, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.layout-reverse .sidebar {
+  right: -13rem;
+  width: 13rem; }
+
+/* line 352, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.masthead {
+  -webkit-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  backface-visibility: hidden; }
+
+/* line 357, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.masthead {
+  -webkit-transition: -webkit-transform .3s ease-in-out;
+  transition: transform .3s ease-in-out; }
+
+/* line 365, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.layout-reverse #sidebar-checkbox:checked ~ .wrap,
+.layout-reverse #sidebar-checkbox:checked ~ .masthead,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar,
+.layout-reverse #sidebar-checkbox:checked ~ .sidebar-toggle {
+  -webkit-transform: translateX(-13rem);
+  -ms-transform: translateX(-13rem);
+  transform: translateX(-13rem); }
