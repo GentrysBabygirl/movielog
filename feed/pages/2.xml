@@ -1,0 +1,19 @@
+<feed xmlns='http://www.w3.org/2005/Atom'>
+  <title>Frank's Movie Log</title>
+  <link href='http://movielog.frankshowalter.com/feed.xml' rel='self'>
+  <link href='http://movielog.frankshowalter.com/'>
+  <updated>2014-05-21T19:22:40-04:00</updated>
+  <id>http://movielog.frankshowalter.com/</id>
+  <author>
+    <name>Frank Showalter</name>
+  </author>
+  <entry>
+    <title>The Wagons Roll at Night (1941)</title>
+    <link href='http://movielog.frankshowalter.com//reviews/the-wagons-roll-at-night-1941'>
+    <updated>2014-05-20T00:00:00-04:00</updated>
+    <id>http://movielog.frankshowalter.com/the-wagons-roll-at-night-1941</id>
+    <content type='html'>
+      <p>Bogart plays a once-big circus promoter reduced to playing small rural towns. He thinks he’s caught a break when he discovers a naive store clerk with a knack for lion taming played by Albert. Bogart makes Albert a star, and the circus plays to bigger and bigger crowds, but along the way Albert falls for Bogart’s sister, which–unknown to Albert–leads Bogart to try and sabotage Albert’s act. It’s a by-the-numbers remake of Kid Galahad (1937) that works thanks to the strong cast and streamlined script that clocks in almost twenty minutes shorter–in part because they gave Bogart’s Galahad role to a lion.</p>
+    </content>
+  </entry>
+</feed>
