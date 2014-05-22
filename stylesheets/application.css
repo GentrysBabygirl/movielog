@@ -968,70 +968,72 @@ a, .post-title a {
   border-bottom: .5rem solid #579;
   text-align: center;
   padding-top: 1rem;
-  padding-bottom: 1rem; }
+  padding-bottom: 1rem;
+  padding-left: 1rem;
+  padding-right: 1rem; }
 
-/* line 38, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 40, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .icon {
   width: 1rem;
   height: 1rem;
   vertical-align: bottom; }
 
-/* line 44, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 46, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .movie-list {
   margin-left: 0;
   padding-left: 0; }
 
-/* line 49, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 51, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .twitter path {
   fill: #0054ab; }
 
-/* line 53, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 55, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .feed path {
   fill: #f4a546; }
 
-/* line 57, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 59, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer a {
   color: white; }
 
-/* line 61, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 63, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item {
   border-top-color: #656b74; }
 
-/* line 65, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 67, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item.active, a.sidebar-nav-item:hover, a.sidebar-nav-item:focus {
   background-color: #89a; }
 
-/* line 69, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 71, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav {
   border-bottom-color: #656b74; }
 
-/* line 73, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 75, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .posts {
   padding-right: 5px; }
 
-/* line 77, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 79, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   font-size: .8rem; }
 
-/* line 82, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 84, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-heading {
   font-weight: 100;
   color: #9a9a9a; }
 
-/* line 87, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 89, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-title {
   margin: 0;
   color: #9a9a9a;
   font-weight: normal; }
 
-/* line 93, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 95, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .viewing {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   font-size: .8rem;
   color: #9a9a9a; }
 
-/* line 99, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 101, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 html {
   font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
@@ -1039,38 +1041,38 @@ html {
   line-height: 1.4;
   text-rendering: optimizeLegibility; }
 
-/* line 107, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 109, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 body {
   color: rgba(0, 0, 0, 0.8); }
 
-/* line 111, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 113, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   font-weight: 700; }
 
-/* line 116, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 118, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 p {
   letter-spacing: 0.01rem;
   margin-bottom: 1.5rem; }
 
-/* line 121, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 123, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 li {
   list-style-type: none; }
 
-/* line 125, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 127, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .viewings-list {
   padding-left: 1.2rem; }
 
-/* line 129, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 131, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .viewings-list li {
   list-style-type: decimal; }
 
-/* line 133, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 135, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .post-date {
   font-size: .75rem;
   margin-top: 0; }
 
-/* line 146, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 148, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   background-color: #579;
   width: 100%;
@@ -1078,79 +1080,79 @@ li {
   z-index: 100;
   padding-top: 0;
   padding-bottom: 0; }
-  /* line 155, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 157, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .masthead small {
     font-size: .75rem; }
 
-/* line 160, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 162, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-toggle {
   z-index: 200;
   background-color: transparent;
-  color: #579;
+  color: white;
   top: 0;
   padding-top: 7px;
   padding-bottom: 4px;
   position: absolute; }
 
-/* line 170, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 172, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .layout-reverse .sidebar-toggle {
   right: .5rem; }
 
-/* line 174, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 176, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-toggle:before {
   display: none; }
 
-/* line 178, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 180, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .nav-menu {
   height: 12px; }
-  /* line 181, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 183, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .nav-menu g {
-    fill: #579; }
+    fill: white; }
 
-/* line 186, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 188, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   margin-bottom: 2rem; }
 
-/* line 190, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 192, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .container {
   padding-right: 1.25rem; }
 
-/* line 194, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 196, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead-title a {
   color: white;
   line-height: 2rem;
   font-size: 1rem; }
 
-/* line 201, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 203, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .post-date {
   font-family: "petala-pro", Helvetica, Arial, sans-serif; }
 
-/* line 205, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 207, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .post-title {
   font-size: 1.3rem; }
 
-/* line 209, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 211, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .viewings-header, .credits-header, .missed-header {
   border-bottom: 1px dashed rgba(0, 0, 0, 0.2);
   padding-bottom: 3px; }
 
-/* line 214, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 216, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .missed-header {
   font-size: 1.2rem; }
 
-/* line 218, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 220, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden; }
 
-/* line 225, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 227, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   border-bottom: none; }
 
-/* line 230, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 232, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .rating {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -1159,7 +1161,7 @@ li {
   height: 1rem;
   display: block; }
 
-/* line 240, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 242, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .clearfix:before,
 .clearfix:after {
   content: " ";
@@ -1167,78 +1169,78 @@ li {
   display: table;
   /* 2 */ }
 
-/* line 245, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 247, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .clearfix:after {
   clear: both; }
 
-/* line 249, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 251, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .star, .empty-star {
   height: 1rem;
   width: 1rem; }
 
-/* line 254, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 256, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .star {
   fill: #EDA829; }
 
-/* line 258, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 260, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .empty-star {
   fill: #ddd; }
 
-/* line 263, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 265, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item .rating {
   margin: 0 .2rem 0 0;
   height: .8rem;
   width: 4rem;
   display: inline-block;
   margin-bottom: -2px; }
-  /* line 271, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 273, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item .rating .star, .list-item .rating .half-star, .list-item .rating .empty-star {
     width: .8rem;
     height: .8rem; }
 
-/* line 278, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 280, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination {
   margin-right: -1.25rem;
   background-color: #fcfcfc; }
 
-/* line 283, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 285, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination .icon {
   vertical-align: middle;
   width: 1.4rem;
   height: 1.4rem;
   padding-bottom: 3px; }
 
-/* line 290, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 292, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination .icon path {
   fill: #579; }
 
-/* line 294, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 296, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item {
   border: none;
   margin: 0;
   width: 50%; }
 
-/* line 300, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 302, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.newer {
   text-align: left;
   float: left; }
 
-/* line 305, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 307, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.older {
   text-align: right;
   float: right; }
 
-/* line 310, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 312, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item {
   border-bottom: 1px solid #eee;
   margin-top: 1rem; }
 
-/* line 315, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 317, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item:last-child {
   border-bottom: none;
   margin-bottom: 0; }
 
-/* line 321, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 323, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .credits {
   font-family: "petala-pro", Helvetica, Arial, sans-serif;
   font-size: .8rem;
@@ -1248,68 +1250,75 @@ li {
   padding-left: 0; }
 
 @media (min-width: 37em) {
-  /* line 331, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 333, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .wrap {
     padding-top: 1.5rem;
     border-top: .25rem solid #579; }
 
-  /* line 336, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 338, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .sidebar-toggle {
     top: 1rem; }
 
-  /* line 340, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 342, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .nav-menu {
+    height: 1rem; }
+    /* line 345, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    .nav-menu g {
+      fill: #579; }
+
+  /* line 350, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .sidebar {
     padding-top: 2rem; }
 
-  /* line 344, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 354, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .masthead {
     position: fixed;
     width: 13rem;
     right: -13rem; }
 
-  /* line 350, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 360, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .site-footer {
     background-color: transparent;
     color: inherit;
     font-weight: normal;
     color: #9a9a9a; }
-    /* line 356, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    /* line 366, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
     .site-footer a {
       color: #579; } }
 @media (max-width: 48rem) {
-  /* line 363, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 373, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .masthead-title {
     text-align: left; } }
 @media (min-width: 56rem) {
-  /* line 373, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 383, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   html {
     font-size: 22px;
     line-height: 1.5; }
 
-  /* line 378, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 388, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-date {
     font-size: .80rem; }
 
-  /* line 382, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 392, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .container {
     max-width: 34rem; } }
-/* line 388, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 398, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .layout-reverse .sidebar {
   right: -13rem;
   width: 13rem; }
 
-/* line 393, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 403, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   -webkit-backface-visibility: hidden;
   -ms-backface-visibility: hidden;
   backface-visibility: hidden; }
 
-/* line 398, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 408, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   -webkit-transition: -webkit-transform .3s ease-in-out;
   transition: transform .3s ease-in-out; }
 
-/* line 406, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 416, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .layout-reverse #sidebar-checkbox:checked ~ .wrap,
 .layout-reverse #sidebar-checkbox:checked ~ .masthead,
 .layout-reverse #sidebar-checkbox:checked ~ .sidebar,
