@@ -24,35 +24,36 @@
       try{Typekit.load();}catch(e){}
     </script>
   </head>
-  <body class='layout-reverse'>
+  <body>
     <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
     <div class='sidebar' id='sidebar'>
-      <div class='sidebar-item'>
-        <p>
-          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
-        </p>
+      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <div class='search-wrap clearable-wrap'>
+        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+          <g transform='scale(1 -1) translate(0 -1280)'>
+            <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
+          </g>
+        </svg>
       </div>
+      </form>
       <nav class='sidebar-nav'>
-        <a class='sidebar-nav-item'>Home</a>
+        <a class='sidebar-nav-item' href='/'>Home</a>
         <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
-        <span class='sidebar-nav-item'>Currently v 1.1.0</span>
       </nav>
-      <div class='sidebar-item'>
-        <p>&copy; 2014. All rights reserved.</p>
-      </div>
-    </div>
-    <div class='masthead'>
-      <div class='container'>
-        <h3 class='masthead-title'>
-          <a href='/' title='Home'>Frank's Movie Log</a>
-        </h3>
-      </div>
     </div>
     <div class='wrap'>
+      <div class='masthead'>
+        <div class='container'>
+          <h1 class='masthead-title'>
+            <a href='/' title='Home'>Frank's Movie Log</a>
+          </h1>
+        </div>
+      </div>
       <div class='container content'>
-        <div class='post' itemscope itemtype='http://schema.org/Review'>
+        <article class='post' itemscope itemtype='http://schema.org/Review'>
           <h1 class='post-title' itemprop='name'>The Thin Man (1934)</h1>
-          <span class='post-date'>Starring William Powell, Myrna Loy, and Maureen O'Sullivan</span>
+          <span class='post-slug'>Directed by W.S. Van Dyke. Starring William Powell, Myrna Loy, and Maureen O'Sullivan.</span>
           <div class='rating' itemprop='reviewRating' itemscope itemtype='http://schema.org/Rating'>
             <meta content='9.333333333333334' itemprop='ratingValue'>
             <meta content='1' itemprop='worstRating'>
@@ -66,7 +67,7 @@
             
                   </svg>
           </div>
-          <div class='div' itemprop='reviewBody'>
+          <div class='post-content' itemprop='reviewBody'>
             <p>Eccentric inventor Clyde Wynant is preparing to go into seclusion to work on a new project when he’s interrupted by a visit from his daughter Dorothy (O&#39;Sullivan) who announces her engagement. Wynant hurries her out, but promises to return in time for her wedding. Wynant continues his preparations and discovers that the $50,000 in bonds he’d earmarked as a wedding present for Dorothy are missing. He storms over to the apartment of his mistress Julia, catching her in the arms of another man in the process. Wynant accuses her of the theft and threatens to turn her over to the police. Three months later Dorothy hasn’t heard from her father. While out at a restaurant, she recognizes former detective Nick Charles (Powell) and approaches him for help. Nick–happy in his new life of leisure with his heiress wife Nora (Loy)–is reluctant to get involved, but when circumstances pin a pair of murders on the still missing Wynant, Nick steps in and uncovers a buried skeleton along with a labyrinthine array of suspects and motives. The mystery culminates with New York’s finest corralling all the suspects to a dinner party thrown by Nick and Nora, where Nick ferrets out the true killer.</p>
             
             <p>The talky opening betrays the film’s B-movie production, with the script throwing enough plot and characters at us to fill an entire movie, but once Powell makes his appearance–in a posh restaurant bar, demonstrating to an impromptu-crowd how various cocktails demand unique shaking rhythms (Manhattans to a Fox-Trot, Bronxs to a Two-Step, and Dry Martinis to a Waltz)–the dialog goes from stilted to fluid, with Powell gliding through the film as the witty urbane charmer we all believe ourselves to be after a few drinks. There’s little real danger and the entire plot is little more than a MacGuffin to support Powell’s lyrical banter, which reaches it’s apex during the iconic dinner party scene. As Loy says, “It’s the best dinner I’ve ever listened to.”</p>
@@ -75,91 +76,80 @@
           <span itemprop='author' itemscope itemtype='http://schema.org/Person'>
             <meta content='Frank Showalter' itemprop='name'>
           </span>
-          <h3 class='viewings-header'>Viewings</h3>
-          <ol class='viewings-list'>
-            <li class='viewing'>via Landmark E Street Cinema on Friday the 6th of July 2012</li>
-          </ol>
-          <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
-            <meta content='The Thin Man (1934)' itemprop='name'>
-            <h3 class='credits-header'>Credits</h3>
-            <h4>Directed by</h4>
-            <ul class='credits'>
-              <li class='credit'>W.S. Van Dyke</li>
-            </ul>
-            <h4>Starring</h4>
-            <ul class='credits'>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  William Powell
+          <div class='column-half'>
+            <h3 class='card-header'>Viewings</h3>
+            <ol class='plain-list'>
+              <li class='list-item'>
+                <span class='list-item-number'>
+                  1.
                 </span>
+                <div class='card-description'>
+                  via Landmark E Street Cinema on Friday the 6th of July 2012
+                </div>
               </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Myrna Loy
-                </span>
-              </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Maureen O'Sullivan
-                </span>
-              </li>
-            </ul>
-            <h4>Written by</h4>
-            <ul class='credits'>
-              <li class='credit'>Albert Hackett</li>
-              <li class='credit'>Frances Goodrich</li>
-              <li class='credit'>Dashiell Hammett</li>
-            </ul>
+            </ol>
           </div>
-        </div>
-        <!-- <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div> -->
-        <!-- </div> -->
-        <!-- <div class="related"> -->
-        <!-- <h2>Related Posts</h2> -->
-        <!-- <ul class="related-posts"> -->
-        <!-- {% for post in site.related_posts limit:3 %} -->
-        <!-- <li> -->
-        <!-- <h3> -->
-        <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
-        <!-- {{ post.title }} -->
-        <!-- <small>By {{ post.author }}</small> -->
-        <!-- </a> -->
-        <!-- </h3> -->
-        <!-- </li> -->
-        <!-- {% endfor %} -->
-        <!-- </ul> -->
-        <!-- </div> -->
-        <!-- %article.post -->
-        <!-- %header -->
-        <!-- %div{view.still_attributes} -->
-        <!-- .post__title -->
-        <!-- %h2= page_title(view.display_title) -->
-        <!-- = view.aka_titles -->
-        <!-- .post__slug -->
-        <!-- = view.rating -->
-        <!-- %br -->
-        <!-- = view.header_slug -->
-        <!-- .post__content -->
-        <!-- = view.text -->
-        <!-- %footer.post__footer -->
-        <!-- %h3 Viewings -->
-        <!-- %ol.viewings__list -->
-        <!-- - view.viewings.each do |viewing| -->
-        <!-- %li -->
-        <!-- via #{viewing.venue} on #{viewing.date_link} -->
-        <!-- %h3 Credits -->
-        <!-- .credits -->
-        <!-- - if view.has_poster? -->
-        <!-- .credits__poster{view.poster_attributes} -->
-        <!-- = view.credits -->
-        <!-- %nav.pagination -->
-        <!-- %ul.pagination__jump -->
-        <!-- - if view.has_previous_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__prev{view.previous_link_attributes} Older -->
-        <!-- - if view.has_next_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__next{view.next_link_attributes} Newer -->
+          <div class='column-half'>
+            <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
+              <meta content='The Thin Man (1934)' itemprop='name'>
+              <h3 class='card-header'>Directed by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  W.S. Van Dyke
+                </li>
+              </ul>
+              <h3 class='card-header'>Starring</h3>
+              <ul class='plain-list'>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    William Powell
+                    <span class='role'>
+                      as Nick
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Myrna Loy
+                    <span class='role'>
+                      as Nora
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Maureen O'Sullivan
+                    <span class='role'>
+                      as Dorothy
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <h3 class='card-header'>Written by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Albert Hackett
+                  <span class='role'>
+                    (screen play)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Frances Goodrich
+                  <span class='role'>
+                    (screen play)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Dashiell Hammett
+                  <span class='role'>
+                    (from the novel by)
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p class='card-description'>More at <a href="http://www.imdb.com/title/">the IMDb</a>.</p>
+          </div>
+        </article>
       </div>
       <footer class='site-footer'>
         <div class='site-footer-content'>

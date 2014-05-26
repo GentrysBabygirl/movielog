@@ -24,35 +24,36 @@
       try{Typekit.load();}catch(e){}
     </script>
   </head>
-  <body class='layout-reverse'>
+  <body>
     <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
     <div class='sidebar' id='sidebar'>
-      <div class='sidebar-item'>
-        <p>
-          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
-        </p>
+      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <div class='search-wrap clearable-wrap'>
+        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+          <g transform='scale(1 -1) translate(0 -1280)'>
+            <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
+          </g>
+        </svg>
       </div>
+      </form>
       <nav class='sidebar-nav'>
-        <a class='sidebar-nav-item'>Home</a>
+        <a class='sidebar-nav-item' href='/'>Home</a>
         <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
-        <span class='sidebar-nav-item'>Currently v 1.1.0</span>
       </nav>
-      <div class='sidebar-item'>
-        <p>&copy; 2014. All rights reserved.</p>
-      </div>
-    </div>
-    <div class='masthead'>
-      <div class='container'>
-        <h3 class='masthead-title'>
-          <a href='/' title='Home'>Frank's Movie Log</a>
-        </h3>
-      </div>
     </div>
     <div class='wrap'>
+      <div class='masthead'>
+        <div class='container'>
+          <h1 class='masthead-title'>
+            <a href='/' title='Home'>Frank's Movie Log</a>
+          </h1>
+        </div>
+      </div>
       <div class='container content'>
-        <div class='post' itemscope itemtype='http://schema.org/Review'>
+        <article class='post' itemscope itemtype='http://schema.org/Review'>
           <h1 class='post-title' itemprop='name'>Soldier in the Rain (1963)</h1>
-          <span class='post-date'>Starring Jackie Gleason, Steve McQueen, and Tuesday Weld</span>
+          <span class='post-slug'>Directed by Ralph Nelson. Starring Jackie Gleason, Steve McQueen, and Tuesday Weld.</span>
           <div class='rating' itemprop='reviewRating' itemscope itemtype='http://schema.org/Rating'>
             <meta content='7.333333333333333' itemprop='ratingValue'>
             <meta content='1' itemprop='worstRating'>
@@ -66,7 +67,7 @@
             
                   </svg>
           </div>
-          <div class='div' itemprop='reviewBody'>
+          <div class='post-content' itemprop='reviewBody'>
             <p>Set on an army base during peacetime, the film follows Sergeant Eustis Clay (McQueen) and his idol, Master Sergeant Maxwell Slaughter (Gleason). Clay cooks up a series of dim-witted get-rich-quick schemes, which draw the ire of rival Sergeant Lenahan and MP Priest, frequently requiring some degree of intervention from Slaughter to keep Clay out of trouble. Clay dreams of going into business with Slaughter when their enlistments end, but Slaughter is comfortable with the easy life he’s built for himself in the peacetime army. Sensing Slaughter’s reluctance, Clay tries to temp him with the lures of civilian life by setting him up on a blind date with ditzy teenager Bobby Jo Pepperdine (Weld). Slaughter navigates the situation with tact, settling into a fatherly relationship with Pepperdine that somewhat mirrors his relationship with Clay. Things turn dark when Clay gets word that his beloved dog has died, and Lenahan and Priest bait a drunken Clay into a two-against-one barroom brawl that ends in tragedy.</p>
             
             <p>Given that his most iconic performances feature a minimal amount of dialog, it’s jarring to see McQueen in such a motor-mouth role, but he plays well opposite Gleason, whose disarming performance makes the film. And what an odd little film it is. After opening like a sitcom it gradually morphs into a drama, reflecting McQueen’s character’s own gradual maturity. Kudos to screenwriters Edwards and Richlin for keeping Goldman’s ending. Without it, the film would be a forgettable popcorn piece. As it turned out, the film was forgotten anyway, having the ill fortune to open five days after JFK’s assassination.</p>
@@ -75,91 +76,80 @@
           <span itemprop='author' itemscope itemtype='http://schema.org/Person'>
             <meta content='Frank Showalter' itemprop='name'>
           </span>
-          <h3 class='viewings-header'>Viewings</h3>
-          <ol class='viewings-list'>
-            <li class='viewing'>via TCM HD on Thursday the 14th of June 2012</li>
-          </ol>
-          <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
-            <meta content='Soldier in the Rain (1963)' itemprop='name'>
-            <h3 class='credits-header'>Credits</h3>
-            <h4>Directed by</h4>
-            <ul class='credits'>
-              <li class='credit'>Ralph Nelson</li>
-            </ul>
-            <h4>Starring</h4>
-            <ul class='credits'>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Jackie Gleason
+          <div class='column-half'>
+            <h3 class='card-header'>Viewings</h3>
+            <ol class='plain-list'>
+              <li class='list-item'>
+                <span class='list-item-number'>
+                  1.
                 </span>
+                <div class='card-description'>
+                  via TCM HD on Thursday the 14th of June 2012
+                </div>
               </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Steve McQueen
-                </span>
-              </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Tuesday Weld
-                </span>
-              </li>
-            </ul>
-            <h4>Written by</h4>
-            <ul class='credits'>
-              <li class='credit'>Maurice Richlin</li>
-              <li class='credit'>Blake Edwards</li>
-              <li class='credit'>William Goldman</li>
-            </ul>
+            </ol>
           </div>
-        </div>
-        <!-- <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div> -->
-        <!-- </div> -->
-        <!-- <div class="related"> -->
-        <!-- <h2>Related Posts</h2> -->
-        <!-- <ul class="related-posts"> -->
-        <!-- {% for post in site.related_posts limit:3 %} -->
-        <!-- <li> -->
-        <!-- <h3> -->
-        <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
-        <!-- {{ post.title }} -->
-        <!-- <small>By {{ post.author }}</small> -->
-        <!-- </a> -->
-        <!-- </h3> -->
-        <!-- </li> -->
-        <!-- {% endfor %} -->
-        <!-- </ul> -->
-        <!-- </div> -->
-        <!-- %article.post -->
-        <!-- %header -->
-        <!-- %div{view.still_attributes} -->
-        <!-- .post__title -->
-        <!-- %h2= page_title(view.display_title) -->
-        <!-- = view.aka_titles -->
-        <!-- .post__slug -->
-        <!-- = view.rating -->
-        <!-- %br -->
-        <!-- = view.header_slug -->
-        <!-- .post__content -->
-        <!-- = view.text -->
-        <!-- %footer.post__footer -->
-        <!-- %h3 Viewings -->
-        <!-- %ol.viewings__list -->
-        <!-- - view.viewings.each do |viewing| -->
-        <!-- %li -->
-        <!-- via #{viewing.venue} on #{viewing.date_link} -->
-        <!-- %h3 Credits -->
-        <!-- .credits -->
-        <!-- - if view.has_poster? -->
-        <!-- .credits__poster{view.poster_attributes} -->
-        <!-- = view.credits -->
-        <!-- %nav.pagination -->
-        <!-- %ul.pagination__jump -->
-        <!-- - if view.has_previous_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__prev{view.previous_link_attributes} Older -->
-        <!-- - if view.has_next_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__next{view.next_link_attributes} Newer -->
+          <div class='column-half'>
+            <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
+              <meta content='Soldier in the Rain (1963)' itemprop='name'>
+              <h3 class='card-header'>Directed by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Ralph Nelson
+                </li>
+              </ul>
+              <h3 class='card-header'>Starring</h3>
+              <ul class='plain-list'>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Jackie Gleason
+                    <span class='role'>
+                      as MSgt. Maxwell Slaughter
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Steve McQueen
+                    <span class='role'>
+                      as Sgt. Eustis Clay
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Tuesday Weld
+                    <span class='role'>
+                      as Bobby Jo Pepperdine
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <h3 class='card-header'>Written by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Maurice Richlin
+                  <span class='role'>
+                    (screenplay)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Blake Edwards
+                  <span class='role'>
+                    (screenplay)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  William Goldman
+                  <span class='role'>
+                    (novel)
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p class='card-description'>More at <a href="http://www.imdb.com/title/">the IMDb</a>.</p>
+          </div>
+        </article>
       </div>
       <footer class='site-footer'>
         <div class='site-footer-content'>

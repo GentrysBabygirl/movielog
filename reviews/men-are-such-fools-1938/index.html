@@ -24,35 +24,36 @@
       try{Typekit.load();}catch(e){}
     </script>
   </head>
-  <body class='layout-reverse'>
+  <body>
     <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
     <div class='sidebar' id='sidebar'>
-      <div class='sidebar-item'>
-        <p>
-          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
-        </p>
+      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <div class='search-wrap clearable-wrap'>
+        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+          <g transform='scale(1 -1) translate(0 -1280)'>
+            <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
+          </g>
+        </svg>
       </div>
+      </form>
       <nav class='sidebar-nav'>
-        <a class='sidebar-nav-item'>Home</a>
+        <a class='sidebar-nav-item' href='/'>Home</a>
         <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
-        <span class='sidebar-nav-item'>Currently v 1.1.0</span>
       </nav>
-      <div class='sidebar-item'>
-        <p>&copy; 2014. All rights reserved.</p>
-      </div>
-    </div>
-    <div class='masthead'>
-      <div class='container'>
-        <h3 class='masthead-title'>
-          <a href='/' title='Home'>Frank's Movie Log</a>
-        </h3>
-      </div>
     </div>
     <div class='wrap'>
+      <div class='masthead'>
+        <div class='container'>
+          <h1 class='masthead-title'>
+            <a href='/' title='Home'>Frank's Movie Log</a>
+          </h1>
+        </div>
+      </div>
       <div class='container content'>
-        <div class='post' itemscope itemtype='http://schema.org/Review'>
+        <article class='post' itemscope itemtype='http://schema.org/Review'>
           <h1 class='post-title' itemprop='name'>Men Are Such Fools (1938)</h1>
-          <span class='post-date'>Starring Wayne Morris, Priscilla Lane, and Humphrey Bogart</span>
+          <span class='post-slug'>Directed by Busby Berkeley. Starring Wayne Morris, Priscilla Lane, and Humphrey Bogart.</span>
           <div class='rating' itemprop='reviewRating' itemscope itemtype='http://schema.org/Rating'>
             <meta content='3.3333333333333335' itemprop='ratingValue'>
             <meta content='1' itemprop='worstRating'>
@@ -66,7 +67,7 @@
             
                   </svg>
           </div>
-          <div class='div' itemprop='reviewBody'>
+          <div class='post-content' itemprop='reviewBody'>
             <p>Lane plays a Linda, an ambitious secretary out to climb the corporate ladder. Just as her career takes off, she marries Jimmy, an ex-footballer from Princeton played by Morris, who demands she leave her job. Linda reluctantly agrees, and several months later they’ve settled into a bland suburban existence with Linda playing the role of dutiful housewife. Still ambitious, Linda arranges a promotion for Jimmy and leaves him when he turns it down, moving back to the city and resuming her career. Soon, she’s near the top of the ladder, working long nights alongside fellow advertising executive Harry, played by Humphrey Bogart. Jimmy returns to the city alone and throws himself into his work, turning into the driven man Linda always wanted him to be. As Harry makes his feelings for Linda clear, Linda realizes she’ll have to chose between Harry and Jimmy.</p>
             
             <p>Let’s get this out of the way: there is one, and only one, reason to endure Men Are Such Fools: to see Humphrey Bogart look utterly ridiculous in his unitard swimsuit. A fast-forward button can make this a much more pleasant endeavor, as the rest of the film is awful. Neither of the leads is likable. Lane starts out okay, but as soon as Morris makes his entrance, she goes downhill. You see, Morris&#39; character is a total ass. He bullies Lane’s character at every turn, sabotages her career, and disregards her hopes and dreams. Thus, when Lane’s character suddenly goes giddy and agrees to marry him, you can’t help but lose any sympathy for her. Things get better–briefly–when Bogart shows up. You’re practically screaming at Lane to go for him, but instead she only uses him to get back with the lunky Morris. Despite the title, the film makes it pretty clear that it’s the women, not men who are the fools. Was this really how it worked in 1938?</p>
@@ -75,92 +76,86 @@
           <span itemprop='author' itemscope itemtype='http://schema.org/Person'>
             <meta content='Frank Showalter' itemprop='name'>
           </span>
-          <h3 class='viewings-header'>Viewings</h3>
-          <ol class='viewings-list'>
-            <li class='viewing'>via TCM HD on Thursday the 14th of June 2012</li>
-          </ol>
-          <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
-            <meta content='Men Are Such Fools (1938)' itemprop='name'>
-            <h3 class='credits-header'>Credits</h3>
-            <h4>Directed by</h4>
-            <ul class='credits'>
-              <li class='credit'>Busby Berkeley</li>
-            </ul>
-            <h4>Starring</h4>
-            <ul class='credits'>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Wayne Morris
+          <div class='column-half'>
+            <h3 class='card-header'>Viewings</h3>
+            <ol class='plain-list'>
+              <li class='list-item'>
+                <span class='list-item-number'>
+                  1.
                 </span>
+                <div class='card-description'>
+                  via TCM HD on Thursday the 14th of June 2012
+                </div>
               </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Priscilla Lane
-                </span>
-              </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Humphrey Bogart
-                </span>
-              </li>
-            </ul>
-            <h4>Written by</h4>
-            <ul class='credits'>
-              <li class='credit'>Stanley Logan</li>
-              <li class='credit'>Norman Reilly Raine</li>
-              <li class='credit'>Horace Jackson</li>
-              <li class='credit'>Faith Baldwin</li>
-            </ul>
+            </ol>
           </div>
-        </div>
-        <!-- <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div> -->
-        <!-- </div> -->
-        <!-- <div class="related"> -->
-        <!-- <h2>Related Posts</h2> -->
-        <!-- <ul class="related-posts"> -->
-        <!-- {% for post in site.related_posts limit:3 %} -->
-        <!-- <li> -->
-        <!-- <h3> -->
-        <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
-        <!-- {{ post.title }} -->
-        <!-- <small>By {{ post.author }}</small> -->
-        <!-- </a> -->
-        <!-- </h3> -->
-        <!-- </li> -->
-        <!-- {% endfor %} -->
-        <!-- </ul> -->
-        <!-- </div> -->
-        <!-- %article.post -->
-        <!-- %header -->
-        <!-- %div{view.still_attributes} -->
-        <!-- .post__title -->
-        <!-- %h2= page_title(view.display_title) -->
-        <!-- = view.aka_titles -->
-        <!-- .post__slug -->
-        <!-- = view.rating -->
-        <!-- %br -->
-        <!-- = view.header_slug -->
-        <!-- .post__content -->
-        <!-- = view.text -->
-        <!-- %footer.post__footer -->
-        <!-- %h3 Viewings -->
-        <!-- %ol.viewings__list -->
-        <!-- - view.viewings.each do |viewing| -->
-        <!-- %li -->
-        <!-- via #{viewing.venue} on #{viewing.date_link} -->
-        <!-- %h3 Credits -->
-        <!-- .credits -->
-        <!-- - if view.has_poster? -->
-        <!-- .credits__poster{view.poster_attributes} -->
-        <!-- = view.credits -->
-        <!-- %nav.pagination -->
-        <!-- %ul.pagination__jump -->
-        <!-- - if view.has_previous_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__prev{view.previous_link_attributes} Older -->
-        <!-- - if view.has_next_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__next{view.next_link_attributes} Newer -->
+          <div class='column-half'>
+            <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
+              <meta content='Men Are Such Fools (1938)' itemprop='name'>
+              <h3 class='card-header'>Directed by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Busby Berkeley
+                </li>
+              </ul>
+              <h3 class='card-header'>Starring</h3>
+              <ul class='plain-list'>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Wayne Morris
+                    <span class='role'>
+                      as Jimmy Hall
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Priscilla Lane
+                    <span class='role'>
+                      as Linda Lawrence
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Humphrey Bogart
+                    <span class='role'>
+                      as Harry Galleon
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <h3 class='card-header'>Written by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Stanley Logan
+                  <span class='role'>
+                    (uncredited)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Norman Reilly Raine
+                  <span class='role'>
+                    (screen play)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Horace Jackson
+                  <span class='role'>
+                    (screen play)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Faith Baldwin
+                  <span class='role'>
+                    (from a "Saturday Evening Post" story by)
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p class='card-description'>More at <a href="http://www.imdb.com/title/">the IMDb</a>.</p>
+          </div>
+        </article>
       </div>
       <footer class='site-footer'>
         <div class='site-footer-content'>

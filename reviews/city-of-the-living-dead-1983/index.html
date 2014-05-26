@@ -24,40 +24,41 @@
       try{Typekit.load();}catch(e){}
     </script>
   </head>
-  <body class='layout-reverse'>
+  <body>
     <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
     <div class='sidebar' id='sidebar'>
-      <div class='sidebar-item'>
-        <p>
-          Movie reviews, commentary, and a chronological log of what I've seen, what it was about, what it was like, and whether or not I liked it&mdash;in as few words as possible.
-        </p>
+      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <div class='search-wrap clearable-wrap'>
+        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+          <g transform='scale(1 -1) translate(0 -1280)'>
+            <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
+          </g>
+        </svg>
       </div>
+      </form>
       <nav class='sidebar-nav'>
-        <a class='sidebar-nav-item'>Home</a>
+        <a class='sidebar-nav-item' href='/'>Home</a>
         <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
-        <span class='sidebar-nav-item'>Currently v 1.1.0</span>
       </nav>
-      <div class='sidebar-item'>
-        <p>&copy; 2014. All rights reserved.</p>
-      </div>
-    </div>
-    <div class='masthead'>
-      <div class='container'>
-        <h3 class='masthead-title'>
-          <a href='/' title='Home'>Frank's Movie Log</a>
-        </h3>
-      </div>
     </div>
     <div class='wrap'>
+      <div class='masthead'>
+        <div class='container'>
+          <h1 class='masthead-title'>
+            <a href='/' title='Home'>Frank's Movie Log</a>
+          </h1>
+        </div>
+      </div>
       <div class='container content'>
-        <div class='post' itemscope itemtype='http://schema.org/Review'>
+        <article class='post' itemscope itemtype='http://schema.org/Review'>
           <h1 class='post-title' itemprop='name'>City of the Living Dead (1983)</h1>
           <dl class='aka'>
             <dt class='aka-heading'>aka</dt>
             <dd class='aka-title'>Paura nella città dei morti viventi (1980)</dd>
             <dd class='aka-title'>The Gates of Hell (1983)</dd>
           </dl>
-          <span class='post-date'>Starring Christopher George, Catriona MacColl, and Carlo De Mejo</span>
+          <span class='post-slug'>Directed by Lucio Fulci. Starring Christopher George, Catriona MacColl, and Carlo De Mejo.</span>
           <div class='rating' itemprop='reviewRating' itemscope itemtype='http://schema.org/Rating'>
             <meta content='8.0' itemprop='ratingValue'>
             <meta content='1' itemprop='worstRating'>
@@ -71,7 +72,7 @@
             
                   </svg>
           </div>
-          <div class='div' itemprop='reviewBody'>
+          <div class='post-content' itemprop='reviewBody'>
             <p>In a desolate church cemetery, Father Thomas hangs himself from an old oak tree. Medium Mary Woodhouse (MacColl) sees the act during a seance, convulses violently and drops dead from shock. Nosing for a story, reporter Peter Bell (George) attends Mary’s funeral. As the mourners trickle away, Peter lingers and Mary awakens in her coffin, very much alive and frantic to escape. Peter hears her scratching at the coffin lid–or likely thinks he does, thanks to Mary’s psychic talents–and frees her. Mary tells Peter about her vision, and how Thomas’s suicide was a sacrifice intended to open the gates of Hell. Peter is skeptical but curious, and agrees to travel with Mary to where she believes the gate to exist, a remote New England town called Dunwich. In Dunwich, people are starting to disappear thanks to the now undead Thomas, who claims a pair of teens in a horrific–albeit memorable–sequence. Peter and Mary arrive and eventually connect with the few locals with enough sense and luck to stay alive. Together, they head for the cemetery in a last-ditch effort to close the gate and avoid the apocalypse.</p>
             
             <p>Fulci’s film, the first of his unofficial Gates of Hell trilogy (followed by The Beyond (1981) and The House by the Cemetery (1981)) is a blend of mystery and horror with MacColl and George trying to track down the source of her vision while Fabrizio Jovine’s Father Thomas racks up the victims in increasingly gory ways. The supernatural aspects of the plot defy logical explanation, with Jovine appearing and disappearing at will. It’s not a matter of lazy screenwriting, but a calculated measure to show the characters battling forces they can’t possibly understand. The resulting chaos only adds to the gut-wrenching sense of dread that Fulci cultivates throughout the picture, making this a must-see for horror fans and 80’s gore aficionados.</p>
@@ -80,91 +81,80 @@
           <span itemprop='author' itemscope itemtype='http://schema.org/Person'>
             <meta content='Frank Showalter' itemprop='name'>
           </span>
-          <h3 class='viewings-header'>Viewings</h3>
-          <ol class='viewings-list'>
-            <li class='viewing'>via Blu-ray on Thursday the 14th of June 2012</li>
-          </ol>
-          <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
-            <meta content='City of the Living Dead (1983)' itemprop='name'>
-            <h3 class='credits-header'>Credits</h3>
-            <h4>Directed by</h4>
-            <ul class='credits'>
-              <li class='credit'>Lucio Fulci</li>
-            </ul>
-            <h4>Starring</h4>
-            <ul class='credits'>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Christopher George
+          <div class='column-half'>
+            <h3 class='card-header'>Viewings</h3>
+            <ol class='plain-list'>
+              <li class='list-item'>
+                <span class='list-item-number'>
+                  1.
                 </span>
+                <div class='card-description'>
+                  via Blu-ray on Thursday the 14th of June 2012
+                </div>
               </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Catriona MacColl
-                </span>
-              </li>
-              <li class='credit' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
-                <span itemprop='name'>
-                  Carlo De Mejo
-                </span>
-              </li>
-            </ul>
-            <h4>Written by</h4>
-            <ul class='credits'>
-              <li class='credit'>Lucio Fulci</li>
-              <li class='credit'>Dardano Sacchetti</li>
-              <li class='credit'>H.P. Lovecraft</li>
-            </ul>
+            </ol>
           </div>
-        </div>
-        <!-- <div class="post-meta">Started on {{ page.started | date: "%A, %b, %-d, %Y" }} and finished on {{ page.finished  | date: "%A, %b, %-d, %Y" }}.</div> -->
-        <!-- </div> -->
-        <!-- <div class="related"> -->
-        <!-- <h2>Related Posts</h2> -->
-        <!-- <ul class="related-posts"> -->
-        <!-- {% for post in site.related_posts limit:3 %} -->
-        <!-- <li> -->
-        <!-- <h3> -->
-        <!-- <a href="{{ site.baseurl }}{{ post.url }}"> -->
-        <!-- {{ post.title }} -->
-        <!-- <small>By {{ post.author }}</small> -->
-        <!-- </a> -->
-        <!-- </h3> -->
-        <!-- </li> -->
-        <!-- {% endfor %} -->
-        <!-- </ul> -->
-        <!-- </div> -->
-        <!-- %article.post -->
-        <!-- %header -->
-        <!-- %div{view.still_attributes} -->
-        <!-- .post__title -->
-        <!-- %h2= page_title(view.display_title) -->
-        <!-- = view.aka_titles -->
-        <!-- .post__slug -->
-        <!-- = view.rating -->
-        <!-- %br -->
-        <!-- = view.header_slug -->
-        <!-- .post__content -->
-        <!-- = view.text -->
-        <!-- %footer.post__footer -->
-        <!-- %h3 Viewings -->
-        <!-- %ol.viewings__list -->
-        <!-- - view.viewings.each do |viewing| -->
-        <!-- %li -->
-        <!-- via #{viewing.venue} on #{viewing.date_link} -->
-        <!-- %h3 Credits -->
-        <!-- .credits -->
-        <!-- - if view.has_poster? -->
-        <!-- .credits__poster{view.poster_attributes} -->
-        <!-- = view.credits -->
-        <!-- %nav.pagination -->
-        <!-- %ul.pagination__jump -->
-        <!-- - if view.has_previous_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__prev{view.previous_link_attributes} Older -->
-        <!-- - if view.has_next_entry? -->
-        <!-- %li -->
-        <!-- %a.pagination__jump__next{view.next_link_attributes} Newer -->
+          <div class='column-half'>
+            <div itemprop='itemReviewed' itemscope itemtype='http://schema.org/Movie'>
+              <meta content='City of the Living Dead (1983)' itemprop='name'>
+              <h3 class='card-header'>Directed by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Lucio Fulci
+                </li>
+              </ul>
+              <h3 class='card-header'>Starring</h3>
+              <ul class='plain-list'>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Christopher George
+                    <span class='role'>
+                      as Peter Bell
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Catriona MacColl
+                    <span class='role'>
+                      as Mary Woodhouse
+                    </span>
+                  </span>
+                </li>
+                <li class='card-description' itemprop='actor' itemscope itemtype='http://schema.org/Person'>
+                  <span itemprop='name'>
+                    Carlo De Mejo
+                    <span class='role'>
+                      as Gerry
+                    </span>
+                  </span>
+                </li>
+              </ul>
+              <h3 class='card-header'>Written by</h3>
+              <ul class='plain-list'>
+                <li class='card-description'>
+                  Lucio Fulci
+                  <span class='role'>
+                    (story and screenplay)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  H.P. Lovecraft
+                  <span class='role'>
+                    (inspiration) (uncredited)
+                  </span>
+                </li>
+                <li class='card-description'>
+                  Dardano Sacchetti
+                  <span class='role'>
+                    (story and screenplay)
+                  </span>
+                </li>
+              </ul>
+            </div>
+            <p class='card-description'>More at <a href="http://www.imdb.com/title/">the IMDb</a>.</p>
+          </div>
+        </article>
       </div>
       <footer class='site-footer'>
         <div class='site-footer-content'>
