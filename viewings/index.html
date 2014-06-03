@@ -1,0 +1,3254 @@
+<!DOCTYPE html>
+<html lang='en-us' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta content='text/html; charset=utf-8' http-equiv='content-type'>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1' name='viewport'>
+    <title>
+      Viewing Log | Frank's Movie Log
+    </title>
+    <link href="/stylesheets/application.css" rel="stylesheet" type="text/css" />
+    <link href='/apple-touch-icon-144-precomposed.png' rel='apple-touch-icon-precomposed' sizes='144x144'>
+    <link href='/favicon.ico' rel='shortcut icon'>
+    <link href='/feed.xml' rel='alternate' title='RSS' type='application/rss+xml'>
+    <script>
+      (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+      })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+      ga('create', 'UA-2541296-2', 'frankshowalter.com');
+      ga('send', 'pageview');
+    </script>
+    <script src='//use.typekit.net/obz2qjv.js' type='text/javascript'></script>
+    <script>
+      try{Typekit.load();}catch(e){}
+    </script>
+  </head>
+  <body>
+    <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
+    <div class='sidebar' id='sidebar'>
+      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <div class='search-wrap clearable-wrap'>
+        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+          <g transform='scale(1 -1) translate(0 -1280)'>
+            <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
+          </g>
+        </svg>
+      </div>
+      </form>
+      <nav class='sidebar-nav'>
+        <a class='sidebar-nav-item' href='/'>Home</a>
+        <a class='sidebar-nav-item active' href='/viewings'>Viewing Log</a>
+        <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
+      </nav>
+    </div>
+    <div class='wrap'>
+      <div class='masthead'>
+        <div class='container'>
+          <h1 class='masthead-title'>
+            <a href='/' title='Home'>Frank's Movie Log</a>
+          </h1>
+        </div>
+      </div>
+      <div class='container content'>
+        <div class='posts'>
+          <h2 class='list-title'>Viewing Log</h2>
+          <div class='column-one-third' data-filter-controls data-target='#viewings'>
+            <h3 class='card-header'>Filter and Sort</h3>
+            <div class="filter-control"><div class="search-wrap clearable-wrap"><input name="data-title" placeholder="Title" class="filter-text-box" data-filter-attribute="data-title" data-filter-type="text" type="text" /></div></div>
+            <div class="filter-control"><label for="year" class="filter-label">Year: </label><div class="filter-range" data-filter-attribute="data-release-date-year" data-filter-type="range" data-filter-min-value="1931" data-filter-max-value="2014"><div class="noUiSlider noUi-target"><div class="noUi-base noUi-background noUi-horizontal"><div class="noUi-origin noUi-origin-lower" style="left: 0%;"><div class="noUi-handle noUi-handle-lower"></div></div><div class="noUi-origin noUi-origin-upper" style="left: 100%;"><div class="noUi-handle noUi-handle-upper"></div></div></div></div><div class="filter-range__min">1931</div><div class="filter-range__max">2014</div></div></div>
+            <div class="filter-control"><label for="order-by" class="filter-label">Order by: </label><div class="sort-wrap"><select name="viewing-date-desc" class="filter-select" data-sorter="viewing-date-desc" data-target="#viewings"><option value="title-asc">Title</option>
+            <option value="release-date-desc">Newest</option>
+            <option value="release-date-asc">Oldest</option>
+            <option value="viewing-date-desc">Newest Viewing</option>
+            <option value="viewing-date-asc">Oldest Viewing</option>
+            </select></div></div>
+          </div>
+          <div class='column-two-thirds'>
+            <ul class='plain-list' id='viewings'>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-02-07' data-title='Inferno (1980)' data-viewing-date='2014-05-31'>
+                <div class='list-item-title'>
+                  Inferno (1980)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 31st of May 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2014' data-release-date='2014-02-06' data-title='Grand Budapest Hotel (2014), The' data-viewing-date='2014-05-29'>
+                <div class='list-item-title'>
+                  The Grand Budapest Hotel (2014)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 29th of May 2014 via Angelika Film Center Mosaic.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-10-01' data-title='Re-Animator (1985)' data-viewing-date='2014-05-24'>
+                <div class='list-item-title'>
+                  Re-Animator (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of May 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2014' data-release-date='2014-05-10' data-title='X-Men: Days of Future Past (2014)' data-viewing-date='2014-05-22'>
+                <div class='list-item-title'>
+                  X-Men: Days of Future Past (2014)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 22nd of May 2014 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2014' data-release-date='2014-03-08' data-title='Neighbors (2014/I)' data-viewing-date='2014-05-22'>
+                <div class='list-item-title'>
+                  Neighbors (2014/I)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 22nd of May 2014 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1970' data-release-date='1970-02-19' data-title='Bird with the Crystal Plumage (1970), The' data-viewing-date='2014-05-17'>
+                <div class='list-item-title'>
+                  The Bird with the Crystal Plumage (1970)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 17th of May 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-04-11' data-title='Pain &amp; Gain (2013)' data-viewing-date='2014-05-11'>
+                <div class='list-item-title'>
+                  Pain & Gain (2013)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 11th of May 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-11-13' data-title='Running Man (1987), The' data-viewing-date='2014-05-10'>
+                <div class='list-item-title'>
+                  The Running Man (1987)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 10th of May 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-08-04' data-title='100 Bloody Acres (2012)' data-viewing-date='2014-05-10'>
+                <div class='list-item-title'>
+                  100 Bloody Acres (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 10th of May 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1992' data-release-date='1992-09-11' data-title='Candyman (1992)' data-viewing-date='2014-05-03'>
+                <div class='list-item-title'>
+                  Candyman (1992)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 3rd of May 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-18' data-title='Don Jon (2013)' data-viewing-date='2014-04-26'>
+                <div class='list-item-title'>
+                  Don Jon (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 26th of April 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-11-24' data-title='Anchorman 2: The Legend Continues (2013)' data-viewing-date='2014-04-20'>
+                <div class='list-item-title'>
+                  Anchorman 2: The Legend Continues (2013)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 20th of April 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-03-06' data-title='Angel Heart (1987)' data-viewing-date='2014-04-13'>
+                <div class='list-item-title'>
+                  Angel Heart (1987)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 13th of April 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-26' data-title="Frankenstein's Army (2013)" data-viewing-date='2014-04-12'>
+                <div class='list-item-title'>
+                  Frankenstein's Army (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 12th of April 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2014' data-release-date='2014-03-13' data-title='Captain America: The Winter Soldier (2014)' data-viewing-date='2014-04-10'>
+                <div class='list-item-title'>
+                  Captain America: The Winter Soldier (2014)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 10th of April 2014 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2004' data-release-date='2004-04-16' data-title='Kill Bill: Vol. 2 (2004)' data-viewing-date='2014-03-29'>
+                <div class='list-item-title'>
+                  Kill Bill: Vol. 2 (2004)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 29th of March 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1975' data-release-date='1975-04-27' data-title='Death Race 2000 (1975)' data-viewing-date='2014-03-29'>
+                <div class='list-item-title'>
+                  Death Race 2000 (1975)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 29th of March 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-04-09' data-title='Sexy Evil Genius (2013) (V)' data-viewing-date='2014-03-22'>
+                <div class='list-item-title'>
+                  Sexy Evil Genius (2013) (V)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 22nd of March 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-07-05' data-title='Man of Tai Chi (2013)' data-viewing-date='2014-03-22'>
+                <div class='list-item-title'>
+                  Man of Tai Chi (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 22nd of March 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-12-11' data-title='Nightmare City (1983)' data-viewing-date='2014-03-15'>
+                <div class='list-item-title'>
+                  Nightmare City (1983)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 15th of March 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-09-15' data-title='Blood and Bone (2009)' data-viewing-date='2014-03-08'>
+                <div class='list-item-title'>
+                  Blood and Bone (2009)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 8th of March 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2003' data-release-date='2003-10-10' data-title='Kill Bill: Vol. 1 (2003)' data-viewing-date='2014-02-16'>
+                <div class='list-item-title'>
+                  Kill Bill: Vol. 1 (2003)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 16th of February 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1990' data-release-date='1990-05-04' data-title='Tales from the Darkside: The Movie (1990)' data-viewing-date='2014-02-15'>
+                <div class='list-item-title'>
+                  Tales from the Darkside: The Movie (1990)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 15th of February 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-21' data-title='Upstream Color (2013)' data-viewing-date='2014-02-15'>
+                <div class='list-item-title'>
+                  Upstream Color (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 15th of February 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-07-03' data-title='Day of the Dead (1985)' data-viewing-date='2014-02-08'>
+                <div class='list-item-title'>
+                  Day of the Dead (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 8th of February 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-01-01' data-title='Dracula 3D (2012)' data-viewing-date='2014-02-01'>
+                <div class='list-item-title'>
+                  Dracula 3D (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 1st of February 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-10-22' data-title='Ninja (2009)' data-viewing-date='2014-01-27'>
+                <div class='list-item-title'>
+                  Ninja (2009)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 27th of January 2014 via Amazon Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-05-15' data-title='Return of the Living Dead (1985), The' data-viewing-date='2014-01-25'>
+                <div class='list-item-title'>
+                  The Return of the Living Dead (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of January 2014 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1976' data-release-date='1976-11-01' data-title='Assault on Precinct 13 (1976)' data-viewing-date='2014-01-25'>
+                <div class='list-item-title'>
+                  Assault on Precinct 13 (1976)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-01-22' data-title='Catechism Cataclysm (2011), The' data-viewing-date='2014-01-18'>
+                <div class='list-item-title'>
+                  The Catechism Cataclysm (2011)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-01-21' data-title='Wrong (2012/I)' data-viewing-date='2014-01-18'>
+                <div class='list-item-title'>
+                  Wrong (2012/I)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1993' data-release-date='1993-09-01' data-title='Kalifornia (1993)' data-viewing-date='2014-01-18'>
+                <div class='list-item-title'>
+                  Kalifornia (1993)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2005' data-release-date='2005-09-17' data-title='Hostel (2005)' data-viewing-date='2014-01-11'>
+                <div class='list-item-title'>
+                  Hostel (2005)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 11th of January 2014 via Amazon Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-09-20' data-title='Ninja: Shadow of a Tear (2013)' data-viewing-date='2014-01-11'>
+                <div class='list-item-title'>
+                  Ninja: Shadow of a Tear (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 11th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-12' data-title='Last Stand (2013), The' data-viewing-date='2014-01-11'>
+                <div class='list-item-title'>
+                  The Last Stand (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 11th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2006' data-release-date='2006-09-09' data-title='All the Boys Love Mandy Lane (2006)' data-viewing-date='2014-01-04'>
+                <div class='list-item-title'>
+                  All the Boys Love Mandy Lane (2006)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of January 2014 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-12-12' data-title='American Hustle (2013)' data-viewing-date='2014-01-02'>
+                <div class='list-item-title'>
+                  American Hustle (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 2nd of January 2014 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-01-26' data-title='I Melt with You (2011)' data-viewing-date='2013-12-31'>
+                <div class='list-item-title'>
+                  I Melt with You (2011)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 31st of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-12-22' data-title='Yellow Sea (2011), The' data-viewing-date='2013-12-28'>
+                <div class='list-item-title'>
+                  The Yellow Sea (2011)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-12-17' data-title='Wolf of Wall Street (2013), The' data-viewing-date='2013-12-27'>
+                <div class='list-item-title'>
+                  The Wolf of Wall Street (2013)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of December 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-11-24' data-title='Anchorman 2: The Legend Continues (2013)' data-viewing-date='2013-12-27'>
+                <div class='list-item-title'>
+                  Anchorman 2: The Legend Continues (2013)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of December 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1999' data-release-date='1999-02-16' data-title='eXistenZ (1999)' data-viewing-date='2013-12-21'>
+                <div class='list-item-title'>
+                  eXistenZ (1999)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-01-01' data-title='Perfect Host (2010), The' data-viewing-date='2013-12-21'>
+                <div class='list-item-title'>
+                  The Perfect Host (2010)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-09-06' data-title='Fear Me Not (2008)' data-viewing-date='2013-12-14'>
+                <div class='list-item-title'>
+                  Fear Me Not (2008)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-06-28' data-title='Berberian Sound Studio (2012)' data-viewing-date='2013-12-14'>
+                <div class='list-item-title'>
+                  Berberian Sound Studio (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-02-01' data-title='Bullhead (2011)' data-viewing-date='2013-12-11'>
+                <div class='list-item-title'>
+                  Bullhead (2011)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 11th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-10-01' data-title='Bronson (2008)' data-viewing-date='2013-12-08'>
+                <div class='list-item-title'>
+                  Bronson (2008)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-04-22' data-title='Resolution (2012/III)' data-viewing-date='2013-12-07'>
+                <div class='list-item-title'>
+                  Resolution (2012/III)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1996' data-release-date='1996-01-20' data-title='Hard Eight (1996)' data-viewing-date='2013-12-06'>
+                <div class='list-item-title'>
+                  Hard Eight (1996)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 6th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1998' data-release-date='1998-11-27' data-title='Wisdom of Crocodiles (1998), The' data-viewing-date='2013-12-04'>
+                <div class='list-item-title'>
+                  The Wisdom of Crocodiles (1998)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 4th of December 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-04-25' data-title='House of the Devil (2009), The' data-viewing-date='2013-11-30'>
+                <div class='list-item-title'>
+                  The House of the Devil (2009)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 30th of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-10-30' data-title='Thor: The Dark World (2013)' data-viewing-date='2013-11-25'>
+                <div class='list-item-title'>
+                  Thor: The Dark World (2013)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 25th of November 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-06-01' data-title='Exam (2009)' data-viewing-date='2013-11-23'>
+                <div class='list-item-title'>
+                  Exam (2009)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 23rd of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1986' data-release-date='1986-07-18' data-title='Vamp (1986)' data-viewing-date='2013-11-22'>
+                <div class='list-item-title'>
+                  Vamp (1986)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 22nd of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-09-01' data-title='Kiss of the Damned (2012)' data-viewing-date='2013-11-18'>
+                <div class='list-item-title'>
+                  Kiss of the Damned (2012)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 18th of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-05-22' data-title='Only God Forgives (2013)' data-viewing-date='2013-11-16'>
+                <div class='list-item-title'>
+                  Only God Forgives (2013)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 16th of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-03-12' data-title='Kill List (2011)' data-viewing-date='2013-11-10'>
+                <div class='list-item-title'>
+                  Kill List (2011)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 10th of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1999' data-release-date='1999-08-25' data-title='Ninth Gate (1999), The' data-viewing-date='2013-11-06'>
+                <div class='list-item-title'>
+                  The Ninth Gate (1999)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 6th of November 2013 via Amazon Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-09-09' data-title='Warrior (2011)' data-viewing-date='2013-11-04'>
+                <div class='list-item-title'>
+                  Warrior (2011)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 4th of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-02-09' data-title='True Legend (2010)' data-viewing-date='2013-11-03'>
+                <div class='list-item-title'>
+                  True Legend (2010)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 3rd of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-02-24' data-title='Drive Angry (2011)' data-viewing-date='2013-11-02'>
+                <div class='list-item-title'>
+                  Drive Angry (2011)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 2nd of November 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-01-17' data-title='In Bruges (2008)' data-viewing-date='2013-11-02'>
+                <div class='list-item-title'>
+                  In Bruges (2008)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 2nd of November 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-05-13' data-title='Hellraiser (1987)' data-viewing-date='2013-10-31'>
+                <div class='list-item-title'>
+                  Hellraiser (1987)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 31st of October 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-01-26' data-title='Let the Right One In (2008)' data-viewing-date='2013-10-31'>
+                <div class='list-item-title'>
+                  Let the Right One In (2008)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 31st of October 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-06-25' data-title='Giallo (2009)' data-viewing-date='2013-10-29'>
+                <div class='list-item-title'>
+                  Giallo (2009)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 29th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-02-01' data-title='Chaser (2008), The' data-viewing-date='2013-10-29'>
+                <div class='list-item-title'>
+                  The Chaser (2008)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 29th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-02-08' data-title='Side Effects (2013)' data-viewing-date='2013-10-27'>
+                <div class='list-item-title'>
+                  Side Effects (2013)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 27th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1988' data-release-date='1988-06-01' data-title='Pumpkinhead (1988)' data-viewing-date='2013-10-26'>
+                <div class='list-item-title'>
+                  Pumpkinhead (1988)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 26th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-05-01' data-title='Wake in Fright (1971)' data-viewing-date='2013-10-25'>
+                <div class='list-item-title'>
+                  Wake in Fright (1971)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 25th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-02-24' data-title='Wanderlust (2012)' data-viewing-date='2013-10-13'>
+                <div class='list-item-title'>
+                  Wanderlust (2012)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 13th of October 2013 via HBO HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-08-12' data-title='I Saw the Devil (2010)' data-viewing-date='2013-10-12'>
+                <div class='list-item-title'>
+                  I Saw the Devil (2010)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 12th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1974' data-release-date='1974-10-01' data-title='Gambler (1974), The' data-viewing-date='2013-10-09'>
+                <div class='list-item-title'>
+                  The Gambler (1974)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 9th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-01-18' data-title='Wave (2008), The' data-viewing-date='2013-10-08'>
+                <div class='list-item-title'>
+                  The Wave (2008)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 8th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2006' data-release-date='2006-11-01' data-title='Tell No One (2007)' data-viewing-date='2013-10-06'>
+                <div class='list-item-title'>
+                  Tell No One (2007)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 6th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2006' data-release-date='2006-03-31' data-title='Slither (2006)' data-viewing-date='2013-10-05'>
+                <div class='list-item-title'>
+                  Slither (2006)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 5th of October 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1982' data-release-date='1982-08-13' data-title='Friday the 13th Part III (1982)' data-viewing-date='2013-09-27'>
+                <div class='list-item-title'>
+                  Friday the 13th Part III (1982)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of September 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-05-01' data-title='Friday the 13th Part 2 (1981)' data-viewing-date='2013-09-21'>
+                <div class='list-item-title'>
+                  Friday the 13th Part 2 (1981)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of September 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-08-04' data-title='Campaign (2012), The' data-viewing-date='2013-09-14'>
+                <div class='list-item-title'>
+                  The Campaign (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of September 2013 via HBO HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-05-09' data-title='Friday the 13th (1980)' data-viewing-date='2013-09-13'>
+                <div class='list-item-title'>
+                  Friday the 13th (1980)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of September 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2001' data-release-date='2001-07-01' data-title='Session 9 (2001)' data-viewing-date='2013-09-07'>
+                <div class='list-item-title'>
+                  Session 9 (2001)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of September 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1995' data-release-date='1995-01-13' data-title='Tales from the Crypt: Demon Knight (1995)' data-viewing-date='2013-09-01'>
+                <div class='list-item-title'>
+                  Tales from the Crypt: Demon Knight (1995)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 1st of September 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-07-10' data-title="World's End (2013), The" data-viewing-date='2013-08-29'>
+                <div class='list-item-title'>
+                  The World's End (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 29th of August 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-09-10' data-title="You're Next (2011)" data-viewing-date='2013-08-29'>
+                <div class='list-item-title'>
+                  You're Next (2011)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 29th of August 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-08-07' data-title='Elysium (2013/I)' data-viewing-date='2013-08-15'>
+                <div class='list-item-title'>
+                  Elysium (2013/I)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 15th of August 2013 via Angelika Film Center Mosaic.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-05-23' data-title='Escape from New York (1981)' data-viewing-date='2013-08-08'>
+                <div class='list-item-title'>
+                  Escape from New York (1981)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 8th of August 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-01' data-title='Pacific Rim (2013)' data-viewing-date='2013-07-22'>
+                <div class='list-item-title'>
+                  Pacific Rim (2013)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 22nd of July 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2001' data-release-date='2001-09-10' data-title='Heist (2001)' data-viewing-date='2013-07-05'>
+                <div class='list-item-title'>
+                  Heist (2001)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 5th of July 2013 via HBO HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-06-10' data-title='Man of Steel (2013)' data-viewing-date='2013-06-20'>
+                <div class='list-item-title'>
+                  Man of Steel (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 20th of June 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2000' data-release-date='2000-09-13' data-title='Sexy Beast (2000)' data-viewing-date='2013-06-15'>
+                <div class='list-item-title'>
+                  Sexy Beast (2000)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 15th of June 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-09-06' data-title='Pontypool (2008)' data-viewing-date='2013-06-15'>
+                <div class='list-item-title'>
+                  Pontypool (2008)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 15th of June 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-12-07' data-title='Mission: Impossible - Ghost Protocol (2011)' data-viewing-date='2013-06-03'>
+                <div class='list-item-title'>
+                  Mission: Impossible - Ghost Protocol (2011)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 3rd of June 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2006' data-release-date='2006-07-18' data-title='Severance (2006)' data-viewing-date='2013-05-26'>
+                <div class='list-item-title'>
+                  Severance (2006)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 26th of May 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-01-23' data-title='John Dies at the End (2012)' data-viewing-date='2013-05-25'>
+                <div class='list-item-title'>
+                  John Dies at the End (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of May 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2003' data-release-date='2003-09-22' data-title='Rundown (2003), The' data-viewing-date='2013-05-10'>
+                <div class='list-item-title'>
+                  The Rundown (2003)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 10th of May 2013 via HBO HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-04-18' data-title='Iron Man 3 (2013)' data-viewing-date='2013-05-02'>
+                <div class='list-item-title'>
+                  Iron Man 3 (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 2nd of May 2013 via Alamo Drafthouse Cinema - One Loudoun.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-09-05' data-title='Tinker Tailor Soldier Spy (2011)' data-viewing-date='2013-04-30'>
+                <div class='list-item-title'>
+                  Tinker Tailor Soldier Spy (2011)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 30th of April 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-03-22' data-title='Last Dragon (1985), The' data-viewing-date='2013-04-28'>
+                <div class='list-item-title'>
+                  The Last Dragon (1985)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 28th of April 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-09-07' data-title='Place Beyond the Pines (2012), The' data-viewing-date='2013-04-25'>
+                <div class='list-item-title'>
+                  The Place Beyond the Pines (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 25th of April 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-03-08' data-title='Evil Dead (2013)' data-viewing-date='2013-04-11'>
+                <div class='list-item-title'>
+                  Evil Dead (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 11th of April 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1992' data-release-date='1992-09-01' data-title='Glengarry Glen Ross (1992)' data-viewing-date='2013-04-05'>
+                <div class='list-item-title'>
+                  Glengarry Glen Ross (1992)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 5th of April 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-12-17' data-title='El Dorado (1966)' data-viewing-date='2013-03-23'>
+                <div class='list-item-title'>
+                  El Dorado (1966)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 23rd of March 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2007' data-release-date='2007-09-20' data-title='Timecrimes (2008)' data-viewing-date='2013-03-16'>
+                <div class='list-item-title'>
+                  Timecrimes (2008)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 16th of March 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1961' data-release-date='1961-12-15' data-title='One, Two, Three (1961)' data-viewing-date='2013-03-09'>
+                <div class='list-item-title'>
+                  One, Two, Three (1961)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 9th of March 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-05-22' data-title='Wendy and Lucy (2008)' data-viewing-date='2013-03-08'>
+                <div class='list-item-title'>
+                  Wendy and Lucy (2008)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 8th of March 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-05-19' data-title='Lawless (2012)' data-viewing-date='2013-03-06'>
+                <div class='list-item-title'>
+                  Lawless (2012)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 6th of March 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-06-17' data-title='Terror (1963), The' data-viewing-date='2013-03-05'>
+                <div class='list-item-title'>
+                  The Terror (1963)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 5th of March 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1961' data-release-date='1961-06-06' data-title='Deadly Companions (1961), The' data-viewing-date='2013-03-02'>
+                <div class='list-item-title'>
+                  The Deadly Companions (1961)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 2nd of March 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1942' data-release-date='1942-10-22' data-title='Boogie Man Will Get You (1942), The' data-viewing-date='2013-03-01'>
+                <div class='list-item-title'>
+                  The Boogie Man Will Get You (1942)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 1st of March 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2007' data-release-date='2007-06-10' data-title='Man from Earth (2007), The' data-viewing-date='2013-02-17'>
+                <div class='list-item-title'>
+                  The Man from Earth (2007)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 17th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-04-26' data-title='Iron Man 2 (2010)' data-viewing-date='2013-02-17'>
+                <div class='list-item-title'>
+                  Iron Man 2 (2010)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 17th of February 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-04-14' data-title='Iron Man (2008)' data-viewing-date='2013-02-17'>
+                <div class='list-item-title'>
+                  Iron Man (2008)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 17th of February 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-05-18' data-title='Antichrist (2009)' data-viewing-date='2013-02-16'>
+                <div class='list-item-title'>
+                  Antichrist (2009)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 16th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-05-11' data-title='Midnight in Paris (2011)' data-viewing-date='2013-02-16'>
+                <div class='list-item-title'>
+                  Midnight in Paris (2011)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 16th of February 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-03-09' data-title='Cabin in the Woods (2012), The' data-viewing-date='2013-02-16'>
+                <div class='list-item-title'>
+                  The Cabin in the Woods (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 16th of February 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-08-09' data-title='Pray for Death (1985)' data-viewing-date='2013-02-15'>
+                <div class='list-item-title'>
+                  Pray for Death (1985)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 15th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1998' data-release-date='1998-06-25' data-title='Croupier (1998)' data-viewing-date='2013-02-15'>
+                <div class='list-item-title'>
+                  Croupier (1998)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 15th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-02-11' data-title='Iron Sky (2012)' data-viewing-date='2013-02-09'>
+                <div class='list-item-title'>
+                  Iron Sky (2012)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 9th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2004' data-release-date='2004-01-16' data-title='Primer (2004)' data-viewing-date='2013-02-09'>
+                <div class='list-item-title'>
+                  Primer (2004)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 9th of February 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-05-16' data-title='Moonrise Kingdom (2012)' data-viewing-date='2013-02-01'>
+                <div class='list-item-title'>
+                  Moonrise Kingdom (2012)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 1st of February 2013 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1974' data-release-date='1974-07-24' data-title='Death Wish (1974)' data-viewing-date='2013-01-31'>
+                <div class='list-item-title'>
+                  Death Wish (1974)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 31st of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-04-30' data-title='Big Doll House (1971), The' data-viewing-date='2013-01-31'>
+                <div class='list-item-title'>
+                  The Big Doll House (1971)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 31st of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2013' data-release-date='2013-01-18' data-title='Parker (2013)' data-viewing-date='2013-01-31'>
+                <div class='list-item-title'>
+                  Parker (2013)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 31st of January 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1944' data-release-date='1944-04-24' data-title='Double Indemnity (1944)' data-viewing-date='2013-01-27'>
+                <div class='list-item-title'>
+                  Double Indemnity (1944)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 27th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-07-16' data-title='Theatre Bizarre (2011), The' data-viewing-date='2013-01-26'>
+                <div class='list-item-title'>
+                  The Theatre Bizarre (2011)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 26th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2001' data-release-date='2001-01-23' data-title='Wet Hot American Summer (2001)' data-viewing-date='2013-01-20'>
+                <div class='list-item-title'>
+                  Wet Hot American Summer (2001)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 20th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-10-23' data-title='Prince of Darkness (1987)' data-viewing-date='2013-01-20'>
+                <div class='list-item-title'>
+                  Prince of Darkness (1987)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 20th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1955' data-release-date='1955-09-02' data-title='Left Hand of God (1955), The' data-viewing-date='2013-01-20'>
+                <div class='list-item-title'>
+                  The Left Hand of God (1955)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 20th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-11-13' data-title='McLintock! (1963)' data-viewing-date='2013-01-19'>
+                <div class='list-item-title'>
+                  McLintock! (1963)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 19th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1952' data-release-date='1952-12-11' data-title='Angel Face (1952)' data-viewing-date='2013-01-19'>
+                <div class='list-item-title'>
+                  Angel Face (1952)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 19th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1953' data-release-date='1953-07-18' data-title='Second Chance (1953)' data-viewing-date='2013-01-19'>
+                <div class='list-item-title'>
+                  Second Chance (1953)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 19th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-08-09' data-title='I Love You Again (1940)' data-viewing-date='2013-01-19'>
+                <div class='list-item-title'>
+                  I Love You Again (1940)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 19th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-12-10' data-title='Jack Reacher (2012)' data-viewing-date='2013-01-17'>
+                <div class='list-item-title'>
+                  Jack Reacher (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 17th of January 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1986' data-release-date='1986-02-14' data-title='TerrorVision (1986)' data-viewing-date='2013-01-12'>
+                <div class='list-item-title'>
+                  TerrorVision (1986)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 12th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1986' data-release-date='1986-08-22' data-title='Night of the Creeps (1986)' data-viewing-date='2013-01-12'>
+                <div class='list-item-title'>
+                  Night of the Creeps (1986)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 12th of January 2013 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1989' data-release-date='1989-05-01' data-title='Warlock (1989)' data-viewing-date='2013-01-05'>
+                <div class='list-item-title'>
+                  Warlock (1989)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 5th of January 2013 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-12-25' data-title='Django Unchained (2012)' data-viewing-date='2013-01-03'>
+                <div class='list-item-title'>
+                  Django Unchained (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 3rd of January 2013 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-09-29' data-title='Barefoot Contessa (1954), The' data-viewing-date='2012-12-30'>
+                <div class='list-item-title'>
+                  The Barefoot Contessa (1954)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 30th of December 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1973' data-release-date='1973-03-07' data-title='Long Goodbye (1973), The' data-viewing-date='2012-12-30'>
+                <div class='list-item-title'>
+                  The Long Goodbye (1973)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 30th of December 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-08-04' data-title='Headhunters (2011)' data-viewing-date='2012-12-28'>
+                <div class='list-item-title'>
+                  Headhunters (2011)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 28th of December 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1973' data-release-date='1973-04-30' data-title="Lemora: A Child's Tale of the Supernatural (1973)" data-viewing-date='2012-12-26'>
+                <div class='list-item-title'>
+                  Lemora: A Child's Tale of the Supernatural (1973)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 26th of December 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-09-08' data-title='Silver Linings Playbook (2012)' data-viewing-date='2012-12-20'>
+                <div class='list-item-title'>
+                  Silver Linings Playbook (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 20th of December 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-11-28' data-title='Hobbit: An Unexpected Journey (2012), The' data-viewing-date='2012-12-13'>
+                <div class='list-item-title'>
+                  The Hobbit: An Unexpected Journey (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 13th of December 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1973' data-release-date='1973-09-23' data-title='Harry in Your Pocket (1973)' data-viewing-date='2012-11-23'>
+                <div class='list-item-title'>
+                  Harry in Your Pocket (1973)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 23rd of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2002' data-release-date='2002-12-06' data-title='Equilibrium (2002)' data-viewing-date='2012-11-23'>
+                <div class='list-item-title'>
+                  Equilibrium (2002)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 23rd of November 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1976' data-release-date='1976-11-14' data-title='Network (1976)' data-viewing-date='2012-11-22'>
+                <div class='list-item-title'>
+                  Network (1976)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 22nd of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-01-01' data-title='Miami Connection (1987)' data-viewing-date='2012-11-17'>
+                <div class='list-item-title'>
+                  Miami Connection (1987)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 17th of November 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-05-20' data-title='Maniac (1963)' data-viewing-date='2012-11-16'>
+                <div class='list-item-title'>
+                  Maniac (1963)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 16th of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1967' data-release-date='1967-09-01' data-title='Games (1967)' data-viewing-date='2012-11-11'>
+                <div class='list-item-title'>
+                  Games (1967)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 11th of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1962' data-release-date='1962-05-16' data-title='Cash on Demand (1962)' data-viewing-date='2012-11-09'>
+                <div class='list-item-title'>
+                  Cash on Demand (1962)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 9th of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1968' data-release-date='1968-11-07' data-title='Dracula Has Risen from the Grave (1968)' data-viewing-date='2012-11-09'>
+                <div class='list-item-title'>
+                  Dracula Has Risen from the Grave (1968)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 9th of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-10-23' data-title='Skyfall (2012)' data-viewing-date='2012-11-08'>
+                <div class='list-item-title'>
+                  Skyfall (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 8th of November 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-01-09' data-title='Dracula: Prince of Darkness (1966)' data-viewing-date='2012-11-03'>
+                <div class='list-item-title'>
+                  Dracula: Prince of Darkness (1966)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 3rd of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1991' data-release-date='1991-10-05' data-title='Story of Ricky (1991)' data-viewing-date='2012-11-03'>
+                <div class='list-item-title'>
+                  Story of Ricky (1991)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 3rd of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1968' data-release-date='1968-07-20' data-title='Devil Rides Out (1968), The' data-viewing-date='2012-11-02'>
+                <div class='list-item-title'>
+                  The Devil Rides Out (1968)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 2nd of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-01-01' data-title='Lisa and the Devil (1976)' data-viewing-date='2012-11-01'>
+                <div class='list-item-title'>
+                  Lisa and the Devil (1976)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 1st of November 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1947' data-release-date='1947-01-02' data-title='Dead Reckoning (1947)' data-viewing-date='2012-11-01'>
+                <div class='list-item-title'>
+                  Dead Reckoning (1947)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 1st of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1959' data-release-date='1959-07-05' data-title='Big Circus (1959), The' data-viewing-date='2012-11-01'>
+                <div class='list-item-title'>
+                  The Big Circus (1959)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 1st of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1957' data-release-date='1957-04-20' data-title='Spirit of St. Louis (1957), The' data-viewing-date='2012-11-01'>
+                <div class='list-item-title'>
+                  The Spirit of St. Louis (1957)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 1st of November 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1978' data-release-date='1978-10-01' data-title='Halloween (1978)' data-viewing-date='2012-10-30'>
+                <div class='list-item-title'>
+                  Halloween (1978)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 30th of October 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-01-09' data-title='Plague of the Zombies (1966), The' data-viewing-date='2012-10-28'>
+                <div class='list-item-title'>
+                  The Plague of the Zombies (1966)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 28th of October 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1959' data-release-date='1959-05-04' data-title='Hound of the Baskervilles (1959), The' data-viewing-date='2012-10-28'>
+                <div class='list-item-title'>
+                  The Hound of the Baskervilles (1959)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 28th of October 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-02-25' data-title='Baron Blood (1972)' data-viewing-date='2012-10-27'>
+                <div class='list-item-title'>
+                  Baron Blood (1972)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 27th of October 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-01-01' data-title='Bride of Frankenstein (1935), The' data-viewing-date='2012-10-24'>
+                <div class='list-item-title'>
+                  The Bride of Frankenstein (1935)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 24th of October 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1931' data-release-date='1931-11-21' data-title='Frankenstein (1931)' data-viewing-date='2012-10-24'>
+                <div class='list-item-title'>
+                  Frankenstein (1931)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 24th of October 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-09-08' data-title='Bay of Blood (1972), A' data-viewing-date='2012-10-20'>
+                <div class='list-item-title'>
+                  A Bay of Blood (1972)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 20th of October 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1975' data-release-date='1975-07-02' data-title='Bucktown (1975)' data-viewing-date='2012-10-14'>
+                <div class='list-item-title'>
+                  Bucktown (1975)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 14th of October 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-10-14' data-title='We Are the Night (2010)' data-viewing-date='2012-10-14'>
+                <div class='list-item-title'>
+                  We Are the Night (2010)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 14th of October 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-09-06' data-title='Looper (2012)' data-viewing-date='2012-10-11'>
+                <div class='list-item-title'>
+                  Looper (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 11th of October 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1976' data-release-date='1976-12-24' data-title='Town That Dreaded Sundown (1976), The' data-viewing-date='2012-10-07'>
+                <div class='list-item-title'>
+                  The Town That Dreaded Sundown (1976)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 7th of October 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-07-11' data-title='Dredd (2012)' data-viewing-date='2012-09-27'>
+                <div class='list-item-title'>
+                  Dredd (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 27th of September 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-06-12' data-title='Raiders of the Lost Ark (1981)' data-viewing-date='2012-09-13'>
+                <div class='list-item-title'>
+                  Raiders of the Lost Ark (1981)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 13th of September 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-12-04' data-title='Animals (2008/I)' data-viewing-date='2012-09-09'>
+                <div class='list-item-title'>
+                  Animals (2008/I)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 9th of September 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1973' data-release-date='1973-06-15' data-title='Legend of Hell House (1973), The' data-viewing-date='2012-09-08'>
+                <div class='list-item-title'>
+                  The Legend of Hell House (1973)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 8th of September 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-01-22' data-title='Tucker &amp; Dale vs. Evil (2010)' data-viewing-date='2012-09-02'>
+                <div class='list-item-title'>
+                  Tucker & Dale vs. Evil (2010)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 2nd of September 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-09-09' data-title='God Bless America (2011)' data-viewing-date='2012-08-31'>
+                <div class='list-item-title'>
+                  God Bless America (2011)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 31st of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1988' data-release-date='1988-07-08' data-title='Phantasm II (1988)' data-viewing-date='2012-08-30'>
+                <div class='list-item-title'>
+                  Phantasm II (1988)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 30th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1983' data-release-date='1983-09-07' data-title='Revenge of the Ninja (1983)' data-viewing-date='2012-08-29'>
+                <div class='list-item-title'>
+                  Revenge of the Ninja (1983)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 29th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-09-10' data-title='Everything Must Go (2010)' data-viewing-date='2012-08-29'>
+                <div class='list-item-title'>
+                  Everything Must Go (2010)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 29th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-08-03' data-title='Expendables (2010), The' data-viewing-date='2012-08-17'>
+                <div class='list-item-title'>
+                  The Expendables (2010)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 17th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1997' data-release-date='1997-09-12' data-title='Game (1997), The' data-viewing-date='2012-08-11'>
+                <div class='list-item-title'>
+                  The Game (1997)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 11th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1974' data-release-date='1974-04-01' data-title='Frankenstein and the Monster from Hell (1973)' data-viewing-date='2012-08-10'>
+                <div class='list-item-title'>
+                  Frankenstein and the Monster from Hell (1973)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 10th of August 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-06-24' data-title='Magic Mike (2012)' data-viewing-date='2012-08-09'>
+                <div class='list-item-title'>
+                  Magic Mike (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 9th of August 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-06-29' data-title='Ted (2012)' data-viewing-date='2012-08-02'>
+                <div class='list-item-title'>
+                  Ted (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 2nd of August 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-08-02' data-title='Fright Night (1985)' data-viewing-date='2012-07-30'>
+                <div class='list-item-title'>
+                  Fright Night (1985)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 30th of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-11-03' data-title='Godzilla (1954)' data-viewing-date='2012-07-23'>
+                <div class='list-item-title'>
+                  Godzilla (1954)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 23rd of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1948' data-release-date='1948-03-25' data-title='Mr. Blandings Builds His Dream House (1948)' data-viewing-date='2012-07-21'>
+                <div class='list-item-title'>
+                  Mr. Blandings Builds His Dream House (1948)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of July 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-07-16' data-title='Dark Knight Rises (2012), The' data-viewing-date='2012-07-19'>
+                <div class='list-item-title'>
+                  The Dark Knight Rises (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 19th of July 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2008' data-release-date='2008-07-14' data-title='Dark Knight (2008), The' data-viewing-date='2012-07-19'>
+                <div class='list-item-title'>
+                  The Dark Knight (2008)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 19th of July 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2005' data-release-date='2005-06-10' data-title='Batman Begins (2005)' data-viewing-date='2012-07-19'>
+                <div class='list-item-title'>
+                  Batman Begins (2005)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 19th of July 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-08-21' data-title='American Werewolf in London (1981), An' data-viewing-date='2012-07-16'>
+                <div class='list-item-title'>
+                  An American Werewolf in London (1981)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 16th of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-01-20' data-title='Cash McCall (1960)' data-viewing-date='2012-07-15'>
+                <div class='list-item-title'>
+                  Cash McCall (1960)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 15th of July 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-10-04' data-title='Commando (1985)' data-viewing-date='2012-07-14'>
+                <div class='list-item-title'>
+                  Commando (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of July 2012 via AFI Silver.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1984' data-release-date='1984-06-08' data-title='Gremlins (1984)' data-viewing-date='2012-07-09'>
+                <div class='list-item-title'>
+                  Gremlins (1984)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-08-14' data-title='Monster Squad (1987), The' data-viewing-date='2012-07-09'>
+                <div class='list-item-title'>
+                  The Monster Squad (1987)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-08-02' data-title='Fright Night (1985)' data-viewing-date='2012-07-08'>
+                <div class='list-item-title'>
+                  Fright Night (1985)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of July 2012 via AFI Silver.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1958' data-release-date='1958-05-09' data-title='Vertigo (1958)' data-viewing-date='2012-07-08'>
+                <div class='list-item-title'>
+                  Vertigo (1958)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of July 2012 via AFI Silver.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-08-02' data-title='Fright Night (1985)' data-viewing-date='2012-07-07'>
+                <div class='list-item-title'>
+                  Fright Night (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of July 2012 via AFI Silver.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-05-25' data-title='Thin Man (1934), The' data-viewing-date='2012-07-06'>
+                <div class='list-item-title'>
+                  The Thin Man (1934)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 6th of July 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1988' data-release-date='1988-08-05' data-title='Blob (1988), The' data-viewing-date='2012-07-02'>
+                <div class='list-item-title'>
+                  The Blob (1988)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 2nd of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1982' data-release-date='1982-06-25' data-title='Thing (1982), The' data-viewing-date='2012-07-02'>
+                <div class='list-item-title'>
+                  The Thing (1982)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 2nd of July 2012 via The Black Cat.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1987' data-release-date='1987-02-27' data-title='Nightmare on Elm Street 3: Dream Warriors (1987), A' data-viewing-date='2012-06-30'>
+                <div class='list-item-title'>
+                  A Nightmare on Elm Street 3: Dream Warriors (1987)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 30th of June 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-05-30' data-title='Prometheus (2012/I)' data-viewing-date='2012-06-21'>
+                <div class='list-item-title'>
+                  Prometheus (2012/I)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 21st of June 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-08-11' data-title='City of the Living Dead (1983)' data-viewing-date='2012-06-14'>
+                <div class='list-item-title'>
+                  City of the Living Dead (1983)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 14th of June 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-11-27' data-title='Soldier in the Rain (1963)' data-viewing-date='2012-06-14'>
+                <div class='list-item-title'>
+                  Soldier in the Rain (1963)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 14th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1938' data-release-date='1938-06-15' data-title='Men Are Such Fools (1938)' data-viewing-date='2012-06-14'>
+                <div class='list-item-title'>
+                  Men Are Such Fools (1938)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 14th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1937' data-release-date='1937-01-17' data-title='Black Legion (1937)' data-viewing-date='2012-06-14'>
+                <div class='list-item-title'>
+                  Black Legion (1937)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 14th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-03-27' data-title='Thief (1981)' data-viewing-date='2012-06-13'>
+                <div class='list-item-title'>
+                  Thief (1981)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 13th of June 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1941' data-release-date='1941-04-25' data-title='Wagons Roll at Night (1941), The' data-viewing-date='2012-06-13'>
+                <div class='list-item-title'>
+                  The Wagons Roll at Night (1941)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 13th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1973' data-release-date='1973-04-20' data-title='Ganja &amp; Hess (1973)' data-viewing-date='2012-06-12'>
+                <div class='list-item-title'>
+                  Ganja & Hess (1973)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 12th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1949' data-release-date='1949-09-08' data-title='Under Capricorn (1949)' data-viewing-date='2012-06-12'>
+                <div class='list-item-title'>
+                  Under Capricorn (1949)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 12th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-08-06' data-title="Let's Scare Jessica to Death (1971)" data-viewing-date='2012-06-12'>
+                <div class='list-item-title'>
+                  Let's Scare Jessica to Death (1971)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 12th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-08-16' data-title='Foreign Correspondent (1940)' data-viewing-date='2012-06-10'>
+                <div class='list-item-title'>
+                  Foreign Correspondent (1940)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 10th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-06-23' data-title='Bells Are Ringing (1960)' data-viewing-date='2012-06-10'>
+                <div class='list-item-title'>
+                  Bells Are Ringing (1960)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 10th of June 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-05-09' data-title='Dark Shadows (2012)' data-viewing-date='2012-06-07'>
+                <div class='list-item-title'>
+                  Dark Shadows (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 7th of June 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-12-13' data-title='Clue (1985)' data-viewing-date='2012-06-01'>
+                <div class='list-item-title'>
+                  Clue (1985)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 1st of June 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-05-16' data-title='Dictator (2012), The' data-viewing-date='2012-05-23'>
+                <div class='list-item-title'>
+                  The Dictator (2012)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 23rd of May 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-07-01' data-title='Big Bird Cage (1972), The' data-viewing-date='2012-05-05'>
+                <div class='list-item-title'>
+                  The Big Bird Cage (1972)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 5th of May 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-05-23' data-title='Escape from New York (1981)' data-viewing-date='2012-05-05'>
+                <div class='list-item-title'>
+                  Escape from New York (1981)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 5th of May 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-08-14' data-title='House by the Cemetery (1984), The' data-viewing-date='2012-05-04'>
+                <div class='list-item-title'>
+                  The House by the Cemetery (1984)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 4th of May 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-04-11' data-title='Avengers (2012), The' data-viewing-date='2012-05-03'>
+                <div class='list-item-title'>
+                  The Avengers (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 3rd of May 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-04-16' data-title='Safe (2012/I)' data-viewing-date='2012-05-03'>
+                <div class='list-item-title'>
+                  Safe (2012/I)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 3rd of May 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1946' data-release-date='1946-08-23' data-title='Big Sleep (1946), The' data-viewing-date='2012-04-28'>
+                <div class='list-item-title'>
+                  The Big Sleep (1946)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of April 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1946' data-release-date='1946-08-23' data-title='Big Sleep (1946), The' data-viewing-date='2012-04-27'>
+                <div class='list-item-title'>
+                  The Big Sleep (1946)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of April 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-06-17' data-title='Night Fighters (1960), The' data-viewing-date='2012-04-25'>
+                <div class='list-item-title'>
+                  The Night Fighters (1960)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 25th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1953' data-release-date='1953-06-03' data-title='Moon Is Blue (1953), The' data-viewing-date='2012-04-24'>
+                <div class='list-item-title'>
+                  The Moon Is Blue (1953)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 24th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1939' data-release-date='1939-12-30' data-title='Invisible Stripes (1939)' data-viewing-date='2012-04-23'>
+                <div class='list-item-title'>
+                  Invisible Stripes (1939)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 23rd of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2003' data-release-date='2003-01-25' data-title='Recruit (2003), The' data-viewing-date='2012-04-22'>
+                <div class='list-item-title'>
+                  The Recruit (2003)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 22nd of April 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-09-04' data-title='Bad Lieutenant: Port of Call - New Orleans (2009), The' data-viewing-date='2012-04-21'>
+                <div class='list-item-title'>
+                  The Bad Lieutenant: Port of Call - New Orleans (2009)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of April 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-03-03' data-title='Home from the Hill (1960)' data-viewing-date='2012-04-21'>
+                <div class='list-item-title'>
+                  Home from the Hill (1960)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1967' data-release-date='1967-03-15' data-title='In Like Flint (1967)' data-viewing-date='2012-04-21'>
+                <div class='list-item-title'>
+                  In Like Flint (1967)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-12-01' data-title='Charade (1963)' data-viewing-date='2012-04-20'>
+                <div class='list-item-title'>
+                  Charade (1963)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 20th of April 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-04-04' data-title='Nighthawks (1981)' data-viewing-date='2012-04-20'>
+                <div class='list-item-title'>
+                  Nighthawks (1981)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 20th of April 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-10-09' data-title='Rampage (1963)' data-viewing-date='2012-04-14'>
+                <div class='list-item-title'>
+                  Rampage (1963)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1961' data-release-date='1961-09-25' data-title='Hustler (1961), The' data-viewing-date='2012-04-13'>
+                <div class='list-item-title'>
+                  The Hustler (1961)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of April 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-04-30' data-title='River of No Return (1954)' data-viewing-date='2012-04-13'>
+                <div class='list-item-title'>
+                  River of No Return (1954)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-03-09' data-title='Cabin in the Woods (2012), The' data-viewing-date='2012-04-12'>
+                <div class='list-item-title'>
+                  The Cabin in the Woods (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of April 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-04-04' data-title='American Reunion (2012)' data-viewing-date='2012-04-12'>
+                <div class='list-item-title'>
+                  American Reunion (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of April 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1947' data-release-date='1947-07-22' data-title='Crossfire (1947)' data-viewing-date='2012-04-09'>
+                <div class='list-item-title'>
+                  Crossfire (1947)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-09-01' data-title='Suddenly (1954)' data-viewing-date='2012-04-09'>
+                <div class='list-item-title'>
+                  Suddenly (1954)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-07-27' data-title='They Drive by Night (1940)' data-viewing-date='2012-04-09'>
+                <div class='list-item-title'>
+                  They Drive by Night (1940)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1938' data-release-date='1938-07-20' data-title='Amazing Dr. Clitterhouse (1938), The' data-viewing-date='2012-04-09'>
+                <div class='list-item-title'>
+                  The Amazing Dr. Clitterhouse (1938)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 9th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1974' data-release-date='1974-04-07' data-title='Captain Kronos - Vampire Hunter (1974)' data-viewing-date='2012-04-08'>
+                <div class='list-item-title'>
+                  Captain Kronos - Vampire Hunter (1974)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of April 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1962' data-release-date='1962-06-20' data-title='Ride the High Country (1962)' data-viewing-date='2012-04-08'>
+                <div class='list-item-title'>
+                  Ride the High Country (1962)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1957' data-release-date='1957-01-01' data-title='Sayonara (1957)' data-viewing-date='2012-04-08'>
+                <div class='list-item-title'>
+                  Sayonara (1957)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1953' data-release-date='1953-02-12' data-title='I Confess (1953)' data-viewing-date='2012-04-08'>
+                <div class='list-item-title'>
+                  I Confess (1953)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 8th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-12-19' data-title='Move Over, Darling (1963)' data-viewing-date='2012-04-07'>
+                <div class='list-item-title'>
+                  Move Over, Darling (1963)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1950' data-release-date='1950-03-01' data-title='Baron of Arizona (1950), The' data-viewing-date='2012-04-07'>
+                <div class='list-item-title'>
+                  The Baron of Arizona (1950)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1962' data-release-date='1962-06-14' data-title='That Touch of Mink (1962)' data-viewing-date='2012-04-07'>
+                <div class='list-item-title'>
+                  That Touch of Mink (1962)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1936' data-release-date='1936-05-13' data-title='Ex-Mrs. Bradford (1936), The' data-viewing-date='2012-04-07'>
+                <div class='list-item-title'>
+                  The Ex-Mrs. Bradford (1936)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 7th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1932' data-release-date='1932-07-23' data-title='Jewel Robbery (1932)' data-viewing-date='2012-04-06'>
+                <div class='list-item-title'>
+                  Jewel Robbery (1932)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 6th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1939' data-release-date='1939-02-15' data-title='Stagecoach (1939)' data-viewing-date='2012-04-06'>
+                <div class='list-item-title'>
+                  Stagecoach (1939)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 6th of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1950' data-release-date='1950-05-23' data-title='Asphalt Jungle (1950), The' data-viewing-date='2012-04-01'>
+                <div class='list-item-title'>
+                  The Asphalt Jungle (1950)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 1st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-12-01' data-title='Going Home (1971)' data-viewing-date='2012-04-01'>
+                <div class='list-item-title'>
+                  Going Home (1971)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 1st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1965' data-release-date='1965-07-01' data-title='Great Race (1965), The' data-viewing-date='2012-04-01'>
+                <div class='list-item-title'>
+                  The Great Race (1965)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 1st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1958' data-release-date='1958-10-24' data-title='Last Hurrah (1958), The' data-viewing-date='2012-04-01'>
+                <div class='list-item-title'>
+                  The Last Hurrah (1958)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 1st of April 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1957' data-release-date='1957-08-10' data-title='Rising of the Moon (1957), The' data-viewing-date='2012-03-31'>
+                <div class='list-item-title'>
+                  The Rising of the Moon (1957)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 31st of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1936' data-release-date='1936-07-28' data-title='Mary of Scotland (1936)' data-viewing-date='2012-03-31'>
+                <div class='list-item-title'>
+                  Mary of Scotland (1936)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 31st of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1962' data-release-date='1962-01-01' data-title='Cape Fear (1962)' data-viewing-date='2012-03-30'>
+                <div class='list-item-title'>
+                  Cape Fear (1962)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 30th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1956' data-release-date='1956-11-05' data-title='X: The Unknown (1956)' data-viewing-date='2012-03-30'>
+                <div class='list-item-title'>
+                  X: The Unknown (1956)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 30th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-02-22' data-title="Whole Town's Talking (1935), The" data-viewing-date='2012-03-30'>
+                <div class='list-item-title'>
+                  The Whole Town's Talking (1935)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 30th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1967' data-release-date='1967-11-01' data-title='Billion Dollar Brain (1967)' data-viewing-date='2012-03-30'>
+                <div class='list-item-title'>
+                  Billion Dollar Brain (1967)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 30th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-03-12' data-title='21 Jump Street (2012)' data-viewing-date='2012-03-29'>
+                <div class='list-item-title'>
+                  21 Jump Street (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 29th of March 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-08-01' data-title='Pulp (1972)' data-viewing-date='2012-03-28'>
+                <div class='list-item-title'>
+                  Pulp (1972)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 28th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1949' data-release-date='1949-08-19' data-title='I Was a Male War Bride (1949)' data-viewing-date='2012-03-26'>
+                <div class='list-item-title'>
+                  I Was a Male War Bride (1949)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 26th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1978' data-release-date='1978-12-15' data-title='California Suite (1978)' data-viewing-date='2012-03-26'>
+                <div class='list-item-title'>
+                  California Suite (1978)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 26th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-05-27' data-title='Wrong Box (1966), The' data-viewing-date='2012-03-26'>
+                <div class='list-item-title'>
+                  The Wrong Box (1966)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 26th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1958' data-release-date='1958-01-01' data-title='Key (1958), The' data-viewing-date='2012-03-26'>
+                <div class='list-item-title'>
+                  The Key (1958)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 26th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-01-01' data-title='Raw Meat (1973)' data-viewing-date='2012-03-25'>
+                <div class='list-item-title'>
+                  Raw Meat (1973)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 25th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-09-30' data-title='Horror Express (1972)' data-viewing-date='2012-03-25'>
+                <div class='list-item-title'>
+                  Horror Express (1972)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 25th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1990' data-release-date='1990-11-02' data-title='Frankenstein Unbound (1990)' data-viewing-date='2012-03-24'>
+                <div class='list-item-title'>
+                  Frankenstein Unbound (1990)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of March 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1994' data-release-date='1994-12-01' data-title='In the Mouth of Madness (1994)' data-viewing-date='2012-03-24'>
+                <div class='list-item-title'>
+                  In the Mouth of Madness (1994)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of March 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1986' data-release-date='1986-07-02' data-title='Big Trouble in Little China (1986)' data-viewing-date='2012-03-24'>
+                <div class='list-item-title'>
+                  Big Trouble in Little China (1986)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of March 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2001' data-release-date='2001-01-19' data-title='Super Troopers (2001)' data-viewing-date='2012-03-24'>
+                <div class='list-item-title'>
+                  Super Troopers (2001)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of March 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2000' data-release-date='2000-01-21' data-title='American Psycho (2000)' data-viewing-date='2012-03-24'>
+                <div class='list-item-title'>
+                  American Psycho (2000)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 24th of March 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1938' data-release-date='1938-07-16' data-title='Racket Busters (1938)' data-viewing-date='2012-03-18'>
+                <div class='list-item-title'>
+                  Racket Busters (1938)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 18th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-03-16' data-title='Virginia City (1940)' data-viewing-date='2012-03-18'>
+                <div class='list-item-title'>
+                  Virginia City (1940)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 18th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1947' data-release-date='1947-10-31' data-title='Desire Me (1947)' data-viewing-date='2012-03-17'>
+                <div class='list-item-title'>
+                  Desire Me (1947)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 17th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1942' data-release-date='1942-10-08' data-title='Flying Tigers (1942)' data-viewing-date='2012-03-17'>
+                <div class='list-item-title'>
+                  Flying Tigers (1942)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 17th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-02-07' data-title='Safe House (2012)' data-viewing-date='2012-03-15'>
+                <div class='list-item-title'>
+                  Safe House (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 15th of March 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-02-29' data-title='House of the Seven Gables (1940), The' data-viewing-date='2012-03-14'>
+                <div class='list-item-title'>
+                  The House of the Seven Gables (1940)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 14th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1937' data-release-date='1937-11-05' data-title='Hurricane (1937), The' data-viewing-date='2012-03-12'>
+                <div class='list-item-title'>
+                  The Hurricane (1937)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 12th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-06-27' data-title='Stunt Man (1980), The' data-viewing-date='2012-03-12'>
+                <div class='list-item-title'>
+                  The Stunt Man (1980)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 12th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1941' data-release-date='1941-10-03' data-title='Maltese Falcon (1941), The' data-viewing-date='2012-03-10'>
+                <div class='list-item-title'>
+                  The Maltese Falcon (1941)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 10th of March 2012 via Landmark E Street Cinema.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-12-20' data-title="Murderers' Row (1966)" data-viewing-date='2012-03-09'>
+                <div class='list-item-title'>
+                  Murderers' Row (1966)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 9th of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-11-15' data-title='Arizona (1940)' data-viewing-date='2012-03-02'>
+                <div class='list-item-title'>
+                  Arizona (1940)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 2nd of March 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-07-17' data-title='Secret World of Arrietty (2011), The' data-viewing-date='2012-03-01'>
+                <div class='list-item-title'>
+                  The Secret World of Arrietty (2011)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 1st of March 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-06-20' data-title='Dawn Rider (1935), The' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  The Dawn Rider (1935)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-01-01' data-title='Blue Steel (1934)' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  Blue Steel (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-06-18' data-title='Randy Rides Alone (1934)' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  Randy Rides Alone (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-04-22' data-title='Desert Trail (1935), The' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  The Desert Trail (1935)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-02-01' data-title='Texas Terror (1935)' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  Texas Terror (1935)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-01-22' data-title='Lucky Texan (1934), The' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  The Lucky Texan (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-10-22' data-title='Trail Beyond (1934), The' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  The Trail Beyond (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-07-30' data-title='Star Packer (1934), The' data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  The Star Packer (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-12-05' data-title="Neath the Arizona Skies (1934), '" data-viewing-date='2012-02-28'>
+                <div class='list-item-title'>
+                  'Neath the Arizona Skies (1934)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 28th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1982' data-release-date='1982-05-01' data-title='Creepshow (1982)' data-viewing-date='2012-02-27'>
+                <div class='list-item-title'>
+                  Creepshow (1982)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 27th of February 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1935' data-release-date='1935-07-20' data-title='Paradise Canyon (1935)' data-viewing-date='2012-02-27'>
+                <div class='list-item-title'>
+                  Paradise Canyon (1935)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 27th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-02-15' data-title='West of the Divide (1934)' data-viewing-date='2012-02-27'>
+                <div class='list-item-title'>
+                  West of the Divide (1934)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 27th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-05-15' data-title='Man from Utah (1934), The' data-viewing-date='2012-02-27'>
+                <div class='list-item-title'>
+                  The Man from Utah (1934)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 27th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1933' data-release-date='1933-12-15' data-title='Sagebrush Trail (1933)' data-viewing-date='2012-02-26'>
+                <div class='list-item-title'>
+                  Sagebrush Trail (1933)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 26th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-11-22' data-title='Lawless Frontier (1934), The' data-viewing-date='2012-02-26'>
+                <div class='list-item-title'>
+                  The Lawless Frontier (1934)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 26th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1933' data-release-date='1933-06-10' data-title='His Private Secretary (1933)' data-viewing-date='2012-02-25'>
+                <div class='list-item-title'>
+                  His Private Secretary (1933)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1933' data-release-date='1933-10-10' data-title='Riders of Destiny (1933)' data-viewing-date='2012-02-25'>
+                <div class='list-item-title'>
+                  Riders of Destiny (1933)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1939' data-release-date='1939-05-12' data-title='Only Angels Have Wings (1939)' data-viewing-date='2012-02-25'>
+                <div class='list-item-title'>
+                  Only Angels Have Wings (1939)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-12-08' data-title='Sundowners (1960), The' data-viewing-date='2012-02-25'>
+                <div class='list-item-title'>
+                  The Sundowners (1960)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 25th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1969' data-release-date='1969-06-02' data-title='Italian Job (1969), The' data-viewing-date='2012-02-24'>
+                <div class='list-item-title'>
+                  The Italian Job (1969)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 24th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1950' data-release-date='1950-12-25' data-title='Born Yesterday (1950)' data-viewing-date='2012-02-24'>
+                <div class='list-item-title'>
+                  Born Yesterday (1950)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 24th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1931' data-release-date='1931-12-07' data-title='Arrowsmith (1931)' data-viewing-date='2012-02-24'>
+                <div class='list-item-title'>
+                  Arrowsmith (1931)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 24th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1982' data-release-date='1982-03-16' data-title='Victor Victoria (1982)' data-viewing-date='2012-02-23'>
+                <div class='list-item-title'>
+                  Victor Victoria (1982)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 23rd of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1972' data-release-date='1972-04-30' data-title='Vampire Circus (1972)' data-viewing-date='2012-02-19'>
+                <div class='list-item-title'>
+                  Vampire Circus (1972)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 19th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1939' data-release-date='1939-10-06' data-title='Ninotchka (1939)' data-viewing-date='2012-02-19'>
+                <div class='list-item-title'>
+                  Ninotchka (1939)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 19th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1953' data-release-date='1953-09-23' data-title='Mogambo (1953)' data-viewing-date='2012-02-19'>
+                <div class='list-item-title'>
+                  Mogambo (1953)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 19th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2003' data-release-date='2003-01-01' data-title='Old School (2003)' data-viewing-date='2012-02-18'>
+                <div class='list-item-title'>
+                  Old School (2003)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of February 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1948' data-release-date='1948-10-19' data-title='Three Musketeers (1948), The' data-viewing-date='2012-02-18'>
+                <div class='list-item-title'>
+                  The Three Musketeers (1948)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2010' data-release-date='2010-08-02' data-title='Other Guys (2010), The' data-viewing-date='2012-02-18'>
+                <div class='list-item-title'>
+                  The Other Guys (2010)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 18th of February 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-06-24' data-title='Caine Mutiny (1954), The' data-viewing-date='2012-02-17'>
+                <div class='list-item-title'>
+                  The Caine Mutiny (1954)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 17th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2012' data-release-date='2012-01-28' data-title='Chronicle (2012)' data-viewing-date='2012-02-16'>
+                <div class='list-item-title'>
+                  Chronicle (2012)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 16th of February 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1945' data-release-date='1945-12-19' data-title='They Were Expendable (1945)' data-viewing-date='2012-02-15'>
+                <div class='list-item-title'>
+                  They Were Expendable (1945)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 15th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1943' data-release-date='1943-02-03' data-title='Air Force (1943)' data-viewing-date='2012-02-15'>
+                <div class='list-item-title'>
+                  Air Force (1943)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 15th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1947' data-release-date='1947-08-14' data-title='Life with Father (1947)' data-viewing-date='2012-02-15'>
+                <div class='list-item-title'>
+                  Life with Father (1947)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 15th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1954' data-release-date='1954-08-01' data-title='Rear Window (1954)' data-viewing-date='2012-02-14'>
+                <div class='list-item-title'>
+                  Rear Window (1954)
+                </div>
+                <div class='list-item-description'>
+                  Tuesday the 14th of February 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1949' data-release-date='1949-12-08' data-title='On the Town (1949)' data-viewing-date='2012-02-12'>
+                <div class='list-item-title'>
+                  On the Town (1949)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 12th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1937' data-release-date='1937-10-21' data-title='Awful Truth (1937), The' data-viewing-date='2012-02-12'>
+                <div class='list-item-title'>
+                  The Awful Truth (1937)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 12th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1965' data-release-date='1965-06-24' data-title='Cat Ballou (1965)' data-viewing-date='2012-02-11'>
+                <div class='list-item-title'>
+                  Cat Ballou (1965)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 11th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1952' data-release-date='1952-08-06' data-title='Big Sky (1952), The' data-viewing-date='2012-02-10'>
+                <div class='list-item-title'>
+                  The Big Sky (1952)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 10th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-10-09' data-title='Long Voyage Home (1940), The' data-viewing-date='2012-02-10'>
+                <div class='list-item-title'>
+                  The Long Voyage Home (1940)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 10th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1965' data-release-date='1965-10-27' data-title='Die, Monster, Die! (1965)' data-viewing-date='2012-02-05'>
+                <div class='list-item-title'>
+                  Die, Monster, Die! (1965)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 5th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1964' data-release-date='1964-08-06' data-title='Night of the Iguana (1964), The' data-viewing-date='2012-02-05'>
+                <div class='list-item-title'>
+                  The Night of the Iguana (1964)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 5th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1984' data-release-date='1984-05-15' data-title='Under the Volcano (1984)' data-viewing-date='2012-02-05'>
+                <div class='list-item-title'>
+                  Under the Volcano (1984)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 5th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1940' data-release-date='1940-12-23' data-title='Philadelphia Story (1940), The' data-viewing-date='2012-02-05'>
+                <div class='list-item-title'>
+                  The Philadelphia Story (1940)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 5th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-01-01' data-title='Return of Count Yorga (1971), The' data-viewing-date='2012-02-04'>
+                <div class='list-item-title'>
+                  The Return of Count Yorga (1971)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1970' data-release-date='1970-06-10' data-title='Count Yorga, Vampire (1970)' data-viewing-date='2012-02-04'>
+                <div class='list-item-title'>
+                  Count Yorga, Vampire (1970)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of February 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1948' data-release-date='1948-07-16' data-title='Key Largo (1948)' data-viewing-date='2012-02-04'>
+                <div class='list-item-title'>
+                  Key Largo (1948)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1942' data-release-date='1942-03-18' data-title='Reap the Wild Wind (1942)' data-viewing-date='2012-02-04'>
+                <div class='list-item-title'>
+                  Reap the Wild Wind (1942)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1941' data-release-date='1941-11-14' data-title='Suspicion (1941)' data-viewing-date='2012-02-04'>
+                <div class='list-item-title'>
+                  Suspicion (1941)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 4th of February 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-11-07' data-title='Haywire (2011)' data-viewing-date='2012-02-02'>
+                <div class='list-item-title'>
+                  Haywire (2011)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 2nd of February 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1952' data-release-date='1952-01-01' data-title='Las Vegas Story (1952), The' data-viewing-date='2012-01-30'>
+                <div class='list-item-title'>
+                  The Las Vegas Story (1952)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 30th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1941' data-release-date='1941-12-02' data-title='All Through the Night (1941)' data-viewing-date='2012-01-30'>
+                <div class='list-item-title'>
+                  All Through the Night (1941)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 30th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1945' data-release-date='1945-06-15' data-title='Conflict (1945)' data-viewing-date='2012-01-30'>
+                <div class='list-item-title'>
+                  Conflict (1945)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 30th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1983' data-release-date='1983-02-04' data-title='Videodrome (1983)' data-viewing-date='2012-01-30'>
+                <div class='list-item-title'>
+                  Videodrome (1983)
+                </div>
+                <div class='list-item-description'>
+                  Monday the 30th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-05-25' data-title='Possession (1981)' data-viewing-date='2012-01-29'>
+                <div class='list-item-title'>
+                  Possession (1981)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 29th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1947' data-release-date='1947-12-27' data-title='Tycoon (1947)' data-viewing-date='2012-01-29'>
+                <div class='list-item-title'>
+                  Tycoon (1947)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 29th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-07-17' data-title='Thrill of It All (1963), The' data-viewing-date='2012-01-29'>
+                <div class='list-item-title'>
+                  The Thrill of It All (1963)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 29th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1965' data-release-date='1965-04-18' data-title='She (1965/I)' data-viewing-date='2012-01-29'>
+                <div class='list-item-title'>
+                  She (1965/I)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 29th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1957' data-release-date='1957-12-17' data-title='Witness for the Prosecution (1957)' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  Witness for the Prosecution (1957)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1985' data-release-date='1985-08-02' data-title='Fright Night (1985)' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  Fright Night (1985)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1971' data-release-date='1971-11-03' data-title='Straw Dogs (1971)' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  Straw Dogs (1971)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1981' data-release-date='1981-10-15' data-title='Evil Dead (1981), The' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  The Evil Dead (1981)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via Blu-ray.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-05-18' data-title='Sergeant Rutledge (1960)' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  Sergeant Rutledge (1960)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1944' data-release-date='1944-02-16' data-title='Passage to Marseille (1944)' data-viewing-date='2012-01-28'>
+                <div class='list-item-title'>
+                  Passage to Marseille (1944)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 28th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1980' data-release-date='1980-08-14' data-title='Motel Hell (1980)' data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Motel Hell (1980)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1979' data-release-date='1979-07-13' data-title='Dracula (1979)' data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Dracula (1979)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via Encore HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1960' data-release-date='1960-08-10' data-title="Ocean's Eleven (1960)" data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Ocean's Eleven (1960)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1968' data-release-date='1968-10-17' data-title='Bullitt (1968)' data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Bullitt (1968)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1946' data-release-date='1946-11-28' data-title='Undercurrent (1946)' data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Undercurrent (1946)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1956' data-release-date='1956-09-01' data-title='Bandido (1956)' data-viewing-date='2012-01-27'>
+                <div class='list-item-title'>
+                  Bandido (1956)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 27th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1965' data-release-date='1965-05-01' data-title='Repulsion (1965)' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  Repulsion (1965)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1932' data-release-date='1932-12-01' data-title='Island of Lost Souls (1932)' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  Island of Lost Souls (1932)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-05-03' data-title='Black Cat (1934), The' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  The Black Cat (1934)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1953' data-release-date='1953-03-27' data-title='Girl Who Had Everything (1953), The' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  The Girl Who Had Everything (1953)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-07-15' data-title='Mister Buddwing (1966)' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  Mister Buddwing (1966)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-02-18' data-title='Silencers (1966), The' data-viewing-date='2012-01-26'>
+                <div class='list-item-title'>
+                  The Silencers (1966)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 26th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1932' data-release-date='1932-02-21' data-title='Murders in the Rue Morgue (1932)' data-viewing-date='2012-01-25'>
+                <div class='list-item-title'>
+                  Murders in the Rue Morgue (1932)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 25th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1938' data-release-date='1938-05-10' data-title='Crime School (1938)' data-viewing-date='2012-01-25'>
+                <div class='list-item-title'>
+                  Crime School (1938)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 25th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1937' data-release-date='1937-05-26' data-title='Kid Galahad (1937)' data-viewing-date='2012-01-25'>
+                <div class='list-item-title'>
+                  Kid Galahad (1937)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 25th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-06-27' data-title='World Moves On (1934), The' data-viewing-date='2012-01-25'>
+                <div class='list-item-title'>
+                  The World Moves On (1934)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 25th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-05-31' data-title='Key (1934), The' data-viewing-date='2012-01-21'>
+                <div class='list-item-title'>
+                  The Key (1934)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1931' data-release-date='1931-10-10' data-title='Road to Singapore (1931), The' data-viewing-date='2012-01-21'>
+                <div class='list-item-title'>
+                  The Road to Singapore (1931)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1932' data-release-date='1932-01-30' data-title='High Pressure (1932)' data-viewing-date='2012-01-21'>
+                <div class='list-item-title'>
+                  High Pressure (1932)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1932' data-release-date='1932-08-04' data-title='White Zombie (1932)' data-viewing-date='2012-01-21'>
+                <div class='list-item-title'>
+                  White Zombie (1932)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 21st of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1988' data-release-date='1988-11-04' data-title='They Live (1988)' data-viewing-date='2012-01-20'>
+                <div class='list-item-title'>
+                  They Live (1988)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 20th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-12-10' data-title='Sherlock Holmes: A Game of Shadows (2011)' data-viewing-date='2012-01-19'>
+                <div class='list-item-title'>
+                  Sherlock Holmes: A Game of Shadows (2011)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 19th of January 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1968' data-release-date='1968-12-01' data-title='Curse of the Crimson Altar (1968)' data-viewing-date='2012-01-15'>
+                <div class='list-item-title'>
+                  Curse of the Crimson Altar (1968)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 15th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1964' data-release-date='1964-08-21' data-title='Gorgon (1964), The' data-viewing-date='2012-01-15'>
+                <div class='list-item-title'>
+                  The Gorgon (1964)
+                </div>
+                <div class='list-item-description'>
+                  Sunday the 15th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-03-08' data-title='Limitless (2011/I)' data-viewing-date='2012-01-14'>
+                <div class='list-item-title'>
+                  Limitless (2011/I)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1950' data-release-date='1950-07-03' data-title='Crisis (1950)' data-viewing-date='2012-01-14'>
+                <div class='list-item-title'>
+                  Crisis (1950)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1946' data-release-date='1946-04-19' data-title='Bedlam (1946)' data-viewing-date='2012-01-14'>
+                <div class='list-item-title'>
+                  Bedlam (1946)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1955' data-release-date='1955-09-21' data-title="Killer's Kiss (1955)" data-viewing-date='2012-01-14'>
+                <div class='list-item-title'>
+                  Killer's Kiss (1955)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1956' data-release-date='1956-05-20' data-title='Killing (1956), The' data-viewing-date='2012-01-14'>
+                <div class='list-item-title'>
+                  The Killing (1956)
+                </div>
+                <div class='list-item-description'>
+                  Saturday the 14th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1966' data-release-date='1966-03-06' data-title='Reptile (1966), The' data-viewing-date='2012-01-13'>
+                <div class='list-item-title'>
+                  The Reptile (1966)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1963' data-release-date='1963-12-25' data-title='Comedy of Terrors (1963), The' data-viewing-date='2012-01-13'>
+                <div class='list-item-title'>
+                  The Comedy of Terrors (1963)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1945' data-release-date='1945-09-01' data-title='Isle of the Dead (1945)' data-viewing-date='2012-01-13'>
+                <div class='list-item-title'>
+                  Isle of the Dead (1945)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1934' data-release-date='1934-01-01' data-title='Fashions of 1934 (1934)' data-viewing-date='2012-01-13'>
+                <div class='list-item-title'>
+                  Fashions of 1934 (1934)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1944' data-release-date='1944-12-09' data-title='Murder, My Sweet (1944)' data-viewing-date='2012-01-13'>
+                <div class='list-item-title'>
+                  Murder, My Sweet (1944)
+                </div>
+                <div class='list-item-description'>
+                  Friday the 13th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1977' data-release-date='1977-01-07' data-title='Sentinel (1977), The' data-viewing-date='2012-01-12'>
+                <div class='list-item-title'>
+                  The Sentinel (1977)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1945' data-release-date='1945-05-25' data-title='Body Snatcher (1945), The' data-viewing-date='2012-01-12'>
+                <div class='list-item-title'>
+                  The Body Snatcher (1945)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1964' data-release-date='1964-06-24' data-title='Masque of the Red Death (1964), The' data-viewing-date='2012-01-12'>
+                <div class='list-item-title'>
+                  The Masque of the Red Death (1964)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1961' data-release-date='1961-08-12' data-title='Pit and the Pendulum (1961)' data-viewing-date='2012-01-12'>
+                <div class='list-item-title'>
+                  Pit and the Pendulum (1961)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1933' data-release-date='1933-08-01' data-title='Ghoul (1933), The' data-viewing-date='2012-01-12'>
+                <div class='list-item-title'>
+                  The Ghoul (1933)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 12th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2009' data-release-date='2009-02-27' data-title='Girl with the Dragon Tattoo (2009), The' data-viewing-date='2012-01-11'>
+                <div class='list-item-title'>
+                  The Girl with the Dragon Tattoo (2009)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 11th of January 2012 via Netflix Streaming.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1957' data-release-date='1957-12-17' data-title='Curse of the Demon (1958)' data-viewing-date='2012-01-11'>
+                <div class='list-item-title'>
+                  Curse of the Demon (1958)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 11th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='1959' data-release-date='1959-07-29' data-title='Tingler (1959), The' data-viewing-date='2012-01-11'>
+                <div class='list-item-title'>
+                  The Tingler (1959)
+                </div>
+                <div class='list-item-description'>
+                  Wednesday the 11th of January 2012 via TCM HD.
+                </div>
+              </li>
+              <li class='list-item' data-release-date-year='2011' data-release-date='2011-12-12' data-title='Girl with the Dragon Tattoo (2011), The' data-viewing-date='2012-01-05'>
+                <div class='list-item-title'>
+                  The Girl with the Dragon Tattoo (2011)
+                </div>
+                <div class='list-item-description'>
+                  Thursday the 5th of January 2012 via AMC Tysons Corner 16.
+                </div>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+      <footer class='site-footer'>
+        <div class='site-footer-content'>
+          This has been <a class="site-footer__link" href="/">Frank's Movie Log</a>, loving movies since 2012.
+        </div>
+        <a class='site-footer-twitter' href='http://twitter.com/FranksMovieLog'>
+          <svg class='twitter icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+            <g transform='scale(1 -1) translate(0 -1280)'>
+              <path d='M1620 1128q-67 -98 -162 -167q1 -14 1 -42q0 -130 -38 -259.5t-115.5 -248.5t-184.5 -210.5t-258 -146t-323 -54.5q-271 0 -496 145q35 -4 78 -4q225 0 401 138q-105 2 -188 64.5t-114 159.5q33 -5 61 -5q43 0 85 11q-112 23 -185.5 111.5t-73.5 205.5v4q68 -38 146 -41 q-66 44 -105 115t-39 154q0 88 44 163q121 -149 294.5 -238.5t371.5 -99.5q-8 38 -8 74q0 134 94.5 228.5t228.5 94.5q140 0 236 -102q109 21 205 78q-37 -115 -142 -178q93 10 186 50z' fill='white'></path>
+            </g>
+          </svg>
+          follow
+        </a>
+        <a class='site-footer-feed' href='/feed'>
+          <svg class='feed icon' viewBox='-320 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
+            <g transform='scale(1 -1) translate(0 -1280)'>
+              <path d='M384 192q0 -80 -56 -136t-136 -56t-136 56t-56 136t56 136t136 56t136 -56t56 -136zM896 69q2 -28 -17 -48q-18 -21 -47 -21h-135q-25 0 -43 16.5t-20 41.5q-22 229 -184.5 391.5t-391.5 184.5q-25 2 -41.5 20t-16.5 43v135q0 29 21 47q17 17 43 17h5q160 -13 306 -80.5 t259 -181.5q114 -113 181.5 -259t80.5 -306zM1408 67q2 -27 -18 -47q-18 -20 -46 -20h-143q-26 0 -44.5 17.5t-19.5 42.5q-12 215 -101 408.5t-231.5 336t-336 231.5t-408.5 102q-25 1 -42.5 19.5t-17.5 43.5v143q0 28 20 46q18 18 44 18h3q262 -13 501.5 -120t425.5 -294 q187 -186 294 -425.5t120 -501.5z' fill='black'></path>
+            </g>
+          </svg>
+          subscribe
+        </a>
+      </footer>
+    </div>
+    <label class='sidebar-toggle' for='sidebar-checkbox'>
+      <svg class='nav-menu' version='1.1' x='0px' xmlns='http://www.w3.org/1999/xlink' y='0px'>
+        <g>
+          <rect height='2' width='18'></rect>
+          <rect height='2' width='18' y='5'></rect>
+          <rect height='2' width='18' y='10'></rect>
+        </g>
+      </svg>
+    </label>
+  </body>
+  <script src='//ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js'></script>
+  <script>
+    window.jQuery || document.write('<script src="/javascript/jquery.js.javascript"><\/script>')
+  </script>
+  <script src="/javascripts/application.js" type="text/javascript"></script>
+</html>

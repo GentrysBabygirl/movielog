@@ -42,9 +42,10 @@ html {
   -webkit-font-smoothing: antialiased;
   font-size: 20px;
   line-height: 1.4;
-  text-rendering: optimizeLegibility; }
+  text-rendering: optimizeLegibility;
+  -webkit-text-size-adjust: 100%; }
 
-/* line 56, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 57, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 body {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
@@ -53,7 +54,7 @@ body {
   border-top: 4px solid #557799; }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
-/* line 65, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 66, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 a {
   color: inherit;
   text-decoration: none;
@@ -72,42 +73,42 @@ a {
  * Update the global typography of ht epage
  */
 /* Headings */
-/* line 85, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 86, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h1, h2, h3, h4, h5, h6 {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   margin-bottom: .5rem;
   font-weight: 700;
   line-height: 1.25;
   color: #313131;
   text-rendering: optimizeLegibility; }
 
-/* line 93, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 94, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h1 {
   font-size: 2rem; }
 
-/* line 96, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 97, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem; }
 
-/* line 100, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 101, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem; }
 
-/* line 104, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 105, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem; }
 
 /* Body text */
-/* line 110, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 111, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 p {
   margin-top: 0;
   margin-bottom: 1.5rem;
   letter-spacing: 0.01rem; }
 
-/* line 116, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 117, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 strong {
   color: #303030; }
 
@@ -118,7 +119,7 @@ strong {
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
  */
-/* line 129, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 130, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap {
   position: relative;
   width: 100%;
@@ -130,7 +131,7 @@ strong {
  *
  * Center the page content.
  */
-/* line 143, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 144, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .container {
   max-width: 31.8182rem;
   padding-left: 1rem;
@@ -139,7 +140,7 @@ strong {
   margin-right: auto; }
 
 @media (min-width: 46.5625em) {
-  /* line 152, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 153, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .container {
     max-width: 35rem;
     padding-left: 0;
@@ -149,21 +150,21 @@ strong {
  *
  * Super small header above the content for site name and short description.
  */
-/* line 165, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 166, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   padding-top: 0;
   padding-bottom: .5rem;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
 
-/* line 172, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 173, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
   text-align: center; }
 
-/* line 178, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 179, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead-title a {
   font-size: 1rem;
   background-image: none;
@@ -171,7 +172,7 @@ strong {
   color: rgba(0, 0, 0, 0.8); }
 
 @media (min-width: 46.5625em) {
-  /* line 186, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 187, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .masthead-title a {
     font-size: 1.1rem; } }
 /*
@@ -189,7 +190,7 @@ strong {
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 /* Style and "hide" the sidebar */
-/* line 207, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 208, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar {
   position: fixed;
   z-index: 100;
@@ -198,7 +199,7 @@ strong {
   left: 0;
   width: 13rem;
   overflow-y: auto;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: .8rem;
   color: rgba(255, 255, 255, 0.6);
   background-color: #191918;
@@ -209,36 +210,36 @@ strong {
   border-top: 4px solid #191918; }
 
 @media (min-width: 46.5625em) {
-  /* line 225, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 226, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .sidebar {
     border-color: #557799; } }
 /* Sidebar content */
-/* line 231, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 232, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar a {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.65098);
   background-image: none; }
 
-/* line 236, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 237, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-item {
   padding: 1rem; }
 
-/* line 239, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 240, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-item p:last-child {
   margin-bottom: 0; }
 
 /* Sidebar nav */
-/* line 244, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 245, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
-/* line 247, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 248, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
-/* line 254, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 255, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -247,12 +248,12 @@ a.sidebar-nav-item:focus {
   border-color: transparent; }
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
-/* line 261, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 262, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-checkbox {
   display: none; }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
-/* line 266, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 267, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-toggle {
   position: absolute;
   top: .55rem;
@@ -269,7 +270,7 @@ a.sidebar-nav-item:focus {
   -webkit-tap-highlight-color: white; }
 
 /* Hamburger icon */
-/* line 283, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 284, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .nav-menu {
   height: 12px; }
 
@@ -285,7 +286,7 @@ a.sidebar-nav-item:focus {
  *
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
-/* line 305, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 306, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap,
 .sidebar,
 .sidebar-toggle,
@@ -294,18 +295,18 @@ a.sidebar-nav-item:focus {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-/* line 310, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 311, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap,
 .nav-menu,
 .sidebar-toggle {
   -webkit-transition: -webkit-transform .3s ease-in-out;
           transition: transform .3s ease-in-out; }
 
-/* line 314, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 315, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 #sidebar-checkbox:checked + .sidebar {
   opacity: 1; }
 
-/* line 318, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 319, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(13rem);
@@ -318,14 +319,14 @@ a.sidebar-nav-item:focus {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-/* line 330, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 331, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page,
 .post {
   margin-top: 3rem;
   margin-bottom: 4em; }
 
 /* Blog post or page title */
-/* line 338, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 339, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page-title,
 .post-title,
 .post-title a {
@@ -333,22 +334,22 @@ a.sidebar-nav-item:focus {
   font-size: 1.5rem;
   letter-spacing: -0.02em; }
 
-/* line 344, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 345, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page-title,
 .post-title {
   margin-top: 0;
   text-align: center; }
 
 @media (min-width: 46.5625em) {
-  /* line 349, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 350, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-title {
     font-size: 2.25rem;
     letter-spacing: -0.04em; } }
 /* Slub line below post title */
-/* line 356, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 357, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .post-slug {
   display: block;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: .7rem;
   margin-top: 0;
   margin-bottom: 1rem;
@@ -356,12 +357,12 @@ a.sidebar-nav-item:focus {
   text-align: center; }
 
 @media (min-width: 46.5625em) {
-  /* line 366, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 367, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-slug {
-    font-size: .9rem;
+    font-size: .8rem;
     letter-spacing: -0.02rem; } }
 @media (min-width: 31.3125em) {
-  /* line 373, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 374, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-content p {
     letter-spacing: .00723rem;
     line-height: 1.5;
@@ -374,7 +375,7 @@ a.sidebar-nav-item:focus {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
-/* line 390, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 391, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination {
   overflow: hidden;
   /* clearfix */
@@ -385,9 +386,9 @@ a.sidebar-nav-item:focus {
   background-color: #fcfcfc; }
 
 /* Pagination items can be `span`s or `a`s */
-/* line 400, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 401, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
   color: rgba(0, 0, 0, 0.8);
   display: block;
@@ -396,21 +397,21 @@ a.sidebar-nav-item:focus {
   width: 50%;
   background-image: none; }
 
-/* line 410, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 411, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item:first-child {
   margin-bottom: -1px; }
 
-/* line 413, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 414, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.newer {
   text-align: left;
   float: left; }
 
-/* line 417, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 418, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.older {
   text-align: right;
   float: right; }
 
-/* line 421, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 422, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-icon {
   vertical-align: middle;
   width: 1.4rem;
@@ -419,11 +420,11 @@ a.sidebar-nav-item:focus {
   height: 1rem;
   padding-bottom: 3px; }
 
-/* line 429, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 430, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-icon path {
   fill: rgba(0, 0, 0, 0.8); }
 
-/* line 436, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 437, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item:hover {
   background-color: #f5f5f5; }
 
@@ -432,17 +433,17 @@ a.sidebar-nav-item:focus {
  *
  * Inline SVG styles.
  */
-/* line 447, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 448, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .icon {
   width: 1rem;
   height: 1rem;
   vertical-align: bottom; }
 
-/* line 453, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 454, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .twitter path {
   fill: #0054ab; }
 
-/* line 457, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 458, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .feed path {
   fill: #f4a546; }
 
@@ -451,13 +452,13 @@ a.sidebar-nav-item:focus {
  *
  */
 /* Search box in sidebar */
-/* line 468, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 469, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .search-wrap {
   position: relative;
   padding-top: .25rem;
   padding-bottom: .25rem; }
 
-/* line 473, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 474, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .search-icon {
   width: .8rem;
   height: .8rem;
@@ -466,24 +467,24 @@ a.sidebar-nav-item:focus {
   left: .9rem;
   fill: rgba(0, 0, 0, 0.3); }
 
-/* line 482, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 483, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-search-input {
   font-size: .8rem;
   width: 12rem;
   border-radius: .8rem;
   margin: .5rem;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   padding: .3rem .5rem .3rem 1.5rem;
   border: none; }
 
-/* line 491, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 492, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 input::-webkit-input-placeholder {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
   -webkit-transition: opacity 0.3s linear;
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 496, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 497, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 input:focus::-webkit-input-placeholder {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
@@ -494,23 +495,23 @@ input:focus::-webkit-input-placeholder {
  *
  */
 /* Site footer */
-/* line 507, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 508, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer {
   color: rgba(0, 0, 0, 0.3);
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: .7rem;
   text-align: center;
   padding: 1rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 515, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 516, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .site-footer {
     font-size: .8rem; } }
-/* line 519, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 520, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer-feed {
   margin-left: .5rem; }
 
-/* line 523, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 524, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer .icon {
   background-color: white; }
 
@@ -518,25 +519,25 @@ input:focus::-webkit-input-placeholder {
  * Lists.
  *
  */
-/* line 532, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 533, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-/* line 536, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 537, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 li {
   list-style-type: none; }
 
-/* line 540, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 541, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 dt {
   font-weight: bold; }
 
-/* line 543, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 544, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 dd {
   margin-bottom: .5rem; }
 
 /* Title for lists */
-/* line 548, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 549, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-title {
   display: block;
   margin: 0;
@@ -552,36 +553,39 @@ dd {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: .4rem 0; }
 
-/* line 564, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 565, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .plain-list {
   margin-left: 0;
   padding-left: 0; }
 
-/* line 569, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 570, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .numbered-list li {
   list-style-type: decimal; }
 
-/* line 573, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item {
+/* line 574, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item, .list-item-with-number {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 2rem;
   padding-bottom: 1rem;
-  padding-left: 2rem;
   position: relative; }
 
 /* line 581, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item:first-child {
+.list-item-with-number {
+  padding-left: 2rem; }
+
+/* line 586, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item:first-child, .list-item-with-number:first-child {
   margin-top: 0; }
 
-/* line 584, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item:last-child {
+/* line 589, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item:last-child, .list-item-with-number:last-child {
   border-bottom: none;
   margin-bottom: 0; }
 
-/* line 588, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 593, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   text-overflow: ellipsis;
   white-space: nowrap;
   overflow: hidden;
@@ -593,79 +597,78 @@ dd {
   margin-bottom: .2rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 601, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 606, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-title {
-    font-size: 1.3rem;
+    font-size: 1rem;
     line-height: 1.1;
     letter-spacing: -0.02em;
     text-overflow: inherit;
     white-space: normal;
     overflow: visible;
-    font-weight: 400; } }
-/* line 611, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    font-weight: 700; } }
+/* line 616, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title a {
   color: rgba(0, 0, 0, 0.8);
   background-image: none; }
 
-/* line 615, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 620, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-description {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: .7rem;
   line-height: 1.2;
   font-weight: 300;
   color: rgba(0, 0, 0, 0.4); }
 
 @media (min-width: 46.5625em) {
-  /* line 623, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 628, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-description {
     font-size: .8rem;
     letter-spacing: normal; } }
-/* line 628, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item .rating {
+/* line 633, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item .rating, .list-item-with-number .rating {
   margin: 0 .2rem 0 0;
   height: .7rem;
   width: 3.5rem;
   display: inline-block;
   margin-bottom: -1px; }
-  /* line 635, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item .rating .star, .list-item .rating .half-star, .list-item .rating .empty-star {
+  /* line 640, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .list-item .rating .star, .list-item-with-number .rating .star, .list-item .rating .half-star, .list-item-with-number .rating .half-star, .list-item .rating .empty-star, .list-item-with-number .rating .empty-star {
     width: .7rem;
     height: .7rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 641, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item .rating {
+  /* line 646, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .list-item .rating, .list-item-with-number .rating {
     margin-bottom: -1px;
     width: 4rem;
     margin-right: 0; }
-    /* line 646, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-    .list-item .rating .star, .list-item .rating .empty-star {
+    /* line 651, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    .list-item .rating .star, .list-item-with-number .rating .star, .list-item .rating .empty-star, .list-item-with-number .rating .empty-star {
       width: .8rem;
       height: .8rem; } }
-/* line 652, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 657, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-number {
   position: absolute;
-  top: 0;
-  left: -1rem;
+  top: -2px;
+  left: -.5rem;
   width: 2rem;
-  margin-top: -2px;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   letter-spacing: -0.02em;
   font-weight: 300;
   font-style: normal;
-  font-size: 1.1rem;
+  font-size: .9rem;
   letter-spacing: -0.04em;
   white-space: nowrap;
   color: rgba(0, 0, 0, 0.8);
   text-align: right; }
 
 @media (min-width: 46.5625em) {
-  /* line 669, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 673, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-number {
-    font-size: 1.3rem;
-    top: 0;
+    font-size: 1.1rem;
+    top: -5px;
     color: rgba(0, 0, 0, 0.6); } }
-/* line 675, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 679, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-blurb {
   font-size: .8rem;
   font-weight: 300;
@@ -675,7 +678,7 @@ dd {
   margin-top: 1rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 684, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 688, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-blurb {
     font-size: .9rem;
     color: rgba(0, 0, 0, 0.7);
@@ -684,7 +687,7 @@ dd {
  * Star ratings.
  *
  */
-/* line 695, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 699, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .rating {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -693,35 +696,35 @@ dd {
   height: 1rem;
   display: block; }
 
-/* line 704, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 708, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .star, .empty-star {
   height: 1rem;
   width: 1rem; }
 
-/* line 709, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 713, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .star {
   fill: #EDA829; }
 
-/* line 713, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 717, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .empty-star {
   fill: #ddd; }
 
 @media (min-width: 46.5625em) {
-  /* line 718, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 722, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .rating {
     width: 7.5rem;
     height: 1.5rem; }
 
-  /* line 723, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 727, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .star, .empty-star {
     height: 1.5rem;
     width: 1.5rem; } }
-/* line 729, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 733, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .rating-wrap .rating {
   margin: 1rem auto; }
 
 @media (min-width: 46.5625em) {
-  /* line 734, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 738, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .rating-wrap .rating {
     margin: 2rem auto; } }
 /*
@@ -729,9 +732,9 @@ dd {
  *
  * Viewings and credits.
  */
-/* line 745, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 749, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-header {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   padding: .6rem 0 1.4rem;
@@ -742,12 +745,12 @@ dd {
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
 
 @media (min-width: 46.5625em) {
-  /* line 757, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 761, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-header {
     font-size: .6rem; } }
-/* line 762, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 766, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-sub-header {
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 700;
   font-style: normal;
   text-transform: uppercase;
@@ -756,21 +759,21 @@ dd {
   color: rgba(0, 0, 0, 0.2); }
 
 @media (min-width: 46.5625em) {
-  /* line 772, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 776, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-sub-header {
     font-size: .6rem; } }
-/* line 777, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 781, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-description {
   font-size: .75rem;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   color: rgba(0, 0, 0, 0.6); }
 
 @media (min-width: 46.5625em) {
-  /* line 783, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 787, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-description {
     font-size: .8rem;
     letter-spacing: inherit; } }
-/* line 789, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 793, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .role {
   color: rgba(0, 0, 0, 0.3); }
 
@@ -778,22 +781,22 @@ dd {
  * Aka titles
  *
  */
-/* line 798, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 802, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka {
   margin-bottom: 1rem;
   text-align: center; }
 
-/* line 803, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 807, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-heading {
   font-size: .8rem;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 810, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 814, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-title {
   letter-spacing: -.02rem;
-  font-family: "jaf-bernino-sans", "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", Geneva, Verdana, sans-serif;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   margin: 0;
   color: rgba(0, 0, 0, 0.6);
   font-size: .8rem; }
@@ -803,30 +806,186 @@ dd {
  *
  */
 @media (min-width: 50em) {
-  /* line 824, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 828, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-half {
     display: inline-block;
     width: 49%;
     vertical-align: top;
     padding-right: 1rem; }
 
-  /* line 830, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 834, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-half:last-child {
     padding-right: 0;
+    padding-left: 1rem; }
+
+  /* line 838, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .column-one-third {
+    display: inline-block;
+    width: 33%;
+    vertical-align: top;
+    padding-right: 1rem; }
+
+  /* line 844, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .column-two-thirds {
+    display: inline-block;
+    vertical-align: top;
+    width: 66%;
+    padding-right: 0;
     padding-left: 1rem; } }
-/* line 836, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 853, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .full {
   display: none; }
 
-/* line 840, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 857, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .abbreviation:after {
   content: ':'; }
 
 @media (min-width: 46.5625em) {
-  /* line 845, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 862, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .abbreviation:after {
     content: ''; }
 
-  /* line 849, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 866, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .full {
     display: inline; } }
+/* line 1, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-text-box {
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
+  background-color: #F5F5F5;
+  border-radius: none;
+  border: none;
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  color: #555555;
+  display: inline-block;
+  height: 2rem;
+  line-height: 1.4;
+  padding: .375rem .3125rem;
+  vertical-align: middle;
+  width: 100%;
+  -webkit-backface-visibility: hidden;
+          backface-visibility: hidden;
+  font-size: .8rem; }
+  /* line 19, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+  .filter-text-box:focus {
+    outline: 0; }
+
+/* line 24, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-control {
+  margin-bottom: 2rem; }
+
+/* line 28, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-label {
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
+  font-size: .8rem;
+  color: rgba(0, 0, 0, 0.3); }
+
+/* line 34, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-select {
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
+  border: none; }
+
+/* line 39, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-range {
+  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
+  min-height: 4rem;
+  position: relative; }
+
+/* line 45, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-range__min {
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  color: rgba(0, 0, 0, 0.4); }
+
+/* line 52, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.filter-range__max {
+  bottom: 0;
+  position: absolute;
+  right: 0;
+  color: rgba(0, 0, 0, 0.4); }
+
+/*        General CSS resets;
+ *                The target itself is not affected, allowing
+ *                the remainder of the document to use an
+ *                alternate box-sizing model;
+ *                Support for box-sizing is wide spread:
+ *                http://caniuse.com/#search=box-sizing
+ */
+/* line 66, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-target * {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-touch-callout: none;
+  -ms-touch-action: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  cursor: default; }
+
+/* line 74, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-target {
+  background: #F5F5F5; }
+
+/*        Main slider bar;
+ *                Use box-shadow instead of border to keep absolute
+ *                positioning unrelated to the styling.
+ */
+/* line 82, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-base {
+  margin: auto 1rem;
+  height: 2.125rem;
+  position: relative; }
+
+/*        Handles + active state;
+ */
+/* line 90, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-handle {
+  left: -1.0625rem;
+  width: 2.125rem;
+  height: 2.125rem;
+  z-index: 1;
+  position: relative;
+  background: white;
+  border-radius: 3px;
+  border: 1px solid rgba(0, 0, 0, 0.3); }
+
+/* line 101, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-active {
+  background: #E9E9E9;
+  -webkit-box-shadow: inset 0 0 5px #DDD;
+          box-shadow: inset 0 0 5px #DDD; }
+
+/*        Styling-only classes;
+ *                Structured to prevent double declarations
+ *                for various states of the slider.
+ */
+/* line 110, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-background {
+  background: #F5F5F5; }
+
+/*        Functional styles for handle positioning;
+ *                Note that the origins will inherit border radius
+ *                from the parent, even though the default theme
+ *                doesn't use curved borders.
+ */
+/* line 119, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-origin {
+  position: absolute;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  border-radius: inherit; }
+
+/* line 127, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-origin + .noUi-origin {
+  background: inherit !important; }
+
+/* line 131, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
+.noUi-z-index {
+  z-index: 10; }
