@@ -563,55 +563,48 @@ dd {
   list-style-type: decimal; }
 
 /* line 574, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item, .list-item-with-number {
+.list-item {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 2rem;
-  padding-bottom: 1rem;
+  padding-bottom: 2rem;
   position: relative; }
 
-/* line 581, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item-with-number {
-  padding-left: 2rem; }
-
-/* line 586, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item:first-child, .list-item-with-number:first-child {
+@media (min-width: 46.5625em) {
+  /* line 582, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .list-item {
+    padding-left: 3rem;
+    padding-right: 3rem; } }
+/* line 588, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item:first-child {
   margin-top: 0; }
 
-/* line 589, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item:last-child, .list-item-with-number:last-child {
+/* line 591, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item:last-child {
   border-bottom: none;
   margin-bottom: 0; }
 
-/* line 593, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 595, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-  overflow: hidden;
   font-weight: 700;
   font-size: .9rem;
-  letter-spacing: -.02em;
+  letter-spacing: -0.02em;
   line-height: 1.2;
   display: block;
-  margin-bottom: .2rem; }
+  margin-bottom: .4rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 606, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 605, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-title {
     font-size: 1rem;
-    line-height: 1.1;
-    letter-spacing: -0.02em;
-    text-overflow: inherit;
-    white-space: normal;
-    overflow: visible;
-    font-weight: 700; } }
-/* line 616, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    line-height: 1.1; } }
+/* line 610, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title a {
   color: rgba(0, 0, 0, 0.8);
   background-image: none; }
 
-/* line 620, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 614, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-description {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: .7rem;
@@ -620,119 +613,74 @@ dd {
   color: rgba(0, 0, 0, 0.4); }
 
 @media (min-width: 46.5625em) {
-  /* line 628, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 622, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-description {
     font-size: .8rem;
-    letter-spacing: normal; } }
-/* line 633, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item .rating, .list-item-with-number .rating {
+    letter-spacing: normal;
+    line-height: 1.3; } }
+/* line 628, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.list-item-rating {
   margin: 0 .2rem 0 0;
-  height: .7rem;
-  width: 3.5rem;
+  height: .8rem;
+  width: 4rem;
   display: inline-block;
-  margin-bottom: -1px; }
+  position: relative;
+  top: 1px; }
+  /* line 636, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .list-item-rating .rating {
+    display: inline-block; }
   /* line 640, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item .rating .star, .list-item-with-number .rating .star, .list-item .rating .half-star, .list-item-with-number .rating .half-star, .list-item .rating .empty-star, .list-item-with-number .rating .empty-star {
-    width: .7rem;
-    height: .7rem; }
+  .list-item-rating .star, .list-item-rating .half-star, .list-item-rating .empty-star {
+    width: .8rem;
+    height: .8rem; }
 
 @media (min-width: 46.5625em) {
   /* line 646, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item .rating, .list-item-with-number .rating {
-    margin-bottom: -1px;
-    width: 4rem;
-    margin-right: 0; }
+  .list-item-rating {
+    width: 4.5rem;
+    height: .9rem;
+    top: 2px; }
     /* line 651, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-    .list-item .rating .star, .list-item-with-number .rating .star, .list-item .rating .empty-star, .list-item-with-number .rating .empty-star {
-      width: .8rem;
-      height: .8rem; } }
+    .list-item-rating .star, .list-item-rating .empty-star {
+      width: .9rem;
+      height: .9rem; } }
 /* line 657, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item-number {
-  position: absolute;
-  top: -2px;
-  left: -.5rem;
-  width: 2rem;
-  font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
-  letter-spacing: -0.02em;
-  font-weight: 300;
-  font-style: normal;
-  font-size: .9rem;
-  letter-spacing: -0.04em;
-  white-space: nowrap;
-  color: rgba(0, 0, 0, 0.8);
-  text-align: right; }
+.list-item-slug {
+  margin-top: .5rem;
+  font-size: .75rem;
+  font-weight: normal;
+  height: 16px; }
 
-@media (min-width: 46.5625em) {
-  /* line 673, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item-number {
-    font-size: 1.1rem;
-    top: -5px;
-    color: rgba(0, 0, 0, 0.6); } }
-/* line 679, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item-blurb {
-  font-size: .8rem;
-  font-weight: 300;
-  letter-spacing: -.016rem;
-  line-height: 1.2;
-  color: rgba(0, 0, 0, 0.6);
-  margin-top: 1rem; }
-
-@media (min-width: 46.5625em) {
-  /* line 688, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .list-item-blurb {
-    font-size: .9rem;
-    color: rgba(0, 0, 0, 0.7);
-    letter-spacing: normal; } }
-/*
- * Star ratings.
- *
- */
-/* line 699, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.rating {
-  margin-top: 1rem;
-  margin-bottom: 1rem;
-  position: relative;
-  width: 5rem;
-  height: 1rem;
-  display: block; }
-
-/* line 708, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.star, .empty-star {
-  height: 1rem;
-  width: 1rem; }
-
-/* line 713, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 664, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .star {
   fill: #EDA829; }
 
-/* line 717, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 668, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .empty-star {
   fill: #ddd; }
 
 @media (min-width: 46.5625em) {
-  /* line 722, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .rating {
-    width: 7.5rem;
-    height: 1.5rem; }
-
-  /* line 727, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 673, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .star, .empty-star {
     height: 1.5rem;
     width: 1.5rem; } }
-/* line 733, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.rating-wrap .rating {
-  margin: 1rem auto; }
+/* line 679, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+.rating-wrap {
+  width: 5rem;
+  height: 1rem;
+  margin: 2rem auto; }
 
 @media (min-width: 46.5625em) {
-  /* line 738, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-  .rating-wrap .rating {
-    margin: 2rem auto; } }
+  /* line 686, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  .rating-wrap {
+    width: 7.5rem;
+    height: 1.5rem; } }
 /*
  * Cards
  *
  * Viewings and credits.
  */
-/* line 749, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 698, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-header {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 700;
@@ -745,10 +693,10 @@ dd {
   border-top: 1px solid rgba(0, 0, 0, 0.15); }
 
 @media (min-width: 46.5625em) {
-  /* line 761, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 710, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-header {
     font-size: .6rem; } }
-/* line 766, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 715, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-sub-header {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: 700;
@@ -759,21 +707,21 @@ dd {
   color: rgba(0, 0, 0, 0.2); }
 
 @media (min-width: 46.5625em) {
-  /* line 776, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 725, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-sub-header {
     font-size: .6rem; } }
-/* line 781, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 730, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .card-description {
   font-size: .75rem;
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   color: rgba(0, 0, 0, 0.6); }
 
 @media (min-width: 46.5625em) {
-  /* line 787, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 736, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .card-description {
     font-size: .8rem;
     letter-spacing: inherit; } }
-/* line 793, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 742, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .role {
   color: rgba(0, 0, 0, 0.3); }
 
@@ -781,19 +729,19 @@ dd {
  * Aka titles
  *
  */
-/* line 802, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 751, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka {
   margin-bottom: 1rem;
   text-align: center; }
 
-/* line 807, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 756, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-heading {
   font-size: .8rem;
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: normal;
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 814, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 763, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .aka-title {
   letter-spacing: -.02rem;
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
@@ -806,46 +754,46 @@ dd {
  *
  */
 @media (min-width: 50em) {
-  /* line 828, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 777, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-half {
     display: inline-block;
     width: 49%;
     vertical-align: top;
     padding-right: 1rem; }
 
-  /* line 834, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 783, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-half:last-child {
     padding-right: 0;
     padding-left: 1rem; }
 
-  /* line 838, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 787, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-one-third {
     display: inline-block;
     width: 33%;
     vertical-align: top;
     padding-right: 1rem; }
 
-  /* line 844, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 793, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .column-two-thirds {
     display: inline-block;
     vertical-align: top;
     width: 66%;
     padding-right: 0;
     padding-left: 1rem; } }
-/* line 853, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 802, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .full {
   display: none; }
 
-/* line 857, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 806, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .abbreviation:after {
   content: ':'; }
 
 @media (min-width: 46.5625em) {
-  /* line 862, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 811, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .abbreviation:after {
     content: ''; }
 
-  /* line 866, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 815, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .full {
     display: inline; } }
 /* line 1, /Users/fshowalt/Workspace/movielog/source/stylesheets/_filters.scss */
