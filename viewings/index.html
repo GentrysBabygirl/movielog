@@ -54,7 +54,7 @@
         <div class='posts'>
           <h2 class='list-title'>Viewing Log</h2>
           <div class='column-one-third' data-filter-controls data-target='#viewings'>
-            <h3 class='card-header'>Filter and Sort</h3>
+            <h3 class='card-header filter-controls-header'>Filter and Sort</h3>
             <div class="filter-control"><div class="search-wrap clearable-wrap"><input name="data-title" placeholder="Title" class="filter-text-box" data-filter-attribute="data-title" data-filter-type="text" type="text" /></div></div>
             <div class="filter-control"><label for="year" class="filter-label">Year: </label><div class="filter-range" data-filter-attribute="data-release-date-year" data-filter-type="range" data-filter-min-value="1931" data-filter-max-value="2014"><div class="noUiSlider noUi-target"><div class="noUi-base noUi-background noUi-horizontal"><div class="noUi-origin noUi-origin-lower" style="left: 0%;"><div class="noUi-handle noUi-handle-lower"></div></div><div class="noUi-origin noUi-origin-upper" style="left: 100%;"><div class="noUi-handle noUi-handle-upper"></div></div></div></div><div class="filter-range__min">1931</div><div class="filter-range__max">2014</div></div></div>
             <div class="filter-control"><label for="order-by" class="filter-label">Order by: </label><div class="sort-wrap"><select name="viewing-date-desc" class="filter-select" data-sorter="viewing-date-desc" data-target="#viewings"><option value="title-asc">Title</option>
@@ -65,7 +65,7 @@
             </select></div></div>
           </div>
           <div class='column-two-thirds'>
-            <ul class='plain-list' id='viewings'>
+            <ul class='plain-list filter-results' id='viewings'>
               <li class='list-item' data-release-date-year='1980' data-release-date='1980-02-07' data-title='Inferno (1980)' data-viewing-date='2014-05-31'>
                 <div class='list-item-title'>
                   Inferno (1980)
