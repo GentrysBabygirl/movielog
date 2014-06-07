@@ -2,14 +2,16 @@
   <title>Frank's Movie Log</title>
   <link href='http://movielog.frankshowalter.com/feed.xml' rel='self'>
   <link href='http://movielog.frankshowalter.com/'>
-  <updated>2014-06-05T21:22:17-04:00</updated>
+  <updated>2014-06-06T20:17:15-04:00</updated>
   <id>http://movielog.frankshowalter.com/</id>
   <author>
     <name>Frank Showalter</name>
   </author>
   <entry>
-    <title>The Wagons Roll at Night (1941)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/the-wagons-roll-at-night-1941'>
+    <title>
+      1. The Wagons Roll at Night (1941)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/the-wagons-roll-at-night-1941'>
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/the-wagons-roll-at-night-1941</id>
     <content type='html'>

@@ -40,12 +40,13 @@ body {
 html {
   font-family: "freight-text-pro", Georgia, Cambria, "Times New Roman", Times, serif;
   -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
   font-size: 20px;
   line-height: 1.4;
   text-rendering: optimizeLegibility;
   -webkit-text-size-adjust: 100%; }
 
-/* line 57, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 58, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 body {
   background-color: #fff;
   color: rgba(0, 0, 0, 0.8);
@@ -54,7 +55,7 @@ body {
   border-top: 4px solid #557799; }
 
 /* No `:visited` state is required by default (browsers will use `a`) */
-/* line 66, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 67, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 a {
   color: inherit;
   text-decoration: none;
@@ -73,7 +74,7 @@ a {
  * Update the global typography of ht epage
  */
 /* Headings */
-/* line 86, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 87, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h1, h2, h3, h4, h5, h6 {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   margin-bottom: .5rem;
@@ -82,33 +83,33 @@ h1, h2, h3, h4, h5, h6 {
   color: #313131;
   text-rendering: optimizeLegibility; }
 
-/* line 94, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 95, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h1 {
   font-size: 2rem; }
 
-/* line 97, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 98, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h2 {
   margin-top: 1rem;
   font-size: 1.5rem; }
 
-/* line 101, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 102, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h3 {
   margin-top: 1.5rem;
   font-size: 1.25rem; }
 
-/* line 105, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 106, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 h4, h5, h6 {
   margin-top: 1rem;
   font-size: 1rem; }
 
 /* Body text */
-/* line 111, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 112, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 p {
   margin-top: 0;
   margin-bottom: 1.5rem;
   letter-spacing: 0.01rem; }
 
-/* line 117, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 118, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 strong {
   color: #303030; }
 
@@ -119,7 +120,7 @@ strong {
  * use an outter wrap to position the sidebar without interferring with the
  * regular page content.
  */
-/* line 130, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 131, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap {
   position: relative;
   width: 100%;
@@ -131,7 +132,7 @@ strong {
  *
  * Center the page content.
  */
-/* line 144, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 145, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .container {
   max-width: 31.8182rem;
   padding-left: 1rem;
@@ -140,7 +141,7 @@ strong {
   margin-right: auto; }
 
 @media (min-width: 46.5625em) {
-  /* line 153, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 154, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .container {
     max-width: 35rem;
     padding-left: 0;
@@ -150,21 +151,21 @@ strong {
  *
  * Super small header above the content for site name and short description.
  */
-/* line 166, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 167, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead {
   padding-top: 0;
   padding-bottom: .5rem;
   margin-bottom: 0;
   border-bottom: 1px solid rgba(0, 0, 0, 0.08); }
 
-/* line 173, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 174, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead-title {
   margin-top: 0;
   margin-bottom: 0;
   color: #505050;
   text-align: center; }
 
-/* line 179, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 180, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .masthead-title a {
   font-size: 1rem;
   background-image: none;
@@ -172,7 +173,7 @@ strong {
   color: rgba(0, 0, 0, 0.8); }
 
 @media (min-width: 46.5625em) {
-  /* line 187, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 188, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .masthead-title a {
     font-size: 1.1rem; } }
 /*
@@ -190,7 +191,7 @@ strong {
  * Source: http://css-tricks.com/off-canvas-menu-with-css-target/#comment-207504
  */
 /* Style and "hide" the sidebar */
-/* line 208, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 209, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar {
   position: fixed;
   z-index: 100;
@@ -210,36 +211,36 @@ strong {
   border-top: 4px solid #191918; }
 
 @media (min-width: 46.5625em) {
-  /* line 226, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 227, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .sidebar {
     border-color: #557799; } }
 /* Sidebar content */
-/* line 232, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 233, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar a {
   font-weight: normal;
   color: rgba(255, 255, 255, 0.65098);
   background-image: none; }
 
-/* line 237, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 238, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-item {
   padding: 1rem; }
 
-/* line 240, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 241, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-item p:last-child {
   margin-bottom: 0; }
 
 /* Sidebar nav */
-/* line 245, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 246, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1); }
 
-/* line 248, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 249, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item {
   display: block;
   padding: .5rem 1rem;
   border-top: 1px solid rgba(255, 255, 255, 0.1); }
 
-/* line 255, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 256, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-nav-item.active,
 a.sidebar-nav-item:hover,
 a.sidebar-nav-item:focus {
@@ -248,12 +249,12 @@ a.sidebar-nav-item:focus {
   border-color: transparent; }
 
 /* Hide the sidebar checkbox that we toggle with `.sidebar-toggle` */
-/* line 262, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 263, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-checkbox {
   display: none; }
 
 /* Style the `label` that we use to target the `.sidebar-checkbox` */
-/* line 267, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 268, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .sidebar-toggle {
   position: absolute;
   top: .55rem;
@@ -270,7 +271,7 @@ a.sidebar-nav-item:focus {
   -webkit-tap-highlight-color: white; }
 
 /* Hamburger icon */
-/* line 284, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 285, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .nav-menu {
   height: 12px; }
 
@@ -286,7 +287,7 @@ a.sidebar-nav-item:focus {
  *
  * Read more about it at http://meyerweb.com/eric/thoughts/2011/09/12/.
  */
-/* line 306, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 307, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap,
 .sidebar,
 .sidebar-toggle,
@@ -295,18 +296,18 @@ a.sidebar-nav-item:focus {
   -webkit-backface-visibility: hidden;
           backface-visibility: hidden; }
 
-/* line 311, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 312, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .wrap,
 .nav-menu,
 .sidebar-toggle {
   -webkit-transition: -webkit-transform .3s ease-in-out;
           transition: transform .3s ease-in-out; }
 
-/* line 315, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 316, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 #sidebar-checkbox:checked + .sidebar {
   opacity: 1; }
 
-/* line 319, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 320, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 #sidebar-checkbox:checked ~ .wrap,
 #sidebar-checkbox:checked ~ .sidebar-toggle {
   -webkit-transform: translateX(13rem);
@@ -319,14 +320,14 @@ a.sidebar-nav-item:focus {
  * Each post is wrapped in `.post` and is used on default and post layouts. Each
  * page is wrapped in `.page` and is only used on the page layout.
  */
-/* line 331, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 332, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page,
 .post {
   margin-top: 3rem;
   margin-bottom: 4em; }
 
 /* Blog post or page title */
-/* line 339, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 340, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page-title,
 .post-title,
 .post-title a {
@@ -334,19 +335,19 @@ a.sidebar-nav-item:focus {
   font-size: 1.5rem;
   letter-spacing: -0.02em; }
 
-/* line 345, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 346, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .page-title,
 .post-title {
   margin-top: 0;
   text-align: center; }
 
 @media (min-width: 46.5625em) {
-  /* line 350, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 351, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-title {
     font-size: 2.25rem;
     letter-spacing: -0.04em; } }
 /* Slub line below post title */
-/* line 357, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 358, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .post-slug {
   display: block;
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
@@ -357,12 +358,12 @@ a.sidebar-nav-item:focus {
   text-align: center; }
 
 @media (min-width: 46.5625em) {
-  /* line 367, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 368, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-slug {
     font-size: .8rem;
     letter-spacing: -0.02rem; } }
 @media (min-width: 31.3125em) {
-  /* line 374, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 375, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .post-content p {
     letter-spacing: .00723rem;
     line-height: 1.5;
@@ -375,7 +376,7 @@ a.sidebar-nav-item:focus {
  * Super lightweight (HTML-wise) blog pagination. `span`s are provide for when
  * there are no more previous or next posts to show.
  */
-/* line 391, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 392, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination {
   overflow: hidden;
   /* clearfix */
@@ -386,7 +387,7 @@ a.sidebar-nav-item:focus {
   background-color: #fcfcfc; }
 
 /* Pagination items can be `span`s or `a`s */
-/* line 401, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 402, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-weight: bold;
@@ -397,21 +398,21 @@ a.sidebar-nav-item:focus {
   width: 50%;
   background-image: none; }
 
-/* line 411, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 412, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item:first-child {
   margin-bottom: -1px; }
 
-/* line 414, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 415, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.newer {
   text-align: left;
   float: left; }
 
-/* line 418, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 419, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item.older {
   text-align: right;
   float: right; }
 
-/* line 422, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 423, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-icon {
   vertical-align: middle;
   width: 1.4rem;
@@ -420,11 +421,11 @@ a.sidebar-nav-item:focus {
   height: 1rem;
   padding-bottom: 3px; }
 
-/* line 430, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 431, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-icon path {
   fill: rgba(0, 0, 0, 0.8); }
 
-/* line 437, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 438, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .pagination-item:hover {
   background-color: #f5f5f5; }
 
@@ -433,17 +434,17 @@ a.sidebar-nav-item:focus {
  *
  * Inline SVG styles.
  */
-/* line 448, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 449, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .icon {
   width: 1rem;
   height: 1rem;
   vertical-align: bottom; }
 
-/* line 454, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 455, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .twitter path {
   fill: #0054ab; }
 
-/* line 458, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 459, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .feed path {
   fill: #f4a546; }
 
@@ -452,13 +453,13 @@ a.sidebar-nav-item:focus {
  *
  */
 /* Search box in sidebar */
-/* line 469, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 470, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .search-wrap {
   position: relative;
   padding-top: .25rem;
   padding-bottom: .25rem; }
 
-/* line 474, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 475, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .search-icon {
   width: .8rem;
   height: .8rem;
@@ -467,7 +468,7 @@ a.sidebar-nav-item:focus {
   left: .9rem;
   fill: rgba(0, 0, 0, 0.3); }
 
-/* line 483, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 484, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-search-input {
   font-size: .8rem;
   width: 12rem;
@@ -477,14 +478,14 @@ a.sidebar-nav-item:focus {
   padding: .3rem .5rem .3rem 1.5rem;
   border: none; }
 
-/* line 492, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 493, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 input::-webkit-input-placeholder {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
   -webkit-transition: opacity 0.3s linear;
   color: rgba(0, 0, 0, 0.3); }
 
-/* line 497, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 498, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 input:focus::-webkit-input-placeholder {
   -webkit-transform: translate(0, 0);
           transform: translate(0, 0);
@@ -495,7 +496,7 @@ input:focus::-webkit-input-placeholder {
  *
  */
 /* Site footer */
-/* line 508, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 509, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer {
   color: rgba(0, 0, 0, 0.3);
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
@@ -504,14 +505,14 @@ input:focus::-webkit-input-placeholder {
   padding: 1rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 516, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 517, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .site-footer {
     font-size: .8rem; } }
-/* line 520, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 521, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer-feed {
   margin-left: .5rem; }
 
-/* line 524, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 525, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .site-footer .icon {
   background-color: white; }
 
@@ -519,25 +520,25 @@ input:focus::-webkit-input-placeholder {
  * Lists.
  *
  */
-/* line 533, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 534, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 ul, ol, dl {
   margin-top: 0;
   margin-bottom: 1rem; }
 
-/* line 537, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 538, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 li {
   list-style-type: none; }
 
-/* line 541, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 542, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 dt {
   font-weight: bold; }
 
-/* line 544, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 545, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 dd {
   margin-bottom: .5rem; }
 
 /* Title for lists */
-/* line 549, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 550, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-title {
   display: block;
   margin: 0;
@@ -553,39 +554,40 @@ dd {
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   padding: .4rem 0; }
 
-/* line 565, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 566, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .plain-list {
   margin-left: 0;
   padding-left: 0; }
 
 @media (min-width: 46.5625em) {
-  /* line 570, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 571, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .plain-list {
     max-width: 32rem;
     margin: 0 auto; } }
-/* line 575, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 576, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item {
   color: rgba(0, 0, 0, 0.3);
   border-bottom: 1px solid rgba(0, 0, 0, 0.05);
   margin-top: 2rem;
   padding-bottom: 2rem;
-  position: relative; }
+  position: relative;
+  line-height: .8; }
 
-/* line 582, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 584, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item:first-child {
   margin-top: 0; }
 
-/* line 585, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 587, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item:last-child {
   border-bottom: none;
   margin-bottom: 0; }
 
-/* line 589, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 591, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-with-number {
   position: relative;
   padding-left: 2rem; }
 
-/* line 593, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 595, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-number {
   margin-top: -1.2rem;
   font-size: 1.2rem;
@@ -595,7 +597,7 @@ dd {
   top: 50%;
   left: 0; }
 
-/* line 603, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 605, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 0.9rem;
@@ -605,65 +607,61 @@ dd {
   margin-bottom: 0.4rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 612, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 614, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-title {
     font-size: 1rem;
     margin-bottom: 0.5rem;
-    line-height: 1.1; } }
-/* line 618, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    line-height: 1.1;
+    display: inline-block; } }
+/* line 621, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-title a {
   color: rgba(0, 0, 0, 0.8);
   background-image: none;
   position: relative;
   font-weight: 700; }
 
-/* line 624, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 627, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-description {
   font-family: "Segoe UI", "jaf-bernino-sans", "Helvetica Neue", "Arial", sans-serif;
   font-size: 0.7rem;
   line-height: 1.2;
   font-weight: 300;
+  display: inline;
   color: rgba(0, 0, 0, 0.4); }
 
 @media (min-width: 46.5625em) {
-  /* line 632, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 636, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-description {
     font-size: 0.75rem;
     letter-spacing: normal;
+    display: block;
     line-height: 1.3; } }
-/* line 638, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+/* line 643, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
 .list-item-rating {
-  height: .8rem;
-  width: 4rem;
+  height: .7rem;
+  width: 3.5rem;
   display: inline-block;
-  position: absolute;
-  left: 0;
-  bottom: -1rem; }
-  /* line 646, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  margin-right: .2rem; }
+  /* line 649, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-rating .rating {
     display: inline-block; }
-  /* line 650, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 653, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-rating .star, .list-item-rating .half-star, .list-item-rating .empty-star {
     width: .8rem;
     height: .8rem; }
 
 @media (min-width: 46.5625em) {
-  /* line 656, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+  /* line 659, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-rating {
     width: 4.5rem;
     height: .9rem;
-    top: 1px;
     position: relative;
-    margin: 0 0 0 0.1rem; }
-    /* line 663, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
+    top: 1px;
+    margin: 0 0 0 0.3rem; }
+    /* line 666, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
     .list-item-rating .star, .list-item-rating .empty-star {
       width: .9rem;
       height: .9rem; } }
-/* line 670, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
-.list-item-rating-placeholder {
-  display: inline-block;
-  width: 4.4rem; }
-
 @media (min-width: 46.5625em) {
   /* line 675, /Users/fshowalt/Workspace/movielog/source/stylesheets/application.scss */
   .list-item-rating-placeholder {

@@ -3,14 +3,16 @@
   <title>Frank's Movie Log</title>
   <link href='http://movielog.frankshowalter.com/feed.xml' rel='self' />
   <link href='http://movielog.frankshowalter.com/' />
-  <updated>2014-06-05T21:22:16-04:00</updated>
+  <updated>2014-06-06T20:17:14-04:00</updated>
   <id>http://movielog.frankshowalter.com/</id>
   <author>
     <name>Frank Showalter</name>
   </author>
   <entry>
-    <title>The Thin Man (1934)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/the-thin-man-1934' />
+    <title>
+      11. The Thin Man (1934)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/the-thin-man-1934' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/the-thin-man-1934</id>
     <content type='html'>
@@ -20,8 +22,10 @@
     </content>
   </entry>
   <entry>
-    <title>The Blob (1988)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/the-blob-1988' />
+    <title>
+      10. The Blob (1988)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/the-blob-1988' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/the-blob-1988</id>
     <content type='html'>
@@ -31,8 +35,10 @@
     </content>
   </entry>
   <entry>
-    <title>The Thing (1982)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/the-thing-1982' />
+    <title>
+      9. The Thing (1982)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/the-thing-1982' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/the-thing-1982</id>
     <content type='html'>
@@ -42,8 +48,10 @@
     </content>
   </entry>
   <entry>
-    <title>A Nightmare on Elm Street 3: Dream Warriors (1987)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/a-nightmare-on-elm-street-3-dream-warriors-1987' />
+    <title>
+      8. A Nightmare on Elm Street 3: Dream Warriors (1987)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/a-nightmare-on-elm-street-3-dream-warriors-1987' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/a-nightmare-on-elm-street-3-dream-warriors-1987</id>
     <content type='html'>
@@ -53,8 +61,10 @@
     </content>
   </entry>
   <entry>
-    <title>Prometheus (2012/I)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/prometheus-2012-i' />
+    <title>
+      7. Prometheus (2012/I)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/prometheus-2012-i' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/prometheus-2012-i</id>
     <content type='html'>
@@ -64,8 +74,10 @@
     </content>
   </entry>
   <entry>
-    <title>City of the Living Dead (1983)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/city-of-the-living-dead-1983' />
+    <title>
+      6. City of the Living Dead (1983)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/city-of-the-living-dead-1983' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/city-of-the-living-dead-1983</id>
     <content type='html'>
@@ -75,8 +87,10 @@
     </content>
   </entry>
   <entry>
-    <title>Soldier in the Rain (1963)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/soldier-in-the-rain-1963' />
+    <title>
+      5. Soldier in the Rain (1963)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/soldier-in-the-rain-1963' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/soldier-in-the-rain-1963</id>
     <content type='html'>
@@ -86,8 +100,10 @@
     </content>
   </entry>
   <entry>
-    <title>Men Are Such Fools (1938)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/men-are-such-fools-1938' />
+    <title>
+      4. Men Are Such Fools (1938)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/men-are-such-fools-1938' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/men-are-such-fools-1938</id>
     <content type='html'>
@@ -97,8 +113,10 @@
     </content>
   </entry>
   <entry>
-    <title>Black Legion (1937)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/black-legion-1937' />
+    <title>
+      3. Black Legion (1937)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/black-legion-1937' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/black-legion-1937</id>
     <content type='html'>
@@ -108,8 +126,10 @@
     </content>
   </entry>
   <entry>
-    <title>Thief (1981)</title>
-    <link href='http://movielog.frankshowalter.com//reviews/thief-1981' />
+    <title>
+      2. Thief (1981)
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/thief-1981' />
     <updated>2014-05-20T00:00:00-04:00</updated>
     <id>http://movielog.frankshowalter.com/thief-1981</id>
     <content type='html'>
