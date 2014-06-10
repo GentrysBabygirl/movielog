@@ -3,18 +3,48 @@
   <title>Frank's Movie Log</title>
   <link href='http://movielog.frankshowalter.com/feed.xml' rel='self' />
   <link href='http://movielog.frankshowalter.com/' />
-  <updated>2014-06-08T21:16:18-04:00</updated>
+  <updated>2014-06-09T20:42:55-04:00</updated>
   <id>http://movielog.frankshowalter.com/</id>
   <author>
     <name>Frank Showalter</name>
   </author>
   <entry>
     <title>
+      12. Welcome Back
+    </title>
+    <link href='http://movielog.frankshowalter.com/features/welcome-back' />
+    <id>http://movielog.frankshowalter.com/features/welcome-back</id>
+    <updated>2014-06-07T00:00:00-04:00</updated>
+    <content type='html'>
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      
+      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
+      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
+      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
+      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
+      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
+      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+    </content>
+  </entry>
+  <entry>
+    <title>
       11. The Thin Man (1934) ★★★★½
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/the-thin-man-1934' />
+    <id>http://movielog.frankshowalter.com/reviews/the-thin-man-1934</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/the-thin-man-1934</id>
     <content type='html'>
       &lt;p&gt;Eccentric inventor Clyde Wynant is preparing to go into seclusion to work on a new project when he’s interrupted by a visit from his daughter Dorothy (O&amp;#39;Sullivan) who announces her engagement. Wynant hurries her out, but promises to return in time for her wedding. Wynant continues his preparations and discovers that the $50,000 in bonds he’d earmarked as a wedding present for Dorothy are missing. He storms over to the apartment of his mistress Julia, catching her in the arms of another man in the process. Wynant accuses her of the theft and threatens to turn her over to the police. Three months later Dorothy hasn’t heard from her father. While out at a restaurant, she recognizes former detective Nick Charles (Powell) and approaches him for help. Nick–happy in his new life of leisure with his heiress wife Nora (Loy)–is reluctant to get involved, but when circumstances pin a pair of murders on the still missing Wynant, Nick steps in and uncovers a buried skeleton along with a labyrinthine array of suspects and motives. The mystery culminates with New York’s finest corralling all the suspects to a dinner party thrown by Nick and Nora, where Nick ferrets out the true killer.&lt;/p&gt;
       
@@ -26,8 +56,8 @@
       10. The Blob (1988) ★★☆☆☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/the-blob-1988' />
+    <id>http://movielog.frankshowalter.com/reviews/the-blob-1988</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/the-blob-1988</id>
     <content type='html'>
       &lt;p&gt;Rebel loner Kevin Dillon subs for clean-cut Steve McQueen and the army isn’t quite the white knight it was in the 1958 original, but this remake hits all the same plot points as a group of teenagers struggle to save a disbelieving small town from a gelatinous ooze that consumes its victims while adding to its ever-increasing mass. Where this entry declares its creative independence is via its memorable and gruesome special effects. This blob doesn’t just assimilate its victims, it digests them.&lt;/p&gt;
       
@@ -39,8 +69,8 @@
       9. The Thing (1982) ★★★★½
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/the-thing-1982' />
+    <id>http://movielog.frankshowalter.com/reviews/the-thing-1982</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/the-thing-1982</id>
     <content type='html'>
       &lt;p&gt;At a remote Antarctic research station, a group of scientists and their helicopter pilot (Russell) discover they’ve been infiltrated by a parasitic alien organism that assimilates other life forms and subsequently imitates them. After calculating that the alien would assimilate all of humanity within three years it reached civilization, one of the scientists destroys the station’s communications and transport equipment, stranding the crew with the monster. Tensions rise and the men start to turn on one another, unsure who’s a man, and who’s a thing.&lt;/p&gt;
       
@@ -52,8 +82,8 @@
       8. A Nightmare on Elm Street 3: Dream Warriors (1987) ★★½☆☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/a-nightmare-on-elm-street-3-dream-warriors-1987' />
+    <id>http://movielog.frankshowalter.com/reviews/a-nightmare-on-elm-street-3-dream-warriors-1987</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/a-nightmare-on-elm-street-3-dream-warriors-1987</id>
     <content type='html'>
       &lt;p&gt;Arquette plays Kristen, a teenager tormented by nightmares of a badly burned man with razors for fingers. When she wakes from one of her dreams to find her wrists slashed, her parents–believing it a suicide attempt–commit her to a local psychiatric hospital. There she meets a group of teens plagued by similar nightmares and Nancy (played by Langenkamp) a survivor of the first film who’s now a doctor. Nancy tells Kristen and the other children that they–like herself–are the last descendants of the men and women who originally killed the man in their dreams: Freddy Krueger. Nancy also breaks the bad news that dying a dream with Krueger equals death in the real world. Later, Kristen falls asleep and encounters Krueger. In a panic, she pulls Nancy into her dream, unaware she could to do so. The two manage to escape Krueger. Sensing an opportunity, Nancy teaches the kids how to fight back in their dreams, but Krueger manages to take one child hostage, rendering him comatose in the real world. Nancy mounts a rescue mission, using Kristen to pull all the kids into a group dream and final showdown with Krueger.&lt;/p&gt;
       
@@ -65,8 +95,8 @@
       7. Prometheus (2012/I) ★★★★☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/prometheus-2012-i' />
+    <id>http://movielog.frankshowalter.com/reviews/prometheus-2012-i</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/prometheus-2012-i</id>
     <content type='html'>
       &lt;p&gt;In the late 21st century, archeologist Rapace discovers a series of identical star charts amongst the ruins of several disparate ancient civilizations. Viewing this as an invitation from humanity’s forerunners, the elderly chair of the massive Weyland corporation funds an expedition to follow the charts deep into space to an earth-sized moon orbiting a massive planet. The crew travel in stasis, watched over by David, an android played by Fassbender who passes the time watching the dreams of the various crew-members and Lawrence of Arabia (1962). Upon landing, the crew discover the remains of what appears to be an ancient alien species with DNA that matches humans. Things go downhill fast, though, and the search for knowledge quickly devolves into a struggle for survival, as the Weyland corporation’s hidden motives and the true nature of the alien species become clear.&lt;/p&gt;
       
@@ -78,8 +108,8 @@
       6. City of the Living Dead (1983) ★★★½☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/city-of-the-living-dead-1983' />
+    <id>http://movielog.frankshowalter.com/reviews/city-of-the-living-dead-1983</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/city-of-the-living-dead-1983</id>
     <content type='html'>
       &lt;p&gt;In a desolate church cemetery, Father Thomas hangs himself from an old oak tree. Medium Mary Woodhouse (MacColl) sees the act during a seance, convulses violently and drops dead from shock. Nosing for a story, reporter Peter Bell (George) attends Mary’s funeral. As the mourners trickle away, Peter lingers and Mary awakens in her coffin, very much alive and frantic to escape. Peter hears her scratching at the coffin lid–or likely thinks he does, thanks to Mary’s psychic talents–and frees her. Mary tells Peter about her vision, and how Thomas’s suicide was a sacrifice intended to open the gates of Hell. Peter is skeptical but curious, and agrees to travel with Mary to where she believes the gate to exist, a remote New England town called Dunwich. In Dunwich, people are starting to disappear thanks to the now undead Thomas, who claims a pair of teens in a horrific–albeit memorable–sequence. Peter and Mary arrive and eventually connect with the few locals with enough sense and luck to stay alive. Together, they head for the cemetery in a last-ditch effort to close the gate and avoid the apocalypse.&lt;/p&gt;
       
@@ -91,8 +121,8 @@
       5. Soldier in the Rain (1963) ★★★☆☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/soldier-in-the-rain-1963' />
+    <id>http://movielog.frankshowalter.com/reviews/soldier-in-the-rain-1963</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/soldier-in-the-rain-1963</id>
     <content type='html'>
       &lt;p&gt;Set on an army base during peacetime, the film follows Sergeant Eustis Clay (McQueen) and his idol, Master Sergeant Maxwell Slaughter (Gleason). Clay cooks up a series of dim-witted get-rich-quick schemes, which draw the ire of rival Sergeant Lenahan and MP Priest, frequently requiring some degree of intervention from Slaughter to keep Clay out of trouble. Clay dreams of going into business with Slaughter when their enlistments end, but Slaughter is comfortable with the easy life he’s built for himself in the peacetime army. Sensing Slaughter’s reluctance, Clay tries to temp him with the lures of civilian life by setting him up on a blind date with ditzy teenager Bobby Jo Pepperdine (Weld). Slaughter navigates the situation with tact, settling into a fatherly relationship with Pepperdine that somewhat mirrors his relationship with Clay. Things turn dark when Clay gets word that his beloved dog has died, and Lenahan and Priest bait a drunken Clay into a two-against-one barroom brawl that ends in tragedy.&lt;/p&gt;
       
@@ -104,8 +134,8 @@
       4. Men Are Such Fools (1938) ★½☆☆☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/men-are-such-fools-1938' />
+    <id>http://movielog.frankshowalter.com/reviews/men-are-such-fools-1938</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/men-are-such-fools-1938</id>
     <content type='html'>
       &lt;p&gt;Lane plays a Linda, an ambitious secretary out to climb the corporate ladder. Just as her career takes off, she marries Jimmy, an ex-footballer from Princeton played by Morris, who demands she leave her job. Linda reluctantly agrees, and several months later they’ve settled into a bland suburban existence with Linda playing the role of dutiful housewife. Still ambitious, Linda arranges a promotion for Jimmy and leaves him when he turns it down, moving back to the city and resuming her career. Soon, she’s near the top of the ladder, working long nights alongside fellow advertising executive Harry, played by Humphrey Bogart. Jimmy returns to the city alone and throws himself into his work, turning into the driven man Linda always wanted him to be. As Harry makes his feelings for Linda clear, Linda realizes she’ll have to chose between Harry and Jimmy.&lt;/p&gt;
       
@@ -117,23 +147,12 @@
       3. Black Legion (1937) ★★½☆☆
     </title>
     <link href='http://movielog.frankshowalter.com/reviews/black-legion-1937' />
+    <id>http://movielog.frankshowalter.com/reviews/black-legion-1937</id>
     <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/black-legion-1937</id>
     <content type='html'>
       &lt;p&gt;Bogart plays Frank Taylor, a senior machinist and family man in line for a rich promotion to foreman. When he’s passed over in favor of a younger coworker named Dombrowski, Frank falls in with the titular Legion, a black-robed hate group who runs Dombrowski out of town. Frank ascends to foreman, and for a short while things are great, but after Frank’s Legion-mandated recruiting activities lead to an accident at the shop, Frank is demoted in favor of his neighbor. Once again, the Legion come to Frank’s aid, but the secrecy and violence begin to wear on Frank who takes to drinking heavily, leading to the departure of his wife, along with their young son. Alone and despondent, a drunken Frank confesses everything to his longtime friend Ed, but panics the next morning and tells local Legion head Cliff what he’s done. Cliff cooks up a rumor about Ed in order to rile up the Legion, who kidnap Ed, but things don’t go as planned, leaving Frank with blood on his hands and nowhere to turn.&lt;/p&gt;
       
       &lt;p&gt;Bogart shines in what should have been a break-out role, and the script’s multi-faceted depiction of the Legion is enlightening, from the radio demagogues cultivating resentment and fear all the way to the profiteers behind the scenes, cashing in on the sales of Legion uniforms and revolvers. But Frank’s going from honest family-man to drunken womanizer in what seems like a matter of weeks gives the film a trite, after-school-special feel that undermines the still-relevant social context.&lt;/p&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>
-      2. Thief (1981) ★★★★☆
-    </title>
-    <link href='http://movielog.frankshowalter.com/reviews/thief-1981' />
-    <updated>2014-05-20T00:00:00-04:00</updated>
-    <id>http://movielog.frankshowalter.com/thief-1981</id>
-    <content type='html'>
-      &lt;p&gt;Caan plays Frank, a Chicago-based professional safe cracker looking to retire and start a family with his new girlfriend, played by Weld. Needing one last big score to secure his financial future, Frank agrees to go to work for Leo, a powerful crime boss, who sets up a high-dollar diamond heist in LA. Frank and his crew take down the score, but when Leo reneges on their deal it sets up a violent confrontation between Frank and Leo’s crew. Michael Mann’s first film is effective, stylish thriller peppered with great performances and a very satisfying third act. It’s a slicker–but no less resonant–version of the kind of movie Sam Peckinpah might have made with Steve McQueen.&lt;/p&gt;
     </content>
   </entry>
 </feed>
