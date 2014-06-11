@@ -34,7 +34,13 @@ a {
   -webkit-background-size: 2px 2px;
           background-size: 2px 2px;
   color: inherit;
-  text-decoration: none; }
+  text-decoration: none;
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out; }
+
+a:hover,
+a:focus {
+  color: #579 !important; }
 
 h1,
 h2,
@@ -171,7 +177,12 @@ a.sidebar-nav-item:focus {
   z-index: 300; }
 
 .nav-menu {
-  height: 12px; }
+  height: 12px;
+  fill: rgba(0, 0, 0, 0.8);
+  -webkit-transition: all .3s ease-in-out;
+          transition: all .3s ease-in-out; }
+  .nav-menu:hover {
+    fill: #579; }
 
 .wrap,
 .sidebar,
