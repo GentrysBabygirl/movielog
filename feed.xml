@@ -3,11 +3,27 @@
   <title>Frank's Movie Log</title>
   <link href='http://movielog.frankshowalter.com/feed.xml' rel='self' />
   <link href='http://movielog.frankshowalter.com/' />
-  <updated>2014-06-13T19:20:25-04:00</updated>
+  <updated>2014-06-25T21:13:23-04:00</updated>
   <id>http://movielog.frankshowalter.com/</id>
   <author>
     <name>Frank Showalter</name>
   </author>
+  <entry>
+    <title>
+      13. Stake Land (2010) ★★★☆☆
+    </title>
+    <link href='http://movielog.frankshowalter.com/reviews/stake-land-2010' />
+    <id>http://movielog.frankshowalter.com/reviews/stake-land-2010</id>
+    <updated>2014-06-22T00:00:00-04:00</updated>
+    <content type='html'>
+      &lt;p&gt;Starting off in a rural barn, we see a young mother clutching a swaddled baby. It&amp;#39;s dark and pouring outside. Her husband has the car&amp;#39;s hood up, trying to get it started. An older boy looks at them both with a worried look. A monotone voice on the radio implores people to remain in their homes after dark. There&amp;#39;s some voiceover narration by the boy, and then the family dog takes off into the rainy darkness outside. The boy follows. At this point, we can almost count the horror tropes. Indeed, &lt;em&gt;Stake Land&lt;/em&gt; doesn&amp;#39;t start well.&lt;/p&gt;
+      
+      &lt;p&gt;It gets better. It seems the world is now overrun by the undead. The boy, Martin, meets Mister, an enigmatic loner who seems to know everything about killing vampires. Mister even pulls the fangs out of his kills and saves them like scalps. This little quirk may be the only reason the film uses vampires instead of zombies. 
+      Anyway, Mister takes Martin under his wing and the two set out for New Eden, a fabled promised land to the north. Standing in their way is a white supremacist cult that uses vampires as kind of a chemical weapon. &lt;/p&gt;
+      
+      &lt;p&gt;After the shaky opening, the film plays well as a post-apocalyptic horror. It&amp;#39;s dark, but not without some nice touches of black comedy. The solid production values and performances belie the film&amp;#39;s all but straight-to-video release. Sure, the voiceover narration is unnecessary, but it&amp;#39;s easy enough to ignore. Now if only they could have somehow gotten Warren Oates to play Mister...&lt;/p&gt;
+    </content>
+  </entry>
   <entry>
     <title>
       12. Welcome Back
@@ -16,26 +32,29 @@
     <id>http://movielog.frankshowalter.com/features/welcome-back</id>
     <updated>2014-06-07T00:00:00-04:00</updated>
     <content type='html'>
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Hey there, constant reader. Frank here. It&amp;#39;s been awhile, huh? Right. Sorry about that. You see, as much as I enjoy writing about movies, I enjoy watching movies even more. And as I watched more movies, my to-review list grew...&lt;/p&gt;
       
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;I also tinkered with the site. My day job is software development, and I love coding almost as much as I love movies. So I went through several design iterations. I added splash images, transitions, and client-side sorting and filtering. The site looked pretty damn sweet. But all the while, my to-review list kept growing...&lt;/p&gt;
       
-      &lt;p&gt;Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-      tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-      quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-      consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-      cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-      proident, sunt in culpa qui officia deserunt mollit anim id est laborum.&lt;/p&gt;
+      &lt;p&gt;Which brings us to today. The top of my to-review list is a movie I saw almost two years ago.&lt;/p&gt;
+      
+      &lt;p&gt;So I&amp;#39;m declaring review bankruptcy.&lt;/p&gt;
+      
+      &lt;p&gt;What&amp;#39;s that mean? Well, in a nutshell, I&amp;#39;m starting over. I&amp;#39;ve still got the list (over in the &lt;a href=&quot;/viewings&quot;&gt;viewing log&lt;/a&gt;) of everything I&amp;#39;ve seen since January 1st 2012, but I&amp;#39;m starting over on reviews.&lt;/p&gt;
+      
+      &lt;p&gt;One of my goals when I started the site was to become a better writer by forcing myself to write more. But writing a review for every movie I watch isn&amp;#39;t going to help me be a better writer if the reviews are crap.&lt;/p&gt;
+      
+      &lt;p&gt;And a lot of them were crap.&lt;/p&gt;
+      
+      &lt;p&gt;They were crap because I churned them out to clear the queue. I watch too many movies to review them all. So now, instead of trying to review every movie I watch, I&amp;#39;ll aim for one review a week. &lt;/p&gt;
+      
+      &lt;p&gt;That should give me enough time for three drafts per review. Most of the previous reviews were first draft efforts. This should improve the quality while still forcing me to publish the thing instead of tinkering with it for draft after draft. &lt;/p&gt;
+      
+      &lt;p&gt;Last, to help bring the focus back to the writing I redesigned the site again. The splash images and posters are gone, because finding and prepping them took a lot of time. Time better spent writing.&lt;/p&gt;
+      
+      &lt;p&gt;So welcome back, constant reader. I hope you&amp;#39;ll give me a second chance. We&amp;#39;ve got close to a hundred years of cinema to cover and I&amp;#39;m pretty excited.&lt;/p&gt;
+      
+      &lt;p&gt;Let&amp;#39;s get started.&lt;/p&gt;
     </content>
   </entry>
   <entry>
@@ -140,19 +159,6 @@
       &lt;p&gt;Lane plays a Linda, an ambitious secretary out to climb the corporate ladder. Just as her career takes off, she marries Jimmy, an ex-footballer from Princeton played by Morris, who demands she leave her job. Linda reluctantly agrees, and several months later they’ve settled into a bland suburban existence with Linda playing the role of dutiful housewife. Still ambitious, Linda arranges a promotion for Jimmy and leaves him when he turns it down, moving back to the city and resuming her career. Soon, she’s near the top of the ladder, working long nights alongside fellow advertising executive Harry, played by Humphrey Bogart. Jimmy returns to the city alone and throws himself into his work, turning into the driven man Linda always wanted him to be. As Harry makes his feelings for Linda clear, Linda realizes she’ll have to chose between Harry and Jimmy.&lt;/p&gt;
       
       &lt;p&gt;Let’s get this out of the way: there is one, and only one, reason to endure Men Are Such Fools: to see Humphrey Bogart look utterly ridiculous in his unitard swimsuit. A fast-forward button can make this a much more pleasant endeavor, as the rest of the film is awful. Neither of the leads is likable. Lane starts out okay, but as soon as Morris makes his entrance, she goes downhill. You see, Morris&amp;#39; character is a total ass. He bullies Lane’s character at every turn, sabotages her career, and disregards her hopes and dreams. Thus, when Lane’s character suddenly goes giddy and agrees to marry him, you can’t help but lose any sympathy for her. Things get better–briefly–when Bogart shows up. You’re practically screaming at Lane to go for him, but instead she only uses him to get back with the lunky Morris. Despite the title, the film makes it pretty clear that it’s the women, not men who are the fools. Was this really how it worked in 1938?&lt;/p&gt;
-    </content>
-  </entry>
-  <entry>
-    <title>
-      3. Black Legion (1937) ★★½☆☆
-    </title>
-    <link href='http://movielog.frankshowalter.com/reviews/black-legion-1937' />
-    <id>http://movielog.frankshowalter.com/reviews/black-legion-1937</id>
-    <updated>2014-05-20T00:00:00-04:00</updated>
-    <content type='html'>
-      &lt;p&gt;Bogart plays Frank Taylor, a senior machinist and family man in line for a rich promotion to foreman. When he’s passed over in favor of a younger coworker named Dombrowski, Frank falls in with the titular Legion, a black-robed hate group who runs Dombrowski out of town. Frank ascends to foreman, and for a short while things are great, but after Frank’s Legion-mandated recruiting activities lead to an accident at the shop, Frank is demoted in favor of his neighbor. Once again, the Legion come to Frank’s aid, but the secrecy and violence begin to wear on Frank who takes to drinking heavily, leading to the departure of his wife, along with their young son. Alone and despondent, a drunken Frank confesses everything to his longtime friend Ed, but panics the next morning and tells local Legion head Cliff what he’s done. Cliff cooks up a rumor about Ed in order to rile up the Legion, who kidnap Ed, but things don’t go as planned, leaving Frank with blood on his hands and nowhere to turn.&lt;/p&gt;
-      
-      &lt;p&gt;Bogart shines in what should have been a break-out role, and the script’s multi-faceted depiction of the Legion is enlightening, from the radio demagogues cultivating resentment and fear all the way to the profiteers behind the scenes, cashing in on the sales of Legion uniforms and revolvers. But Frank’s going from honest family-man to drunken womanizer in what seems like a matter of weeks gives the film a trite, after-school-special feel that undermines the still-relevant social context.&lt;/p&gt;
     </content>
   </entry>
 </feed>
