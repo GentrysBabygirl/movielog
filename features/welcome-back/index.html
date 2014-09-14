@@ -7,7 +7,7 @@
     <title>
       Welcome Back | Frank's Movie Log
     </title>
-    <link href="../../stylesheets/application-ec1216d6.css" rel="stylesheet" type="text/css" />
+    <link href="../../stylesheets/application-bbbb8329.css" rel="stylesheet" type="text/css" />
     <link href='/apple-touch-icon-57x57.png' rel='apple-touch-icon' sizes='57x57'>
     <link href='/apple-touch-icon-114x114.png' rel='apple-touch-icon' sizes='114x114'>
     <link href='/apple-touch-icon-72x72.png' rel='apple-touch-icon' sizes='72x72'>
@@ -40,9 +40,9 @@
   <body>
     <input class='sidebar-checkbox' id='sidebar-checkbox' type='checkbox'>
     <div class='sidebar' id='sidebar'>
-      <form action="https://www.google.com/search" accept-charset="UTF-8" class="site-navigation__site-search" method="get"><input name="q" value="site:movielog.frankshowalter.com" type="hidden" />
+      <form action="https://www.google.com/search" accept-charset="UTF-8" method="get"><input type="hidden" name="q" value="site:movielog.frankshowalter.com" />
       <div class='search-wrap clearable-wrap'>
-        <input name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" type="text" />
+        <input type="text" name="q" placeholder="Search the Movie Log" id="searchInput" class="site-search-input" size="30" />
         <svg class='search-icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
           <g transform='scale(1 -1) translate(0 -1280)'>
             <path d='M1152 704q0 185 -131.5 316.5t-316.5 131.5t-316.5 -131.5t-131.5 -316.5t131.5 -316.5t316.5 -131.5t316.5 131.5t131.5 316.5zM1664 -128q0 -52 -38 -90t-90 -38q-54 0 -90 38l-343 342q-179 -124 -399 -124q-143 0 -273.5 55.5t-225 150t-150 225t-55.5 273.5 t55.5 273.5t150 225t225 150t273.5 55.5t273.5 -55.5t225 -150t150 -225t55.5 -273.5q0 -220 -124 -399l343 -343q37 -37 37 -90z'></path>
@@ -51,9 +51,12 @@
       </div>
       </form>
       <nav class='sidebar-nav'>
-        <a class='sidebar-nav-item' href='/'>Home</a>
-        <a class='sidebar-nav-item' href='/viewings'>Viewing Log</a>
-        <a class='sidebar-nav-item' href='https://github.com/fshowalter/movielog/tree/gh-pages'>GitHub</a>
+        <a class='sidebar-nav-item' href='/'>
+          Home
+        </a>
+        <a class='sidebar-nav-item' href='/viewings'>
+          Viewing Log
+        </a>
       </nav>
     </div>
     <div class='wrap'>
@@ -105,7 +108,8 @@
       </div>
       <footer class='site-footer'>
         <div class='site-footer-content'>
-          This has been <a class="site-footer__link" href="/">Frank's Movie Log</a>, loving movies since 2012.
+          This has been <a class="site-footer__link" href="/">Frank's Movie Log</a>,
+          loving movies since 2012.
         </div>
         <a class='site-footer-twitter' href='http://twitter.com/FranksMovieLog'>
           <svg class='twitter icon' viewBox='-192 -384 2048 2048' xmlns='http://www.w3.org/2000/svg'>
