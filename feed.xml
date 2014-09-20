@@ -3,7 +3,7 @@
   <title>Frank's Movie Log</title>
   <link href='http://www.franksmovielog.com/feed.xml' rel='self' />
   <link href='http://www.franksmovielog.com' />
-  <updated>2014-09-18T00:35:33-04:00</updated>
+  <updated>2014-09-19T23:17:03-04:00</updated>
   <id>http://www.franksmovielog.com</id>
   <author>
     <name>Frank Showalter</name>
@@ -126,7 +126,7 @@
     <id>http://www.franksmovielog.com/features/welcome-back</id>
     <updated>2014-07-01T00:00:00-04:00</updated>
     <content type='html'>
-      &lt;p&gt;Hey there, constant reader. Frank here.&lt;/p&gt;
+      &lt;p&gt;Hey there, Frank here.&lt;/p&gt;
       
       &lt;p&gt;Confession time.&lt;/p&gt;
       
@@ -152,7 +152,7 @@
       
       &lt;p&gt;Finally, to bring the focus back to the writing I redesigned the site again. The splash images and posters are gone, because finding and prepping them took a lot of time. Time better spent writing.&lt;/p&gt;
       
-      &lt;p&gt;So welcome back, constant reader. I hope you&amp;#39;ll give me a second chance. We&amp;#39;ve got close to a hundred years of cinema to cover and I&amp;#39;m pretty excited.&lt;/p&gt;
+      &lt;p&gt;So welcome back. I hope you&amp;#39;ll give me a second chance. We&amp;#39;ve got close to a hundred years of cinema to cover and I&amp;#39;m pretty excited.&lt;/p&gt;
       
       &lt;p&gt;Let&amp;#39;s get started&lt;/p&gt;
     </content>
