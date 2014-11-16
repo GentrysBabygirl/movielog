@@ -1,6 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
+    <loc>http://www.franksmovielog.com/page/2</loc>
+  </url>
+  <url>
     <loc>http://www.franksmovielog.com/features/welcome-back</loc>
   </url>
   <url>
@@ -31,15 +34,12 @@
     <loc>http://www.franksmovielog.com/reviews/black-legion-1937</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com</loc>
-  </url>
-  <url>
     <loc>http://www.franksmovielog.com/reviews/a-walk-among-the-tombstones-2014</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/viewings</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/page/2</loc>
+    <loc>http://www.franksmovielog.com</loc>
   </url>
 </urlset>
