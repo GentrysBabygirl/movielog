@@ -1,24 +1,28 @@
-<?xml version='1.0' encoding='utf-8' ?><feed xmlns='http://www.w3.org/2005/Atom'><title>Frank's Movie Log</title><link href='http://www.franksmovielog.com/feed.xml' rel='self' /><link href='http://www.franksmovielog.com' /><updated>2014-12-11T21:14:40-05:00</updated><id>http://www.franksmovielog.com</id><author><name>Frank Showalter</name></author><entry><title>13. How I Grade</title><link href='http://www.franksmovielog.com/features/how-i-grade/' /><id>http://www.franksmovielog.com/features/how-i-grade</id><updated>2014-12-07T00:00:00-05:00</updated><content type='html'>&lt;p&gt;&lt;hr /&gt;&lt;/p&gt;
+<?xml version='1.0' encoding='utf-8' ?><feed xmlns='http://www.w3.org/2005/Atom'><title>Frank's Movie Log</title><link href='http://www.franksmovielog.com/feed.xml' rel='self' /><link href='http://www.franksmovielog.com' /><updated>2014-12-11T21:51:43-05:00</updated><id>http://www.franksmovielog.com</id><author><name>Frank Showalter</name></author><entry><title>13. How I Grade</title><link href='http://www.franksmovielog.com/features/how-i-grade/' /><id>http://www.franksmovielog.com/features/how-i-grade</id><updated>2014-12-07T00:00:00-05:00</updated><content type='html'>&lt;div&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
 
-&lt;h3&gt;&lt;img alt=&quot;5 stars&quot; src=&quot;images/5-stars-4661cb2a.svg&quot; /&gt; (a great movie)&lt;/h3&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;h3&gt;&lt;img alt=&quot;5 stars&quot; src=&quot;images/5-stars-4661cb2a.svg&quot; /&gt; (a great movie)&lt;/h3&gt;
 
-&lt;p&gt;I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.&lt;/p&gt;
+&lt;p&gt;I loved it. A must-see. A perfect or nearly perfect movie. These are the movies I recommend to everyone. This is a hard rating to earn.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;&lt;img alt=&quot;4 stars&quot; src=&quot;images/4-stars-92a55331.svg&quot; /&gt; (a good movie)&lt;/h3&gt;
 
-&lt;h3&gt;&lt;img alt=&quot;4 stars&quot; src=&quot;images/4-stars-92a55331.svg&quot; /&gt; (a good movie)&lt;/h3&gt;
+&lt;p&gt;I really liked it. Unless you hate the genre or the star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don&amp;#39;t disappoint either. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;&lt;img alt=&quot;3 stars&quot; src=&quot;images/3-stars-ebc473a3.svg&quot; /&gt; (an okay movie)&lt;/h3&gt;
 
-&lt;p&gt;I really liked it. Unless you hate the genre or the star, you should watch it. These are the movies I recommend to most folks. They may not resonate like the 5-star selections, but they don&amp;#39;t disappoint either. &lt;/p&gt;
+&lt;p&gt;I liked it. I wouldn&amp;#39;t recommend it, but I wouldn&amp;#39;t necessarily recommend &lt;em&gt;against&lt;/em&gt; it either. A good rule of thumb: If I liked it but can&amp;#39;t remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. &lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;&lt;img alt=&quot;2 stars&quot; src=&quot;images/2-stars-9f281273.svg&quot; /&gt; (a bad movie)&lt;/h3&gt;
 
-&lt;h3&gt;&lt;img alt=&quot;3 stars&quot; src=&quot;images/3-stars-ebc473a3.svg&quot; /&gt; (an okay movie)&lt;/h3&gt;
+&lt;p&gt;I didn&amp;#39;t like it. Unless you have a deep-seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.&lt;/p&gt;&lt;/li&gt;
+&lt;li&gt;&lt;h3&gt;&lt;img alt=&quot;1 star&quot; src=&quot;images/1-star-a314fc32.svg&quot; /&gt; (an awful movie)&lt;/h3&gt;
 
-&lt;p&gt;I liked it. I wouldn&amp;#39;t recommend it, but I wouldn&amp;#39;t necessarily recommend &lt;em&gt;against&lt;/em&gt; it either. A good rule of thumb: If I liked it but can&amp;#39;t remember a line of dialog one-week later, it was just okay. Many a summer blockbuster falls into this category. &lt;/p&gt;
+&lt;p&gt;I hated it. Not even in the “so-bad-it&amp;#39;s-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don&amp;#39;t have to.&lt;/p&gt;&lt;/li&gt;
+&lt;/ul&gt;
 
-&lt;h3&gt;&lt;img alt=&quot;2 stars&quot; src=&quot;images/2-stars-9f281273.svg&quot; /&gt; (a bad movie)&lt;/h3&gt;
-
-&lt;p&gt;I didn&amp;#39;t like it. Unless you have a deep-seeded love for the genre or star, avoid this. Maybe it had a moment or two of goodness, but it was a disappointment. If I paid money to see it, I felt burned.&lt;/p&gt;
-
-&lt;h3&gt;&lt;img alt=&quot;1 star&quot; src=&quot;images/1-star-a314fc32.svg&quot; /&gt; (an awful movie)&lt;/h3&gt;
-
-&lt;p&gt;I hated it. Not even in the “so-bad-it&amp;#39;s-good” sense. Everyone involved should apologize. This too is a hard rating to earn. When reading a 1-star review, remember: I watch them so you don&amp;#39;t have to.&lt;/p&gt;
+&lt;div&gt;
+&lt;hr /&gt;
+&lt;/div&gt;
 
 &lt;h2&gt;On Grading&lt;/h2&gt;
 
