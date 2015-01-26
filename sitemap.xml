@@ -22,13 +22,13 @@
     <loc>http://www.franksmovielog.com</loc>
   </url>
   <url>
+    <loc>http://www.franksmovielog.com/reviews/the-one-i-love-2014</loc>
+  </url>
+  <url>
     <loc>http://www.franksmovielog.com/reviews/the-hunger-games-mockingjay-part-1-2014</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/reviews/the-boogie-man-will-get-you-1942</loc>
-  </url>
-  <url>
-    <loc>http://www.franksmovielog.com/reviews/the-bloody-judge-1970</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/viewings</loc>
@@ -61,10 +61,10 @@
     <loc>http://www.franksmovielog.com/reviews/friday-the-13th-the-final-chapter-1984</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/reviews/the-angry-hills-1959</loc>
+    <loc>http://www.franksmovielog.com/reviews/horror-of-dracula-1958</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/reviews/interstellar-2014</loc>
+    <loc>http://www.franksmovielog.com/reviews/the-bloody-judge-1970</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/reviews/jason-lives-friday-the-13th-part-vi-1986</loc>
@@ -85,6 +85,9 @@
     <loc>http://www.franksmovielog.com/reviews/stake-land-2010</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/reviews/horror-of-dracula-1958</loc>
+    <loc>http://www.franksmovielog.com/reviews/the-angry-hills-1959</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/interstellar-2014</loc>
   </url>
 </urlset>
