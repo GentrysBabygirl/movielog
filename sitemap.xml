@@ -4,19 +4,16 @@
     <loc>http://www.franksmovielog.com/404.html</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/reviews/the-town-that-dreaded-sundown-2014</loc>
-  </url>
-  <url>
     <loc>http://www.franksmovielog.com/googlee90f4c89e6c3d418.html</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/page/4</loc>
+    <loc>http://www.franksmovielog.com/page-4</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/page/3</loc>
+    <loc>http://www.franksmovielog.com/page-3</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/page/2</loc>
+    <loc>http://www.franksmovielog.com/page-2</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/browse/reviews/the-long-night-1947</loc>
@@ -25,22 +22,13 @@
     <loc>http://www.franksmovielog.com/browse/reviews/rachel-and-the-stranger-1948</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/features/welcome-back</loc>
-  </url>
-  <url>
     <loc>http://www.franksmovielog.com</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/features/how-i-grade</loc>
-  </url>
-  <url>
-    <loc>http://www.franksmovielog.com/reviews/where-danger-lives-1950</loc>
-  </url>
-  <url>
-    <loc>http://www.franksmovielog.com/reviews/to-the-devil-a-daughter-1976</loc>
-  </url>
-  <url>
     <loc>http://www.franksmovielog.com/viewings</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/a-girl-walks-home-alone-at-night-2014</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/reviews/a-walk-among-the-tombstones-2014</loc>
@@ -106,7 +94,7 @@
     <loc>http://www.franksmovielog.com/reviews/the-angry-hills-1959</loc>
   </url>
   <url>
-    <loc>http://www.franksmovielog.com/reviews/the-big-steal-1949</loc>
+    <loc>http://www.franksmovielog.com/features/welcome-back</loc>
   </url>
   <url>
     <loc>http://www.franksmovielog.com/reviews/the-bloody-judge-1970</loc>
@@ -128,5 +116,20 @@
   </url>
   <url>
     <loc>http://www.franksmovielog.com/reviews/the-road-to-singapore-1931</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/the-town-that-dreaded-sundown-2014</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/to-the-devil-a-daughter-1976</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/where-danger-lives-1950</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/features/how-i-grade</loc>
+  </url>
+  <url>
+    <loc>http://www.franksmovielog.com/reviews/the-big-steal-1949</loc>
   </url>
 </urlset>
