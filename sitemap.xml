@@ -25,6 +25,15 @@
     <loc>https://www.franksmovielog.com</loc>
   </url>
   <url>
+    <loc>https://www.franksmovielog.com/page/4</loc>
+  </url>
+  <url>
+    <loc>https://www.franksmovielog.com/page/3</loc>
+  </url>
+  <url>
+    <loc>https://www.franksmovielog.com/page/2</loc>
+  </url>
+  <url>
     <loc>https://www.franksmovielog.com/viewings</loc>
   </url>
   <url>
@@ -44,6 +53,9 @@
   </url>
   <url>
     <loc>https://www.franksmovielog.com/reviews/curse-of-the-crimson-altar-1968</loc>
+  </url>
+  <url>
+    <loc>https://www.franksmovielog.com/reviews/dangerous-mission-1954</loc>
   </url>
   <url>
     <loc>https://www.franksmovielog.com/reviews/for-the-defense-1930</loc>
@@ -91,10 +103,10 @@
     <loc>https://www.franksmovielog.com/reviews/stake-land-2010</loc>
   </url>
   <url>
-    <loc>https://www.franksmovielog.com/reviews/the-angry-hills-1959</loc>
+    <loc>https://www.franksmovielog.com/features/welcome-back</loc>
   </url>
   <url>
-    <loc>https://www.franksmovielog.com/features/welcome-back</loc>
+    <loc>https://www.franksmovielog.com/reviews/the-big-steal-1949</loc>
   </url>
   <url>
     <loc>https://www.franksmovielog.com/reviews/the-bloody-judge-1970</loc>
@@ -130,6 +142,6 @@
     <loc>https://www.franksmovielog.com/features/how-i-grade</loc>
   </url>
   <url>
-    <loc>https://www.franksmovielog.com/reviews/the-big-steal-1949</loc>
+    <loc>https://www.franksmovielog.com/reviews/the-angry-hills-1959</loc>
   </url>
 </urlset>
